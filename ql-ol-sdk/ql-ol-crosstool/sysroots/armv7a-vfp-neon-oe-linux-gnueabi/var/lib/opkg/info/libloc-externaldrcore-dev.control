@@ -1,0 +1,16 @@
+Package: libloc-externaldrcore-dev
+Version: git-r1
+Description: loc-externaldrcore version git-r1 - Development files
+ DR core  This package contains symbolic links, header files, and related
+ items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Qualcomm-Technologies-Inc.-Proprietary
+Architecture: mdm9607
+OE: loc-externaldrcore
+Homepage: http://support.cdmatech.com
+Depends: libloc-externaldrcore1 (= git-r1)
+Recommends: loc-hal-dev, libcutils-dev, libdsutils-dev, libconfigdb-dev, libloc-pla-dev, data-oss-dev, data-dev, libstdc++-dev, libqmi-client-helper-dev, libc6-dev, libtime-genoff-dev, libgps-utils-so-dev, liblbs-core-dev, qmi-dev, qmi-framework-dev, libloc-stub-dev, libxml-dev, diag-dev, liblog-dev, libglib-2.0-dev
+Provides: loc-externaldrcore-dev
+Source: file://gps-noship/dr_amt/qdr_core/

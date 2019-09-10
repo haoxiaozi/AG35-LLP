@@ -1,0 +1,16 @@
+Package: liblocationservice-dev
+Version: git-r1
+Description: location-service version git-r1 - Development files
+ GPS Location Service library  This package contains symbolic links,
+ header files, and related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Qualcomm-Technologies-Inc.-Proprietary
+Architecture: mdm9607
+OE: location-service
+Homepage: http://support.cdmatech.com
+Depends: liblocationservice1 (= git-r1)
+Recommends: libglib-2.0-dev, libgcc-s-dev, liblog-dev, loc-flp-hdr-dev, liblbs-core-dev, libgnsspps-dev, libdataitems-dev, libgps-utils-so-dev, libdsutils-dev, libulp2-dev, libloc-stub-dev, libloc-base-util-dev, libevent-observer-dev, data-dev, qmi-dev, ql-syslog-dev, izat-core-dev, libssl-dev, libcrypto-dev, libstdc++-dev, libc6-dev, libtime-genoff-dev, loc-hal-dev, libsqlite3-dev, system-core-dev, libloc-mq-client-dev, libxml-dev, libqmi-client-helper-dev, loc-net-iface-dev, libcutils-dev, liblowi-client-dev, libloc-pla-dev, data-oss-dev, libdrplugin-dev, libdrplugin-client-dev, diag-dev, libconfigdb-dev, qmi-framework-dev
+Provides: location-service-dev
+Source: file://gps/framework/native

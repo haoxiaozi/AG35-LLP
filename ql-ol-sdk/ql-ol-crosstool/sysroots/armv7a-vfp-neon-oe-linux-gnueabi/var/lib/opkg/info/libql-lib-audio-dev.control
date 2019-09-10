@@ -1,0 +1,16 @@
+Package: libql-lib-audio-dev
+Version: git-r1
+Description: quectel-audio-lib version git-r1 - Development files
+ Quectel audio lib  This package contains symbolic links, header files,
+ and related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Quectel-Wireless-Solutions-Co-Ltd.-Proprietary 
+Architecture: mdm9607
+OE: quectel-audio-lib
+Homepage: https://www.quectel.com/
+Depends: libql-lib-audio1 (= git-r1)
+Recommends: libacdbmapper-dev, alsa-intf-dev, liblog-dev, libacdbrtac-dev, acdbloader-dev, libstdc++-dev, libadiertac-dev, libc6-dev, libtime-genoff-dev, libaudioalsa-dev, libglib-2.0-dev, ql-syslog-dev, diag-dev, libaudcal-dev
+Provides: quectel-audio-lib-dev
+Source: file://quectel/audio

@@ -1,0 +1,13 @@
+Package: quectel-data
+Version: git-r1
+Description: quectel-data version git-r1
+ Quectel RemoteFs Service
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Quectel-Wireless-Solutions-Co-Ltd.-Proprietary 
+Architecture: mdm9607
+OE: quectel-data
+Homepage: https://www.quectel.com/
+Depends: libtime-genoff1 (>= git), libgcc1 (>= 4.9.3), libdsutils1 (>= git), libstdc++6 (>= 4.9.3), libconfigdb0 (>= git), diag (>= git), libxml0 (>= git), qmi (>= git), qmi-framework (>= git), libc6 (>= 2.22), libglib-2.0-0 (>= 2.44.1), data (>= git)
+Source: file://quectel/data

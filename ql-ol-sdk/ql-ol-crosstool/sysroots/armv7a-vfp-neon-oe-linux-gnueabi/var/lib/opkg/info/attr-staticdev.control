@@ -1,0 +1,14 @@
+Package: attr-staticdev
+Version: 2.4.47-r0
+Description: Utilities for manipulating filesystem extended attributes - Development files (Static Libraries)
+ Utilities for manipulating filesystem extended attributes.  This package
+ contains static libraries for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: LGPLv2.1+ & GPLv2+
+Architecture: armv7a-vfp-neon
+OE: attr
+Homepage: http://savannah.nongnu.org/projects/attr/
+Depends: attr-dev (= 2.4.47-r0)
+Source: http://download.savannah.gnu.org/releases/attr/attr-2.4.47.src.tar.gz file://run-ptest file://relative-libdir.patch;striplevel=0 file://attr-Missing-configure.ac.patch

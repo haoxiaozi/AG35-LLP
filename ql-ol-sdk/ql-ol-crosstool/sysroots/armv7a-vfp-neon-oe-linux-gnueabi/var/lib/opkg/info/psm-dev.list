@@ -1,0 +1,6 @@
+/usr/lib/libpsm_client.la
+/usr/lib/libpsmutils.la
+/usr/lib/pkgconfig/psm.pc
+/usr/lib/libpsm_client.so
+/usr/lib/libpsmutils.so
+/usr/include/psm_client.h

@@ -1,0 +1,14 @@
+Package: canwrapper-hdr-dev
+Version: git-r1
+Description: canwrapper-hdr version git-r1 - Development files
+ CAN Wrapper hdr  This package contains symbolic links, header files, and
+ related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Qualcomm-Technologies-Inc.-Proprietary
+Architecture: mdm9607
+OE: canwrapper-hdr
+Homepage: http://support.cdmatech.com
+Depends: canwrapper-hdr (= git-r1)
+Source: file://vnw/

@@ -1,0 +1,14 @@
+Package: psm-staticdev
+Version: git-invalidgit-r0
+Description: psm version git-invalidgit-r0 - Development files (Static Libraries)
+ QTI Power Saving Mode Framework  This package contains static libraries
+ for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Qualcomm-Technologies-Inc.-Proprietary
+Architecture: mdm9607
+OE: psm
+Homepage: http://support.cdmatech.com
+Depends: psm-dev (= git-invalidgit-r0)
+Source: file://mdm-ss-mgr/psm/

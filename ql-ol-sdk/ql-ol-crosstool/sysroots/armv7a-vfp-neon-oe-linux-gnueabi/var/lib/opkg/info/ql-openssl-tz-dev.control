@@ -1,0 +1,15 @@
+Package: ql-openssl-tz-dev
+Version: git-r1
+Description: ql-openssl-tz version git-r1 - Development files
+ Quectel openssl-tz lib  This package contains symbolic links, header
+ files, and related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Quectel-Wireless-Solutions-Co-Ltd.-Proprietary 
+Architecture: mdm9607
+OE: ql-openssl-tz
+Homepage: https://www.quectel.com/
+Depends: ql-openssl-tz (= git-r1)
+Recommends: libc6-dev, openssl-dev, libcrypto-dev
+Source: file://quectel/openssl-tz

@@ -1,0 +1,8 @@
+/usr/include/CwFrame.h
+/usr/include/CwBlockingQueue.h
+/usr/include/CwBase.h
+/usr/include/CwSim.h
+/usr/include/CwNodeSet.h
+/usr/include/CanWrapper.h
+/usr/include/CwLock.h
+/usr/include/CwNode.h

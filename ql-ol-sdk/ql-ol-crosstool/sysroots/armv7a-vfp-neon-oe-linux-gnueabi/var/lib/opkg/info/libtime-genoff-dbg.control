@@ -1,0 +1,15 @@
+Package: libtime-genoff-dbg
+Version: git-r0
+Description: time-genoff version git-r0 - Debugging files
+ Time Genoff Library  This package contains ELF symbols and related
+ sources for debugging purposes.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Qualcomm-Technologies-Inc.-Proprietary
+Architecture: mdm9607
+OE: time-genoff
+Homepage: http://support.cdmatech.com
+Recommends: libc6-dbg
+Provides: time-genoff-dbg
+Source: file://time-services/time-genoff

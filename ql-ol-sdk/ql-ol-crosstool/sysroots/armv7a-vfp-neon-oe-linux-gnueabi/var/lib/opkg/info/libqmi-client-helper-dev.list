@@ -1,0 +1,5 @@
+/usr/include/qmi-client-helper/
+/usr/lib/libqmi_client_helper.la
+/usr/lib/pkgconfig/qmi-client-helper.pc
+/usr/include/qmi-client-helper/qmi_client_helper.h
+/usr/lib/libqmi_client_helper.so

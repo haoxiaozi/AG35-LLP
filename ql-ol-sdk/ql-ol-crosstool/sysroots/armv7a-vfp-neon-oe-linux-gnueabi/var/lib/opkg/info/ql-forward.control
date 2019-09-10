@@ -1,0 +1,13 @@
+Package: ql-forward
+Version: git-r01
+Description: ql-forward version git-r01
+ Quectel Data forward applicant
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Quectel-Wireless-Solutions-Co-Ltd.-Proprietary 
+Architecture: mdm9607
+OE: ql-forward
+Homepage: https://www.quectel.com/
+Depends: qmi-framework (>= git), ql-common-tools (>= git), libc6 (>= 2.22)
+Source: file://quectel/forward/

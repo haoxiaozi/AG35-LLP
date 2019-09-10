@@ -1,0 +1,14 @@
+Package: libsparse-dbg
+Version: 1.0-r0
+Description: libsparse version 1.0-r0 - Debugging files
+ Build Android libsprase  This package contains ELF symbols and related
+ sources for debugging purposes.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Apache-2.0
+Architecture: armv7a-vfp-neon
+OE: libsparse
+Homepage: http://developer.android.com/
+Recommends: libc6-dbg, libz-dbg
+Source: file://libsparse

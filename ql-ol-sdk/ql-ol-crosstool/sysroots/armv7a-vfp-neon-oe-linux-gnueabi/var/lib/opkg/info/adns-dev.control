@@ -1,0 +1,15 @@
+Package: adns-dev
+Version: 1.5.1-r0
+Description: adns version 1.5.1-r0 - Development files
+ An advanced alternative, asynchronous resolver.  This package contains
+ symbolic links, header files, and related items necessary for software
+ development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPL
+Architecture: armv7a-vfp-neon
+OE: adns
+Depends: adns (= 1.5.1-r0)
+Recommends: libc6-dev
+Source: http://www.chiark.greenend.org.uk/~ian/adns/ftp/adns-1.5.1.tar.gz

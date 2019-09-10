@@ -1,0 +1,13 @@
+Package: garden-app
+Version: git-r5
+Description: garden-app version git-r5
+ GPS Garden test shippable app for LOC API HAL
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Qualcomm-Technologies-Inc.-Proprietary
+Architecture: mdm9607
+OE: garden-app
+Homepage: http://support.cdmatech.com
+Depends: libgcc1 (>= 4.9.3), loc-hal (>= git), libflp1 (>= git), libloc-ext1 (>= git), libulp2-1 (>= git), libc6 (>= 2.22), libglib-2.0-0 (>= 2.44.1), liblocationservice1 (>= git), liblocationservice-glue1 (>= git), libgps-utils-so1 (>= git), data (>= git), libloc-pla1 (>= git)
+Source: file://gps/garden-app/

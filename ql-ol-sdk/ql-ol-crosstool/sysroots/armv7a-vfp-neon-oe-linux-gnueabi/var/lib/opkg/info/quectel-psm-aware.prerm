@@ -1,0 +1,4 @@
+#!/bin/sh
+if [ -z "$D" ]; then
+	/etc/init.d/quectel_psm_aware stop
+fi

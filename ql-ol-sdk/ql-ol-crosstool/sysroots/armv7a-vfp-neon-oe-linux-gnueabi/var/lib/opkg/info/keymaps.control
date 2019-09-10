@@ -1,0 +1,16 @@
+Package: keymaps
+Version: 1.0-r31
+Description: Keyboard maps
+ Keymaps and initscript to set the keymap on bootup.
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2
+Architecture: mdm9607
+OE: keymaps
+Depends: kbd
+Recommends: update-rc.d
+Provides: keymaps-systemd
+Replaces: keymaps-systemd
+Conflicts: keymaps-systemd
+Source: file://keymap.sh file://GPLv2.patch

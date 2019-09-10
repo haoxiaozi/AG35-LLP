@@ -1,0 +1,11 @@
+Package: sysvinit-inittab
+Version: 2.88dsf-r10
+Description: Inittab configuration for SysVinit
+ Inittab configuration for SysVinit.
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2
+Architecture: mdm9607
+OE: sysvinit-inittab
+Source: file://inittab file://mdm9607/inittab

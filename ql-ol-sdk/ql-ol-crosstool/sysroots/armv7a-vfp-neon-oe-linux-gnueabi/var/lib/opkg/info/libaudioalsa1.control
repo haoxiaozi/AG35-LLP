@@ -1,0 +1,14 @@
+Package: libaudioalsa1
+Version: git-r5
+Description: audioalsa version git-r5
+ libaudioalsa Library
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Qualcomm-Technologies-Inc.-Proprietary
+Architecture: mdm9607
+OE: audioalsa
+Homepage: http://support.cdmatech.com
+Depends: libglib-2.0-0 (>= 2.44.1), libc6 (>= 2.22)
+Provides: audioalsa
+Source: file://audio/mm-audio/audio-alsa/

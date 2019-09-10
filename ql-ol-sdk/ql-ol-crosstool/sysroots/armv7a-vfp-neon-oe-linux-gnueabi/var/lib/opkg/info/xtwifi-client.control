@@ -1,0 +1,13 @@
+Package: xtwifi-client
+Version: git-r1
+Description: xtwifi-client version git-r1
+ GPS xtwifi tile
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Qualcomm-Technologies-Inc.-Proprietary
+Architecture: mdm9607
+OE: xtwifi-client
+Homepage: http://support.cdmatech.com
+Depends: libgcc1 (>= 4.9.3), libssl1.0.0 (>= 1.0.2h), libloc-stub1 (>= git), loc-hal (>= git), libconfigdb0 (>= git), liblog0 (>= 1.0), libdsutils1 (>= git), libxml0 (>= git), qmi (>= git), libloc-mq-client1 (>= git), libtime-genoff1 (>= git), data-oss (>= git), libqmi-client-helper1 (>= git), diag (>= git), libgps-utils-so1 (>= git), libasn1c-rtx1 (>= git), libsqlite3-0 (>= 3.8.10.2), libstdc++6 (>= 4.9.3), libglib-2.0-0 (>= 2.44.1), libasn1c-crt1 (>= git), libasn1c-cper1 (>= git), libz1 (>= 1.2.8), libcutils0 (>= 1.0), libcrypto1.0.0 (>= 1.0.2h), libgdtap-adapter1 (>= git), libc6 (>= 2.22), libloc-base-util1 (>= git), data (>= git), libizat-core1 (>= git), qmi-framework (>= git), liblowi-client1 (>= git), libloc-pla1 (>= git)
+Source: file://gps-noship/xtwifi/

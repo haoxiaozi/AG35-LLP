@@ -1,0 +1,14 @@
+Package: bt-property-dbg
+Version: git-r0
+Description: bt-property version git-r0 - Debugging files
+ Bluetooth Property Daemon  This package contains ELF symbols and related
+ sources for debugging purposes.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Apache-2.0
+Architecture: armv7a-vfp-neon
+OE: bt-property
+Homepage: http://codeaurora.org/
+Recommends: liblog-dbg, libglib-2.0-dbg, libc6-dbg
+Source: file://qcom-opensource/bt/property-ops/

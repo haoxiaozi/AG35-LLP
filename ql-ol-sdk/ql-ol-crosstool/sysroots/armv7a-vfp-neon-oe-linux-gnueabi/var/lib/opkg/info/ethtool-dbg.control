@@ -1,0 +1,15 @@
+Package: ethtool-dbg
+Version: git-r2
+Description: ethtool is the standard Linux utility for managing Ethernet Drivers - Debugging files
+ ethtool is the standard Linux utility for controlling networkdrivers and
+ hardware, particularly for wired Ethernet devices  This package contains
+ ELF symbols and related sources for debugging purposes.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2
+Architecture: armv7a-vfp-neon
+OE: ethtool
+Homepage: https://www.kernel.org/pub/software/network/ethtool/
+Recommends: libc6-dbg
+Source: git://codeaurora.org/quic/le/platform/external/ethtool;protocol=git;branch=korg/master

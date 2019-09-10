@@ -1,0 +1,14 @@
+Package: time-services-dbg
+Version: git-r9
+Description: time-services version git-r9 - Debugging files
+ Time Services Daemon  This package contains ELF symbols and related
+ sources for debugging purposes.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Qualcomm-Technologies-Inc.-Proprietary
+Architecture: mdm9607
+OE: time-services
+Homepage: http://support.cdmatech.com
+Recommends: libc6-dbg, libglib-2.0-dbg, qmi-framework-dbg
+Source: file://time-services file://time_serviced.service

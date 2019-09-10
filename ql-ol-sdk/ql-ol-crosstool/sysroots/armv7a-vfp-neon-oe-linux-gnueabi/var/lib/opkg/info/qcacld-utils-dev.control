@@ -1,0 +1,14 @@
+Package: qcacld-utils-dev
+Version: git-r1
+Description: qcacld-utils version git-r1 - Development files
+ Qualcomm Atheros WLAN CLD utils  This package contains symbolic links,
+ header files, and related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Qualcomm-Technologies-Inc.-Proprietary
+Architecture: mdm9607
+OE: qcacld-utils
+Depends: qcacld-utils (= git-r1)
+Recommends: libnl-genl-dev, libcutils-dev, liblog-dev, libglib-2.0-dev, libc6-dev, libnl-3-dev, diag-dev
+Source: file://wlan-proprietary/qcacld-utils/

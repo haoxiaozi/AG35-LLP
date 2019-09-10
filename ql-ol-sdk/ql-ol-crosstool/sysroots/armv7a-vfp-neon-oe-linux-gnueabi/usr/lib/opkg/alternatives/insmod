@@ -1,0 +1,3 @@
+/sbin/insmod
+/usr/lib/busybox/sbin/insmod 50
+/sbin/insmod.kmod 60

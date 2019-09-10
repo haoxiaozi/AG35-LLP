@@ -1,0 +1,14 @@
+Package: qmi-dbg
+Version: git-r13
+Description: qmi version git-r13 - Debugging files
+ Qualcomm MSM Interface (QMI) Library  This package contains ELF symbols
+ and related sources for debugging purposes.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Qualcomm-Technologies-Inc.-Proprietary
+Architecture: mdm9607
+OE: qmi
+Homepage: http://support.cdmatech.com
+Recommends: libdsutils-dbg, libglib-2.0-dbg, libtime-genoff-dbg, diag-dbg, libxml-dbg, libconfigdb-dbg, libc6-dbg
+Source: file://qmi

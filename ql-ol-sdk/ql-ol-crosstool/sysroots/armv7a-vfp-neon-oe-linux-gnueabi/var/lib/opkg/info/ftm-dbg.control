@@ -1,0 +1,14 @@
+Package: ftm-dbg
+Version: git-r1
+Description: ftm version git-r1 - Debugging files
+ Qualcomm Technologies ftmdaemon  This package contains ELF symbols and
+ related sources for debugging purposes.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Qualcomm-Technologies-Inc.-Proprietary
+Architecture: mdm9607
+OE: ftm
+Homepage: http://support.cdmatech.com
+Recommends: libnl-genl-dbg, libglib-2.0-dbg, diag-dbg, libgcc-s-dbg, hci-qcomm-init-dbg, liblog-dbg, libnl-3-dbg, libc6-dbg
+Source: file://wlan-proprietary/ftm/

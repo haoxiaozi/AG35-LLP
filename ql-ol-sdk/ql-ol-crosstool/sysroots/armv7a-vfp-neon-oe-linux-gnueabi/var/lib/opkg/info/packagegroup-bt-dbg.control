@@ -1,0 +1,13 @@
+Package: packagegroup-bt-dbg
+Version: 1.0-r1
+Description: BT Deamons - Debugging files
+ BT Deamons.  This package contains ELF symbols and related sources for
+ debugging purposes.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: BSD
+Architecture: all
+OE: packagegroup-bt
+Recommends: libbt-vendor-dbg, bt-app-dbg, bt-property-dbg, fluoride-dbg
+Source: None

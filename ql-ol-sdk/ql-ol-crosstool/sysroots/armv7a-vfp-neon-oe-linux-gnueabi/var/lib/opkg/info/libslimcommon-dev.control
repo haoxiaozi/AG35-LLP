@@ -1,0 +1,16 @@
+Package: libslimcommon-dev
+Version: git-r1
+Description: slim-common version git-r1 - Development files
+ SLIM Common library  This package contains symbolic links, header files,
+ and related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Qualcomm-Technologies-Inc.-Proprietary
+Architecture: mdm9607
+OE: slim-common
+Homepage: http://support.cdmatech.com
+Depends: libslimcommon1 (= git-r1)
+Recommends: loc-hal-dev, libdsutils-dev, libconfigdb-dev, libloc-pla-dev, libstdc++-dev, libc6-dev, libtime-genoff-dev, libglib-2.0-dev, qmi-dev, libslimutils-dev, diag-dev, libxml-dev, qmi-framework-dev
+Provides: slim-common-dev
+Source: file://gps-noship/slim/

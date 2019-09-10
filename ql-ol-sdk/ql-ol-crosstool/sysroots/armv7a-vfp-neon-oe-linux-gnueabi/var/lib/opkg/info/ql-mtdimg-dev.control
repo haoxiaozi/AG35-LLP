@@ -1,0 +1,15 @@
+Package: ql-mtdimg-dev
+Version: git-r1
+Description: ql-mtdimg version git-r1 - Development files
+ Quectel Function Daemon  This package contains symbolic links, header
+ files, and related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Quectel-Wireless-Solutions-Co-Ltd.-Proprietary 
+Architecture: mdm9607
+OE: ql-mtdimg
+Homepage: https://www.quectel.com/
+Depends: ql-mtdimg (= git-r1)
+Recommends: libc6-dev
+Source: file://quectel/fota/mtdimg/

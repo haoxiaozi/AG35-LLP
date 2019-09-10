@@ -1,0 +1,15 @@
+Package: libulp2-dbg
+Version: git-r1
+Description: ulp2 version git-r1 - Debugging files
+ GPS LBS Core  This package contains ELF symbols and related sources for
+ debugging purposes.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Qualcomm-Technologies-Inc.-Proprietary
+Architecture: mdm9607
+OE: ulp2
+Homepage: http://support.cdmatech.com
+Recommends: libsqlite3-dbg, diag-dbg, libdataitems-dbg, libstdc++-dbg, libloc-pla-dbg, libssl-dbg, libtime-genoff-dbg, libcrypto-dbg, libc6-dbg, libxml-dbg, izat-core-dbg, qmi-framework-dbg, qmi-dbg, system-core-dbg, libglib-2.0-dbg, libgcc-s-dbg, data-oss-dbg, libgps-utils-so-dbg, libdrplugin-dbg, libdrplugin-client-dbg, libcutils-dbg, loc-net-iface-dbg, loc-hal-dbg, liblog-dbg, libgnsspps-dbg, libconfigdb-dbg, libdsutils-dbg, libqmi-client-helper-dbg, data-dbg, libloc-base-util-dbg, libevent-observer-dbg, libloc-stub-dbg, ql-syslog-dbg, liblbs-core-dbg
+Provides: ulp2-dbg
+Source: file://gps/ulp2

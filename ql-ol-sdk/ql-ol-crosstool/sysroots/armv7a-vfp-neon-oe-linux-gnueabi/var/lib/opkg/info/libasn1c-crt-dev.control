@@ -1,0 +1,16 @@
+Package: libasn1c-crt-dev
+Version: git-r1
+Description: asn1c-crt version git-r1 - Development files
+ GPS asn1c  This package contains symbolic links, header files, and
+ related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Qualcomm-Technologies-Inc.-Proprietary
+Architecture: mdm9607
+OE: asn1c-crt
+Homepage: http://support.cdmatech.com
+Depends: libasn1c-crt1 (= git-r1)
+Recommends: libc6-dev, libglib-2.0-dev, libgcc-s-dev, libstdc++-dev
+Provides: asn1c-crt-dev
+Source: file://gps-noship-external/osys/asn1c/rtsrc/

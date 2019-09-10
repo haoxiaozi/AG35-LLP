@@ -1,0 +1,14 @@
+Package: system-media-staticdev
+Version: git-r2
+Description: system-media version git-r2 - Development files (Static Libraries)
+ system media headers  This package contains static libraries for software
+ development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Apache-2.0
+Architecture: armv7a-vfp-neon
+OE: system-media
+Homepage: http://developer.android.com/
+Depends: system-media-dev (= git-r2)
+Source: file://system/media/

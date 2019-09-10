@@ -1,0 +1,5 @@
+/usr/include/configdb/
+/usr/lib/libconfigdb.la
+/usr/lib/libconfigdb.so
+/usr/include/configdb/configdb.h
+/usr/lib/pkgconfig/configdb.pc

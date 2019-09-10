@@ -1,0 +1,15 @@
+Package: libbt-vendor-dev
+Version: git-r0
+Description: libbt-vendor version git-r0 - Development files
+ Bluetooth Vendor Library  This package contains symbolic links, header
+ files, and related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Apache-2.0
+Architecture: armv7a-vfp-neon
+OE: libbt-vendor
+Homepage: http://codeaurora.org/
+Depends: libbt-vendor0 (= git-r0)
+Recommends: system-core-dev, liblog-dev, hci-qcomm-init-dev, libglib-2.0-dev, libstdc++-dev, libc6-dev, libgcc-s-dev, common-dev, libcutils-dev
+Source: file://hardware/qcom/bt/libbt-vendor/

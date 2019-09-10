@@ -1,0 +1,15 @@
+Package: libsepol-dbg
+Version: git-r1
+Description: ql-libsepol version git-r1 - Debugging files
+ QUECTEL libsepol  This package contains ELF symbols and related sources
+ for debugging purposes.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Quectel-Wireless-Solutions-Co-Ltd.-Proprietary   & GPLv2+
+Architecture: mdm9607
+OE: ql-libsepol
+Homepage: https://www.quectel.com/
+Recommends: libc6-dbg
+Provides: ql-libsepol-dbg
+Source: file://quectel/selinux/libsepol/

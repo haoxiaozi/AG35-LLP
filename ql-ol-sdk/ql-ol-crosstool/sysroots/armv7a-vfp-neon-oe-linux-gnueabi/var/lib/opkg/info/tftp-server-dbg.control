@@ -1,0 +1,14 @@
+Package: tftp-server-dbg
+Version: git-r1
+Description: tftp-server version git-r1 - Debugging files
+ tftp_server server module  This package contains ELF symbols and related
+ sources for debugging purposes.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Qualcomm-Technologies-Inc.-Proprietary
+Architecture: mdm9607
+OE: tftp-server
+Homepage: http://support.cdmatech.com
+Recommends: libc6-dbg, libglib-2.0-dbg
+Source: file://tftp/

@@ -1,0 +1,13 @@
+/usr/include/loc-glue/OSNPGlue.h
+/usr/include/loc-glue/FusedLocationProviderGlue.h
+/usr/include/loc-glue/LocationProviderGlue.h
+/usr/lib/pkgconfig/loc-glue.pc
+/usr/lib/liblocationservice_glue.so
+/usr/include/loc-glue/NetworkLocationProviderGlue.h
+/usr/include/loc-glue/RawCommandInjector.h
+/usr/include/loc-glue/Subscription.h
+/usr/include/loc-glue/OSFramework.h
+/usr/include/loc-glue/
+/usr/include/loc-glue/OSFrameworkCleaner.h
+/usr/include/loc-glue/FrameworkActionRequest.h
+/usr/lib/liblocationservice_glue.la

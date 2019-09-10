@@ -1,0 +1,16 @@
+Package: libconfigdb-dev
+Version: git-r5
+Description: configdb version git-r5 - Development files
+ Qualcomm Data Configdb Module  This package contains symbolic links,
+ header files, and related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Qualcomm-Technologies-Inc.-Proprietary
+Architecture: mdm9607
+OE: configdb
+Homepage: http://support.cdmatech.com
+Depends: libconfigdb0 (= git-r5)
+Recommends: libdsutils-dev, libglib-2.0-dev, libc6-dev, libtime-genoff-dev, common-dev, libxml-dev, diag-dev
+Provides: configdb-dev
+Source: file://data/configdb

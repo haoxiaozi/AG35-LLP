@@ -1,0 +1,15 @@
+Package: libloc-mcm-type-conv-dbg
+Version: git-r4
+Description: loc-mcm-type-conv version git-r4 - Debugging files
+ MCM Location Type Conversion Library  This package contains ELF symbols
+ and related sources for debugging purposes.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Qualcomm-Technologies-Inc.-Proprietary
+Architecture: armv7a-vfp-neon
+OE: loc-mcm-type-conv
+Homepage: http://support.cdmatech.com
+Recommends: mcm-core-dbg, liblog-dbg, diag-dbg, libconfigdb-dbg, libdsutils-dbg, libcutils-dbg, libstdc++-dbg, libloc-pla-dbg, libglib-2.0-dbg, libxml-dbg, libloc-stub-dbg, ql-syslog-dbg, libc6-dbg, libgps-utils-so-dbg, qmi-framework-dbg, libtime-genoff-dbg, qmi-dbg
+Provides: loc-mcm-type-conv-dbg
+Source: file://mcm-gps/loc-mcm-type-conv/

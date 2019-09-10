@@ -1,0 +1,18 @@
+Package: iproute2-dev
+Version: 3.16.0-r0
+Description: TCP / IP networking and traffic control utilities - Development files
+ Iproute2 is a collection of utilities for controlling TCP / IP networking
+ and traffic control in Linux.  Of the utilities ip and tc are the most
+ important.  ip controls IPv4 and IPv6 configuration and tc stands for
+ traffic control.  This package contains symbolic links, header files, and
+ related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2+
+Architecture: armv7a-vfp-neon
+OE: iproute2
+Homepage: http://www.linuxfoundation.org/collaborate/workgroups/networking/iproute2
+Depends: iproute2 (= 3.16.0-r0)
+Recommends: bash-dev, libc6-dev, update-alternatives-opkg-dev, iptables-dev
+Source: http://kernel.org/pub/linux/utils/net/iproute2/iproute2-3.16.0.tar.xz file://configure-cross.patch file://iproute2_config_to_data.patch

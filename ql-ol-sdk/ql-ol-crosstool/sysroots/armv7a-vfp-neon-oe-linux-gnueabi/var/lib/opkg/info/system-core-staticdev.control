@@ -1,0 +1,14 @@
+Package: system-core-staticdev
+Version: git-r19_perf
+Description: system-core version git-r19_perf - Development files (Static Libraries)
+ Android system/core components  This package contains static libraries
+ for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Apache-2.0
+Architecture: armv7a-vfp-neon
+OE: system-core
+Homepage: http://developer.android.com/
+Depends: system-core-dev (= git-r19_perf)
+Source: file://system/core/

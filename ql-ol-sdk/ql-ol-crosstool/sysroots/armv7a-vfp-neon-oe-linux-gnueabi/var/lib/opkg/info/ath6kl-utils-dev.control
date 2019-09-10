@@ -1,0 +1,15 @@
+Package: ath6kl-utils-dev
+Version: git-r2
+Description: ath6kl-utils version git-r2 - Development files
+ Qualcomm Atheros ath6kl utils.  This package contains symbolic links,
+ header files, and related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Qualcomm-Technologies-Inc.-Proprietary
+Architecture: mdm9607
+OE: ath6kl-utils
+Homepage: http://support.cdmatech.com
+Depends: ath6kl-utils (= git-r2)
+Recommends: libc6-dev, libnl-genl-dev, libglib-2.0-dev, libnl-3-dev, diag-dev
+Source: file://wlan-proprietary/ath6kl-utils

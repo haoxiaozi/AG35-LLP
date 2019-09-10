@@ -1,0 +1,14 @@
+Package: quectel-daemon-dbg
+Version: git-r1
+Description: quectel-daemon version git-r1 - Debugging files
+ Quectel Function Daemon  This package contains ELF symbols and related
+ sources for debugging purposes.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Quectel-Wireless-Solutions-Co-Ltd.-Proprietary 
+Architecture: mdm9607
+OE: quectel-daemon
+Homepage: https://www.quectel.com/
+Recommends: libql-lib-audio-dbg, ql-common-tools-dbg, liblog-dbg, libc6-dbg, qmi-framework-dbg, qmi-dbg
+Source: file://quectel/daemon

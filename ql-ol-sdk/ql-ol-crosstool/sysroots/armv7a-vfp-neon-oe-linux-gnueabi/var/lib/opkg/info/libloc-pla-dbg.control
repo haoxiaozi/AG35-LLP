@@ -1,0 +1,14 @@
+Package: libloc-pla-dbg
+Version: git-r1
+Description: loc-pla version git-r1 - Debugging files
+ GPS Loc Platform Library Abstraction  This package contains ELF symbols
+ and related sources for debugging purposes.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: BSD
+Architecture: armv7a-vfp-neon
+OE: loc-pla
+Recommends: libstdc++-dbg, libglib-2.0-dbg, libgcc-s-dbg, liblog-dbg, libloc-stub-dbg, libc6-dbg
+Provides: loc-pla-dbg
+Source: file://hardware/qcom/gps/utils/platform_lib_abstractions/loc_pla/

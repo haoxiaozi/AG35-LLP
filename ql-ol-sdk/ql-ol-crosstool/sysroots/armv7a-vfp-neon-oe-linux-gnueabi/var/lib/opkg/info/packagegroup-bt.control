@@ -1,0 +1,12 @@
+Package: packagegroup-bt
+Version: 1.0-r1
+Description: BT Deamons
+ BT Deamons.
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: BSD
+Architecture: all
+OE: packagegroup-bt
+Depends: libbt-vendor, fluoride, bt-app, bt-property
+Source: None

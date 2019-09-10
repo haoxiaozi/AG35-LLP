@@ -1,0 +1,13 @@
+Package: audcaltests
+Version: git-r7
+Description: audcaltests version git-r7
+ Audio Calibration Library
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Qualcomm-Technologies-Inc.-Proprietary
+Architecture: mdm9607
+OE: audcaltests
+Homepage: http://support.cdmatech.com
+Depends: liblog0 (>= 1.0), acdbloader (>= git), libc6 (>= 2.22)
+Source: file://audio/mm-audio/audcal/family-b/test/

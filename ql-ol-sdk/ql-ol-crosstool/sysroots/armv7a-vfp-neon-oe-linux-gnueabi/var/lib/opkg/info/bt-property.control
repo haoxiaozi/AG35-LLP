@@ -1,0 +1,13 @@
+Package: bt-property
+Version: git-r0
+Description: bt-property version git-r0
+ Bluetooth Property Daemon
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Apache-2.0
+Architecture: armv7a-vfp-neon
+OE: bt-property
+Homepage: http://codeaurora.org/
+Depends: liblog0 (>= 1.0), libglib-2.0-0 (>= 2.44.1), libc6 (>= 2.22)
+Source: file://qcom-opensource/bt/property-ops/

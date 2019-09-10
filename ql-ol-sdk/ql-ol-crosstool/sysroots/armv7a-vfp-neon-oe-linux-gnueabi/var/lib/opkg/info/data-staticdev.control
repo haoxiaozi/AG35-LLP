@@ -1,0 +1,14 @@
+Package: data-staticdev
+Version: git-r25
+Description: data version git-r25 - Development files (Static Libraries)
+ Qualcomm Technologies Data Modules (Excluding ConfigDB and DSUtils)  This
+ package contains static libraries for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Qualcomm-Technologies-Inc.-Proprietary
+Architecture: mdm9607
+OE: data
+Homepage: http://support.cdmatech.com
+Depends: data-dev (= git-r25)
+Source: file://data/ file://data-init file://QCMAP_ConnectionManagerd.service file://qtid.service

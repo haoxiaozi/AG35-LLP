@@ -1,0 +1,14 @@
+Package: ffmpeg
+Version: 2.3-r0
+Description: FFmpeg is a complete, cross-platform solution to record, convert and stream audio and video.
+ FFmpeg is a complete, cross-platform solution to record, convert and
+ stream audio and video..
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: LGPLv2.1
+Architecture: armv7a-vfp-neon
+OE: ffmpeg
+Homepage: http://ffmpeg.org
+Depends: libbz2-0 (>= 1.0.6), libc6 (>= 2.22)
+Source: http://www.ffmpeg.org/releases/ffmpeg-2.3.tar.gz

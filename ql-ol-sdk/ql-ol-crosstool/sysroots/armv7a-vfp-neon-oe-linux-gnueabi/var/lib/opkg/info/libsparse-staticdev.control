@@ -1,0 +1,14 @@
+Package: libsparse-staticdev
+Version: 1.0-r0
+Description: libsparse version 1.0-r0 - Development files (Static Libraries)
+ Build Android libsprase  This package contains static libraries for
+ software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Apache-2.0
+Architecture: armv7a-vfp-neon
+OE: libsparse
+Homepage: http://developer.android.com/
+Depends: libsparse-dev (= 1.0-r0)
+Source: file://libsparse

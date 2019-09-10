@@ -1,0 +1,11 @@
+/usr/include/loc-mq-client/IPCMessagingProxy.h
+/usr/include/mq_client/mq_client.h
+/usr/include/mq_client/mq_client_controller.h
+/usr/include/loc-mq-client/
+/usr/include/mq_client/
+/usr/lib/libloc_mq_client.la
+/usr/include/mq_client/IPCMessagingProxy.h
+/usr/include/loc-mq-client/mq_client_controller.h
+/usr/lib/libloc_mq_client.so
+/usr/lib/pkgconfig/loc-mq-client.pc
+/usr/include/loc-mq-client/mq_client.h

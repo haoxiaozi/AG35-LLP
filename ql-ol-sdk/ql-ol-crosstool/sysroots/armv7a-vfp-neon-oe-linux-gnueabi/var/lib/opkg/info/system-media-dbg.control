@@ -1,0 +1,14 @@
+Package: system-media-dbg
+Version: git-r2
+Description: system-media version git-r2 - Debugging files
+ system media headers  This package contains ELF symbols and related
+ sources for debugging purposes.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Apache-2.0
+Architecture: armv7a-vfp-neon
+OE: system-media
+Homepage: http://developer.android.com/
+Recommends: libstdc++-dbg, libglib-2.0-dbg, liblog-dbg, libexpat-dbg, tinyalsa-dbg, libc6-dbg, libcutils-dbg
+Source: file://system/media/

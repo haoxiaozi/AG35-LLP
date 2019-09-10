@@ -1,0 +1,15 @@
+Package: liblzo2-staticdev
+Version: 2.09-r0
+Description: Lossless data compression library - Development files (Static Libraries)
+ Lossless data compression library.  This package contains static
+ libraries for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2+
+Architecture: armv7a-vfp-neon
+OE: lzo
+Homepage: http://www.oberhumer.com/opensource/lzo/
+Depends: liblzo2-dev (= 2.09-r0)
+Provides: lzo-staticdev
+Source: http://www.oberhumer.com/opensource/lzo/download/lzo-2.09.tar.gz file://0001-Use-memcpy-instead-of-reinventing-it.patch file://acinclude.m4 file://run-ptest

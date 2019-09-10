@@ -1,0 +1,16 @@
+Package: libslimutils-dev
+Version: git-r1
+Description: slim-utils version git-r1 - Development files
+ SLIM Utils  This package contains symbolic links, header files, and
+ related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Qualcomm-Technologies-Inc.-Proprietary
+Architecture: mdm9607
+OE: slim-utils
+Homepage: http://support.cdmatech.com
+Depends: libslimutils1 (= git-r1)
+Recommends: slim-common-hdr-dev, libgcc-s-dev, libloc-pla-dev, libstdc++-dev, libc6-dev, libtime-genoff-dev, libglib-2.0-dev, qmi-framework-dev, diag-dev
+Provides: slim-utils-dev
+Source: file://gps/slim/utils/

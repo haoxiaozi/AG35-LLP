@@ -1,0 +1,14 @@
+Package: ql-ol-extsdk-staticdev
+Version: git-r01
+Description: ql-ol-extsdk version git-r01 - Development files (Static Libraries)
+ Quectel High Data Open API  This package contains static libraries for
+ software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Quectel-Wireless-Solutions-Co-Ltd.-Proprietary 
+Architecture: mdm9607
+OE: ql-ol-extsdk
+Homepage: https://www.quectel.com/
+Depends: ql-ol-extsdk-dev (= git-r01)
+Source: file://quectel-openlinux-extsdk/

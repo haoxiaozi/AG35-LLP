@@ -1,0 +1,14 @@
+	if [ "x$D" != "x" ]; then
+	  rootarg="--root $D"
+	else
+	  rootarg=""
+	fi
+
+	pwconv $rootarg || exit 1
+	grpconv $rootarg || exit 1
+	update-alternatives --install /home/quectel/alessa_linux164/Qualcomm/MDM9x28/OpenLinux/LE2.0.1/main/MCU_R05/apps_proc/poky/build/tmp-glibc/deploy/sdk/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/passwd passwd /home/quectel/alessa_linux164/Qualcomm/MDM9x28/OpenLinux/LE2.0.1/main/MCU_R05/apps_proc/poky/build/tmp-glibc/deploy/sdk/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/passwd.shadow 200
+	update-alternatives --install /home/quectel/alessa_linux164/Qualcomm/MDM9x28/OpenLinux/LE2.0.1/main/MCU_R05/apps_proc/poky/build/tmp-glibc/deploy/sdk/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/chfn chfn /home/quectel/alessa_linux164/Qualcomm/MDM9x28/OpenLinux/LE2.0.1/main/MCU_R05/apps_proc/poky/build/tmp-glibc/deploy/sdk/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/chfn.shadow 200
+	update-alternatives --install /home/quectel/alessa_linux164/Qualcomm/MDM9x28/OpenLinux/LE2.0.1/main/MCU_R05/apps_proc/poky/build/tmp-glibc/deploy/sdk/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/chsh chsh /home/quectel/alessa_linux164/Qualcomm/MDM9x28/OpenLinux/LE2.0.1/main/MCU_R05/apps_proc/poky/build/tmp-glibc/deploy/sdk/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/chsh.shadow 200
+	update-alternatives --install /home/quectel/alessa_linux164/Qualcomm/MDM9x28/OpenLinux/LE2.0.1/main/MCU_R05/apps_proc/poky/build/tmp-glibc/deploy/sdk/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/chpasswd chpasswd /home/quectel/alessa_linux164/Qualcomm/MDM9x28/OpenLinux/LE2.0.1/main/MCU_R05/apps_proc/poky/build/tmp-glibc/deploy/sdk/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/chpasswd.shadow 200
+	update-alternatives --install /home/quectel/alessa_linux164/Qualcomm/MDM9x28/OpenLinux/LE2.0.1/main/MCU_R05/apps_proc/poky/build/tmp-glibc/deploy/sdk/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/sbin/vipw vipw /home/quectel/alessa_linux164/Qualcomm/MDM9x28/OpenLinux/LE2.0.1/main/MCU_R05/apps_proc/poky/build/tmp-glibc/deploy/sdk/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/sbin/vipw.shadow 200
+	update-alternatives --install /home/quectel/alessa_linux164/Qualcomm/MDM9x28/OpenLinux/LE2.0.1/main/MCU_R05/apps_proc/poky/build/tmp-glibc/deploy/sdk/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/sbin/vigr vigr /home/quectel/alessa_linux164/Qualcomm/MDM9x28/OpenLinux/LE2.0.1/main/MCU_R05/apps_proc/poky/build/tmp-glibc/deploy/sdk/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/sbin/vigr.shadow 200

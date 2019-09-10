@@ -1,0 +1,15 @@
+Package: soundtrigger-dev
+Version: git-r9
+Description: soundtrigger version git-r9 - Development files
+ sound trigger loader Library  This package contains symbolic links,
+ header files, and related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Qualcomm-Technologies-Inc.-Proprietary
+Architecture: mdm9607
+OE: soundtrigger
+Homepage: http://support.cdmatech.com
+Depends: soundtrigger (= git-r9)
+Recommends: libhardware-dev, audiohal-dev, acdbloader-dev, libcutils-dev, graphite-client-dev, tinycompress-dev, system-media-dev, libglib-2.0-dev, libstdc++-dev, libc6-dev, tinyalsa-dev, libexpat-dev, liblog-dev
+Source: file://audio/mm-audio/sound_trigger_hal/

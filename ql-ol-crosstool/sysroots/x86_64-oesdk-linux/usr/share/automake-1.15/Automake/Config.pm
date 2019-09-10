@@ -32,7 +32,7 @@ our $PACKAGE = 'automake';
 our $PACKAGE_BUGREPORT = 'bug-automake@gnu.org';
 our $VERSION = '1.15';
 our $RELEASE_YEAR = '2014';
-our $libdir = '/home/llp/opt/quectel/AG35/R05A03/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/share/automake-1.15';
+our $libdir = '/home/llp/opt/quectel/AG35/R05A03/ql-ol-sdk-llp/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/share/automake-1.15';
 
 our $perl_threads = 0;
 # We need at least this version for CLONE support.

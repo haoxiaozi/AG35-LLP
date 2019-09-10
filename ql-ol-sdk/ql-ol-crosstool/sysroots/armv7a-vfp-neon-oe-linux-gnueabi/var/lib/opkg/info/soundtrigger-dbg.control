@@ -1,0 +1,14 @@
+Package: soundtrigger-dbg
+Version: git-r9
+Description: soundtrigger version git-r9 - Debugging files
+ sound trigger loader Library  This package contains ELF symbols and
+ related sources for debugging purposes.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Qualcomm-Technologies-Inc.-Proprietary
+Architecture: mdm9607
+OE: soundtrigger
+Homepage: http://support.cdmatech.com
+Recommends: libstdc++-dbg, libglib-2.0-dbg, liblog-dbg, libexpat-dbg, tinyalsa-dbg, libc6-dbg, libcutils-dbg, system-media-dbg
+Source: file://audio/mm-audio/sound_trigger_hal/

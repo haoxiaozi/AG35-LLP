@@ -1,0 +1,15 @@
+Package: flac-dbg
+Version: 1.3.1-r0
+Description: Free Lossless Audio Codec - Debugging files
+ FLAC stands for Free Lossless Audio Codec, a lossless audio compression
+ format.  This package contains ELF symbols and related sources for
+ debugging purposes.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GFDL-1.2 & GPLv2+ & LGPLv2.1+ & BSD
+Architecture: armv7a-vfp-neon
+OE: flac
+Homepage: https://xiph.org/flac/
+Recommends: libc6-dbg, libstdc++-dbg, libgcc-s-dbg, libogg-dbg, libflac-dbg
+Source: http://downloads.xiph.org/releases/flac/flac-1.3.1.tar.xz

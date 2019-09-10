@@ -1,0 +1,13 @@
+Package: start-scripts-init-can-dbg
+Version: 1.0-r2
+Description: start-scripts-init-can version 1.0-r2 - Debugging files
+ Start up script for setting up the can link  This package contains ELF
+ symbols and related sources for debugging purposes.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: BSD
+Architecture: armv7a-vfp-neon
+OE: start-scripts-init-can
+Homepage: http://codeaurora.org
+Source: file://init-can.sh

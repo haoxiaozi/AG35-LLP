@@ -1,0 +1,15 @@
+Package: qmi-shutdown-modem-dev
+Version: git-r4
+Description: qmi-shutdown-modem version git-r4 - Development files
+ QMI shutdown modem Daemon  This package contains symbolic links, header
+ files, and related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Qualcomm-Technologies-Inc.-Proprietary
+Architecture: mdm9607
+OE: qmi-shutdown-modem
+Homepage: http://support.cdmatech.com
+Depends: qmi-shutdown-modem (= git-r4)
+Recommends: libc6-dev, qmi-dev, qmi-framework-dev
+Source: file://mdm-ss-mgr/qmi-shutdown-modem/ file://qmi_shutdown_modemd.service

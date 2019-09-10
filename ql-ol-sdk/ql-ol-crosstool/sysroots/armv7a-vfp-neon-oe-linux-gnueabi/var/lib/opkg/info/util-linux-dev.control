@@ -1,0 +1,19 @@
+Package: util-linux-dev
+Version: 2.26.2-r0.3
+Description: A suite of basic system administration utilities - Development files
+ Util-linux includes a suite of basic system administration utilities
+ commonly found on most Linux systems.  Some of the more important
+ utilities include disk partitioning, kernel message management,
+ filesystem creation, and system login.  This package contains symbolic
+ links, header files, and related items necessary for software
+ development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2only & LGPLv2.1only
+Architecture: armv7a-vfp-neon
+OE: util-linux
+Depends: libblkid1, libfdisk1, libmount1, libsmartcols1, util-linux (= 2.26.2-r0.3), libuuid1
+Recommends: libc6-dev, util-linux-libsmartcols-dev, util-linux-libuuid-dev, util-linux-libmount-dev, util-linux-sulogin-dev, ncurses-libncursesw-dev, libz-dev, util-linux-libfdisk-dev, update-alternatives-opkg-dev, util-linux-libblkid-dev, util-linux-umount-dev, ncurses-libtinfo-dev, ncurses-dev, util-linux-losetup-dev, util-linux-swaponoff-dev
+Provides: util-linux-libblkid-dev, util-linux-libuuid-dev, util-linux-libmount-dev
+Source: http://kernel.org/pub/linux/utils/util-linux/v2.26/util-linux-2.26.2.tar.xz file://util-linux-ng-replace-siginterrupt.patch file://util-linux-ng-2.16-mount_lock_path.patch file://uclibc-__progname-conflict.patch file://configure-sbindir.patch file://fix-parallel-build.patch file://runuser.pamd file://runuser-l.pamd file://CVE-2016-5011.patch file://CVE-2016-5011_p2.patch

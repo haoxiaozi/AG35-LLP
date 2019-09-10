@@ -1,0 +1,15 @@
+Package: libpugixml-dbg
+Version: 1.4-r0
+Description: XML Parser library  - Debugging files
+ XML Parser library .  This package contains ELF symbols and related
+ sources for debugging purposes.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: MIT
+Architecture: armv7a-vfp-neon
+OE: pugixml
+Homepage: https://github.com/zeux/pugixml
+Recommends: libc6-dbg, libstdc++-dbg, libgcc-s-dbg
+Provides: pugixml-dbg
+Source: https://github.com/zeux/pugixml/archive/v1.4.zip file://001_Makefile.patch

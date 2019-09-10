@@ -1,0 +1,14 @@
+Package: mcm-core-dbg
+Version: git-r5
+Description: mcm-core version git-r5 - Debugging files
+ QTI Mobile Connection Manager Core libraries and Service  This package
+ contains ELF symbols and related sources for debugging purposes.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Qualcomm-Technologies-Inc.-Proprietary
+Architecture: mdm9607
+OE: mcm-core
+Homepage: http://support.cdmatech.com
+Recommends: libglib-2.0-dbg, libstdc++-dbg, libadiertac-dbg, libxml-dbg, libc6-dbg, qmi-framework-dbg, qmi-dbg, libacdbmapper-dbg, diag-dbg, libgcc-s-dbg, libaudcal-dbg, libtime-genoff-dbg, liblog-dbg, libaudioalsa-dbg, libconfigdb-dbg, alsa-intf-dbg, libdsutils-dbg, data-dbg, acdbloader-dbg, ql-syslog-dbg, libqmi-client-helper-dbg, libacdbrtac-dbg
+Source: file://mcm-core/

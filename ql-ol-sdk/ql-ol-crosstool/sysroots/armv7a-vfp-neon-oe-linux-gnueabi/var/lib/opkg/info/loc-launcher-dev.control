@@ -1,0 +1,15 @@
+Package: loc-launcher-dev
+Version: git-r1
+Description: loc-launcher version git-r1 - Development files
+ GPS Location process launcher  This package contains symbolic links,
+ header files, and related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Qualcomm-Technologies-Inc.-Proprietary
+Architecture: mdm9607
+OE: loc-launcher
+Homepage: http://support.cdmatech.com
+Depends: loc-launcher (= git-r1)
+Recommends: libgps-utils-so-dev, libgcc-s-dev, liblog-dev, libloc-pla-dev, libstdc++-dev, libloc-base-util-dev, libc6-dev, libglib-2.0-dev, libloc-mq-client-dev, qmi-framework-dev
+Source: file://gps/launcher/

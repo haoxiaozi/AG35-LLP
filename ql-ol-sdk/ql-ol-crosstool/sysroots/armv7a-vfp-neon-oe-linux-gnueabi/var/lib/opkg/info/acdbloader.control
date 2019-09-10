@@ -1,0 +1,13 @@
+Package: acdbloader
+Version: git-r7
+Description: acdbloader version git-r7
+ acdb loader Library
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Qualcomm-Technologies-Inc.-Proprietary
+Architecture: mdm9607
+OE: acdbloader
+Homepage: http://support.cdmatech.com
+Depends: libtime-genoff1 (>= git), libadiertac1 (>= 1.0), libaudioalsa1 (>= git), liblog0 (>= 1.0), diag (>= git), libacdbrtac1 (>= 1.0), libstdc++6 (>= 4.9.3), libaudcal1 (>= git), libc6 (>= 2.22), libglib-2.0-0 (>= 2.44.1), libacdbmapper1 (>= git)
+Source: file://audio/mm-audio/audio-acdb-util/acdb-loader/

@@ -1,0 +1,14 @@
+Package: system-core-dbg
+Version: git-r19_perf
+Description: system-core version git-r19_perf - Debugging files
+ Android system/core components  This package contains ELF symbols and
+ related sources for debugging purposes.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Apache-2.0
+Architecture: armv7a-vfp-neon
+OE: system-core
+Homepage: http://developer.android.com/
+Recommends: libselinux-dbg, libunwind-dbg, libext4-utils-dbg, libsepol-dbg, libstdc++-dbg, libglib-2.0-dbg, libgcc-s-dbg, libmincrypt-dbg, liblog-dbg, libsparse-dbg, libz-dbg, libpcre-dbg, libc6-dbg, libcutils-dbg
+Source: file://system/core/

@@ -1,0 +1,14 @@
+Package: system-conf-dev
+Version: git-r3
+Description: system-conf version git-r3 - Development files
+ Device specific config  This package contains symbolic links, header
+ files, and related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: ISC
+Architecture: armv7a-vfp-neon
+OE: system-conf
+Depends: system-conf (= git-r3)
+Recommends: update-rc.d-dev, initscripts-dev
+Source: file://mdm-init/ file://wlan_daemon.service

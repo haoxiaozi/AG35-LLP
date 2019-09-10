@@ -1,0 +1,13 @@
+Package: mcmlocserver
+Version: git-r5
+Description: mcmlocserver version git-r5
+ MCM Location Server
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Qualcomm-Technologies-Inc.-Proprietary
+Architecture: armv7a-vfp-neon
+OE: mcmlocserver
+Homepage: http://support.cdmatech.com
+Depends: libgcc1 (>= 4.9.3), libloc-mcm-type-conv1 (>= git), mcm-core (>= git), ql-syslog (>= git), libgps-utils-so1 (>= git), qmi-framework (>= git), libc6 (>= 2.22), libglib-2.0-0 (>= 2.44.1), liblocationservice1 (>= git), data (>= git), loc-hal (>= git)
+Source: file://mcm-gps/mcmlocserver/

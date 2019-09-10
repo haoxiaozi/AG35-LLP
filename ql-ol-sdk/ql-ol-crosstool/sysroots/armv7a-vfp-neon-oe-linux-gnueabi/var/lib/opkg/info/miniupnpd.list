@@ -1,0 +1,4 @@
+/data/miniupnpd/miniupnpd.conf
+/usr/sbin/miniupnpd
+/data/miniupnpd/
+/etc/init.d/miniupnpd

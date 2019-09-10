@@ -1,0 +1,15 @@
+Package: loc-hal-test-shim-dev
+Version: git-r3
+Description: loc-hal-test-shim version git-r3 - Development files
+ GPS HAL API Test shim Library  This package contains symbolic links,
+ header files, and related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Qualcomm-Technologies-Inc.-Proprietary
+Architecture: mdm9607
+OE: loc-hal-test-shim
+Homepage: http://support.cdmatech.com
+Depends: loc-hal-test-shim (= git-r3)
+Recommends: libglib-2.0-dev, libgcc-s-dev, liblog-dev, liblbs-core-dev, liblocationservice-dev, libdataitems-dev, libgps-utils-so-dev, libdsutils-dev, libulp2-dev, libloc-stub-dev, libloc-base-util-dev, libevent-observer-dev, data-dev, qmi-dev, ql-syslog-dev, izat-core-dev, libssl-dev, libcrypto-dev, libstdc++-dev, libc6-dev, libtime-genoff-dev, loc-hal-dev, libsqlite3-dev, system-core-dev, libloc-mq-client-dev, libxml-dev, libqmi-client-helper-dev, loc-net-iface-dev, libcutils-dev, liblowi-client-dev, libloc-pla-dev, data-oss-dev, garden-test-interfaces-dev, libdrplugin-dev, libgnsspps-dev, libdrplugin-client-dev, diag-dev, libconfigdb-dev, qmi-framework-dev
+Source: file://gps/garden-app/loc-hal-test-shim/

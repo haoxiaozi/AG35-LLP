@@ -1,0 +1,4 @@
+#!/bin/sh
+if [ -z "$D" ]; then
+	/etc/init.d/dbus-1 stop
+fi

@@ -1,0 +1,16 @@
+Package: data-dev
+Version: git-r25
+Description: data version git-r25 - Development files
+ Qualcomm Technologies Data Modules (Excluding ConfigDB and DSUtils)  This
+ package contains symbolic links, header files, and related items
+ necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Qualcomm-Technologies-Inc.-Proprietary
+Architecture: mdm9607
+OE: data
+Homepage: http://support.cdmatech.com
+Depends: data (= git-r25)
+Recommends: libpugixml-dev, libgcc-s-dev, libdsutils-dev, libconfigdb-dev, openssl-dev, data-oss-dev, libstdc++-dev, libqmi-client-helper-dev, libc6-dev, libtime-genoff-dev, libglib-2.0-dev, qmi-dev, libcap-dev, ql-syslog-dev, diag-dev, libxml-dev, qmi-framework-dev
+Source: file://data/ file://data-init file://QCMAP_ConnectionManagerd.service file://qtid.service

@@ -1,0 +1,15 @@
+Package: libmincrypt-dev
+Version: git-r0
+Description: libmincrypt version git-r0 - Development files
+ Build Android libmincrypt  This package contains symbolic links, header
+ files, and related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Apache-2.0
+Architecture: armv7a-vfp-neon
+OE: libmincrypt
+Homepage: http://developer.android.com/
+Depends: libmincrypt0 (= git-r0)
+Recommends: libc6-dev
+Source: file://libmincrypt

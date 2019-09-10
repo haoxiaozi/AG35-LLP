@@ -1,0 +1,14 @@
+Package: libdrplugin-client1
+Version: git-r1
+Description: drplugin-client version git-r1
+ DR Plugin client
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Qualcomm-Technologies-Inc.-Proprietary
+Architecture: mdm9607
+OE: drplugin-client
+Homepage: http://support.cdmatech.com
+Depends: libgcc1 (>= 4.9.3), libssl1.0.0 (>= 1.0.2h), liblbs-core1 (>= git), libloc-stub1 (>= git), loc-hal (>= git), libconfigdb0 (>= git), liblog0 (>= 1.0), libdsutils1 (>= git), libcutils0 (>= 1.0), qmi (>= git), system-core (>= git), libtime-genoff1 (>= git), data-oss (>= git), libqmi-client-helper1 (>= git), diag (>= git), libgps-utils-so1 (>= git), libsqlite3-0 (>= 3.8.10.2), libstdc++6 (>= 4.9.3), libglib-2.0-0 (>= 2.44.1), libloc-net-iface1 (>= git), libxml0 (>= git), libdataitems1 (>= git), libcrypto1.0.0 (>= 1.0.2h), libc6 (>= 2.22), libloc-base-util1 (>= git), data (>= git), libizat-core1 (>= git), qmi-framework (>= git), libloc-pla1 (>= git)
+Provides: drplugin-client
+Source: file://gps-noship/dr_amt/drplugin_client/

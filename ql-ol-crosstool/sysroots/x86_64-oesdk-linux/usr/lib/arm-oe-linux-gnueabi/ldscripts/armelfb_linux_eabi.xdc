@@ -7,7 +7,7 @@ OUTPUT_FORMAT("elf32-bigarm", "elf32-bigarm",
 	      "elf32-littlearm")
 OUTPUT_ARCH(arm)
 ENTRY(_start)
-SEARCH_DIR("=/home/llp/opt/quectel/AG35/R05A03/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/arm-oe-linux-gnueabi/lib"); SEARCH_DIR("=/usr/local/lib"); SEARCH_DIR("=/lib"); SEARCH_DIR("=/usr/lib");
+SEARCH_DIR("=/home/llp/opt/quectel/AG35/R05A03/ql-ol-sdk-llp/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/arm-oe-linux-gnueabi/lib"); SEARCH_DIR("=/usr/local/lib"); SEARCH_DIR("=/lib"); SEARCH_DIR("=/usr/lib");
 SECTIONS
 {
   /* Read-only sections, merged into text segment: */

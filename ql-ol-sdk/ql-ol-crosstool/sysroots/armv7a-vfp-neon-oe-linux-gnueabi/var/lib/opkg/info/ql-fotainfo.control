@@ -1,0 +1,13 @@
+Package: ql-fotainfo
+Version: git-r1
+Description: ql-fotainfo version git-r1
+ Quectel Function Daemon
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Quectel-Wireless-Solutions-Co-Ltd.-Proprietary 
+Architecture: mdm9607
+OE: ql-fotainfo
+Homepage: https://www.quectel.com/
+Depends: libfotainfo1 (>= git), libc6 (>= 2.22)
+Source: file://quectel/fota/fotainfo_tools/

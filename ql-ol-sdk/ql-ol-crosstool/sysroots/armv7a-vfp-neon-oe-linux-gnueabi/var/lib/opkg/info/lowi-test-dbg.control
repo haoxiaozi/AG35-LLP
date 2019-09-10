@@ -1,0 +1,14 @@
+Package: lowi-test-dbg
+Version: git-r1
+Description: lowi-test version git-r1 - Debugging files
+ GPS lowi test  This package contains ELF symbols and related sources for
+ debugging purposes.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Qualcomm-Technologies-Inc.-Proprietary
+Architecture: mdm9607
+OE: lowi-test
+Homepage: http://support.cdmatech.com
+Recommends: liblowi-client-dbg, libstdc++-dbg, libglib-2.0-dbg, libgcc-s-dbg, libloc-base-util-dbg, liblog-dbg, libc6-dbg, libxml2-dbg
+Source: file://gps-noship/internal/lowi/test/

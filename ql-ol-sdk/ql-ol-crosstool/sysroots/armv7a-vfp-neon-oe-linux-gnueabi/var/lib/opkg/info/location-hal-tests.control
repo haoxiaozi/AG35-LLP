@@ -1,0 +1,13 @@
+Package: location-hal-tests
+Version: git-r1
+Description: location-hal-tests version git-r1
+ Location HAL Tests
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Qualcomm-Technologies-Inc.-Proprietary
+Architecture: mdm9607
+OE: location-hal-tests
+Homepage: http://support.cdmatech.com
+Depends: libgcc1 (>= 4.9.3), loc-hal (>= git), libflp1 (>= git), libstdc++6 (>= 4.9.3), libgeofence1 (>= git), libgps-utils-so1 (>= git), libc6 (>= 2.22), data (>= git)
+Source: file://gps/location_hal_test/

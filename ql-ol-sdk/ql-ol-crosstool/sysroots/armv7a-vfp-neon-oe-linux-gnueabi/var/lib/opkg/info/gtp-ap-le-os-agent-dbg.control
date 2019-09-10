@@ -1,0 +1,14 @@
+Package: gtp-ap-le-os-agent-dbg
+Version: git-r1
+Description: gtp-ap-le-os-agent version git-r1 - Debugging files
+ GPS xtwifi LE os agent  This package contains ELF symbols and related
+ sources for debugging purposes.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Qualcomm-Technologies-Inc.-Proprietary
+Architecture: mdm9607
+OE: gtp-ap-le-os-agent
+Homepage: http://support.cdmatech.com
+Recommends: libloc-base-util-dbg, liblog-dbg, libgcc-s-dbg, libloc-mq-client-dbg, libc6-dbg
+Source: file://gps-noship/xtwifi/gtp-ap-le-os-agent/

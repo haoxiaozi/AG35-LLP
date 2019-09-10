@@ -1,0 +1,3 @@
+/sbin/depmod
+/usr/lib/busybox/sbin/depmod 50
+/sbin/depmod.kmod 60

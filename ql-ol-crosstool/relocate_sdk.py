@@ -38,7 +38,7 @@ else:
     def b(x):
         return x.encode(sys.getfilesystemencoding())
 
-old_prefix = re.compile(b("/home/llp/opt/quectel/AG35/R05A03/ql-ol-sdk/ql-ol-crosstool"))
+old_prefix = re.compile(b("/home/llp/opt/quectel/AG35/R05A03/ql-ol-sdk-llp/ql-ol-crosstool"))
 
 def get_arch():
     f.seek(0)

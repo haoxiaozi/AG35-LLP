@@ -1,0 +1,14 @@
+Package: mcm-core-staticdev
+Version: git-r5
+Description: mcm-core version git-r5 - Development files (Static Libraries)
+ QTI Mobile Connection Manager Core libraries and Service  This package
+ contains static libraries for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Qualcomm-Technologies-Inc.-Proprietary
+Architecture: mdm9607
+OE: mcm-core
+Homepage: http://support.cdmatech.com
+Depends: mcm-core-dev (= git-r5)
+Source: file://mcm-core/

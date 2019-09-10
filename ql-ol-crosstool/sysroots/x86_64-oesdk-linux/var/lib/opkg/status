@@ -72,7 +72,7 @@ Conflicts: nativesdk-opkg-collateral
 Status: install ok installed
 Architecture: x86_64-nativesdk
 Conffiles:
- /home/llp/opt/quectel/AG35/R05A03/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/etc/opkg/opkg.conf 882b918d3b6f80af40390aaca25d3f2e
+ /home/llp/opt/quectel/AG35/R05A03/ql-ol-sdk-llp/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/etc/opkg/opkg.conf 882b918d3b6f80af40390aaca25d3f2e
 Installed-Time: 1539948970
 Auto-Installed: yes
 
@@ -1161,7 +1161,7 @@ Version: 1.0.2h-r0
 Status: install ok installed
 Architecture: x86_64-nativesdk
 Conffiles:
- /home/llp/opt/quectel/AG35/R05A03/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/lib/ssl/openssl.cnf 7df26c55291b33344dc15e3935dabaf3
+ /home/llp/opt/quectel/AG35/R05A03/ql-ol-sdk-llp/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/lib/ssl/openssl.cnf 7df26c55291b33344dc15e3935dabaf3
 Installed-Time: 1539948972
 Auto-Installed: yes
 

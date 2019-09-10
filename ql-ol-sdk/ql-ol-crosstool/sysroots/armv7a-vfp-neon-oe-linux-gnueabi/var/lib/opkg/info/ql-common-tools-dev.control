@@ -1,0 +1,15 @@
+Package: ql-common-tools-dev
+Version: git-r01
+Description: ql-common-tools version git-r01 - Development files
+ Quectel Common Tools  This package contains symbolic links, header files,
+ and related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Quectel-Wireless-Solutions-Co-Ltd.-Proprietary 
+Architecture: mdm9607
+OE: ql-common-tools
+Homepage: https://www.quectel.com/
+Depends: ql-common-tools (= git-r01)
+Recommends: adns-dev, libc6-dev
+Source: file://quectel/common-tools/

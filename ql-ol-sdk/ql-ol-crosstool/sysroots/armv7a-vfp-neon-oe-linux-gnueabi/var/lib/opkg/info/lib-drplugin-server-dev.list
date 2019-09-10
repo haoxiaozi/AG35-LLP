@@ -1,0 +1,10 @@
+/usr/include/drplugin-server/
+/usr/include/drplugin-server/DRPluginService.h
+/usr/lib/pkgconfig/drplugin-server.pc
+/usr/include/drplugin-server/loc_drplugin_srvr_log.h
+/usr/lib/lib_drplugin_server.la
+/usr/include/drplugin-server/dr_plugin_msg.h
+/usr/include/drplugin-server/Slim_APDRClient.h
+/usr/lib/lib_drplugin_server.so
+/usr/include/drplugin-server/loc_drplugin_server.h
+/usr/include/drplugin-server/loc_drplugin_srvr_main.h

@@ -1,0 +1,16 @@
+Package: libnss-mdns-dev
+Version: 0.10-r7
+Description: Name Service Switch module for Multicast DNS (zeroconf) name resolution - Development files
+ Name Service Switch module for Multicast DNS (zeroconf) name resolution.
+ This package contains symbolic links, header files, and related items
+ necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: LGPLv2.1+
+Architecture: armv7a-vfp-neon
+OE: libnss-mdns
+Homepage: http://0pointer.de/lennart/projects/nss-mdns/
+Depends: libnss-mdns (= 0.10-r7)
+Recommends: libc6-dev, avahi-dev, avahi-daemon-dev
+Source: http://0pointer.de/lennart/projects/nss-mdns/nss-mdns-0.10.tar.gz

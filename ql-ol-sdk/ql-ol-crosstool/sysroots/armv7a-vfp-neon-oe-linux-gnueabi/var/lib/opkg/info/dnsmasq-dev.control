@@ -1,0 +1,16 @@
+Package: dnsmasq-dev
+Version: 2.68-r3
+Description: dnsmasq version 2.68-r3 - Development files
+ Dnsmasq is a lightweight, easy to configure DNS forwarder and DHCP
+ server.  This package contains symbolic links, header files, and related
+ items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPL
+Architecture: armv7a-vfp-neon
+OE: dnsmasq
+Homepage: http://www.thekelleys.org.uk/dnsmasq/doc.html
+Depends: dnsmasq (= 2.68-r3)
+Recommends: libc6-dev
+Source: http://www.thekelleys.org.uk/dnsmasq/dnsmasq-2.68.tar.gz;name=dnsmasq-2.68 file://init file://dnsmasq.conf file://dnsmasq_script.sh file://dnsmasq.service

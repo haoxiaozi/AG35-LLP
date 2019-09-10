@@ -1,0 +1,14 @@
+Package: rtsp-alg-dev
+Version: 3.7-r6_perf
+Description: rtsp-alg version 3.7-r6_perf - Development files
+ RSTP ALG  This package contains symbolic links, header files, and related
+ items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2
+Architecture: mdm9607
+OE: rtsp-alg
+Depends: rtsp-alg (= 3.7-r6_perf)
+Recommends: alx-dev, kernel-module-nf-nat-rtsp-dev, kernel-module-nf-conntrack-rtsp-dev, kernel-3.18.48-dev
+Source: http://github.com/maru-sama/rtsp-linux/archive/3.7.tar.gz file://Makefile.patch

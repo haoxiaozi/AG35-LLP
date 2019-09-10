@@ -1,0 +1,16 @@
+Package: libslimclient-dev
+Version: git-r1
+Description: slim-client version git-r1 - Development files
+ SLIM cleint   This package contains symbolic links, header files, and
+ related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Qualcomm-Technologies-Inc.-Proprietary
+Architecture: mdm9607
+OE: slim-client
+Homepage: http://support.cdmatech.com
+Depends: libslimclient1 (= git-r1)
+Recommends: libgps-utils-so-dev, libgcc-s-dev, libdsutils-dev, libxml-dev, libloc-pla-dev, libstdc++-dev, libloc-stub-dev, libc6-dev, libtime-genoff-dev, diag-dev, qmi-dev, libslimutils-dev, libcutils-dev, libslimcommon-dev, qmi-framework-dev, libconfigdb-dev, liblog-dev, libglib-2.0-dev
+Provides: slim-client-dev
+Source: file://gps/slim/client/

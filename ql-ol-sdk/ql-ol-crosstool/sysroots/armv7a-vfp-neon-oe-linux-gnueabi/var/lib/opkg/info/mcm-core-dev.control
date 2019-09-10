@@ -1,0 +1,16 @@
+Package: mcm-core-dev
+Version: git-r5
+Description: mcm-core version git-r5 - Development files
+ QTI Mobile Connection Manager Core libraries and Service  This package
+ contains symbolic links, header files, and related items necessary for
+ software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Qualcomm-Technologies-Inc.-Proprietary
+Architecture: mdm9607
+OE: mcm-core
+Homepage: http://support.cdmatech.com
+Depends: mcm-core (= git-r5)
+Recommends: libgcc-s-dev, liblog-dev, libaudioalsa-dev, alsa-intf-dev, common-dev, libdsutils-dev, libacdbrtac-dev, libqmi-client-helper-dev, data-dev, qmi-dev, ql-syslog-dev, mcm-dev, acdbloader-dev, libacdbmapper-dev, update-rc.d-dev, libadiertac-dev, libc6-dev, libtime-genoff-dev, libstdc++-dev, libxml-dev, initscripts-dev, libglib-2.0-dev, libaudcal-dev, diag-dev, libconfigdb-dev, qmi-framework-dev
+Source: file://mcm-core/

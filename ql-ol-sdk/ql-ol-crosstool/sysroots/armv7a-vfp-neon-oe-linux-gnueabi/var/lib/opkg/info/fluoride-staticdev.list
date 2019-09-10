@@ -1,0 +1,11 @@
+/usr/lib/libbt-hci.a
+/usr/lib/libbluetoothdefault.a
+/usr/lib/libbtif.a
+/usr/lib/libbtprofile.a
+/usr/lib/libbtutils.a
+/usr/lib/libbtdevice.a
+/usr/lib/libbtcore.a
+/usr/lib/libbtstack.a
+/usr/lib/libbtbta.a
+/usr/lib/libbtosi.a
+/usr/lib/libbt_qcom_sbc_decoder.a

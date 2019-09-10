@@ -1,0 +1,15 @@
+Package: mtd-utils-dev
+Version: 2.0.1-r3
+Description: mtd-utils version 2.0.1-r3 - Development files
+ mtd-utils include mkfs.ubifs,ubiattach,ubinfo tools  This package
+ contains symbolic links, header files, and related items necessary for
+ software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2
+Architecture: armv7a-vfp-neon
+OE: mtd-utils
+Depends: mtd-utils (= 2.0.1-r3)
+Recommends: util-linux-dev, util-linux-libuuid-dev, libz-dev, liblzo2-dev, libc6-dev, libselinux-dev
+Source: git://git.infradead.org/mtd-utils.git file://mkfs.ubifs-add-selinux.patch

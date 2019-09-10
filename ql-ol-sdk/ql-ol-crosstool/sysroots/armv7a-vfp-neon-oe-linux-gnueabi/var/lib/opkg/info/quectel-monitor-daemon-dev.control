@@ -1,0 +1,15 @@
+Package: quectel-monitor-daemon-dev
+Version: git-r1
+Description: quectel-monitor-daemon version git-r1 - Development files
+ Quectel monitor daemon  This package contains symbolic links, header
+ files, and related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Quectel-Wireless-Solutions-Co-Ltd.-Proprietary 
+Architecture: mdm9607
+OE: quectel-monitor-daemon
+Homepage: https://www.quectel.com/
+Depends: quectel-monitor-daemon (= git-r1)
+Recommends: ql-syslog-dev, libc6-dev, update-rc.d-dev, initscripts-dev
+Source: file://quectel/monitor-daemon

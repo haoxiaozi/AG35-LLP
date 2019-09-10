@@ -1,0 +1,10 @@
+/etc/cld-hostapd-wlan1.sh
+/data/misc/wifi/
+/etc/init.d/wlan
+/etc/sysctl.conf
+/data/misc/wifi/wpa_supplicant.conf
+/data/misc/wifi/sta_mode_hostapd.conf
+/data/misc/wifi/hostapd.conf
+/lib/firmware/wlan/qca_cld/WCNSS_qcom_cfg.ini
+/etc/cld-hostapd-wlan0.sh
+/data/misc/wifi/hostapd-wlan1.conf

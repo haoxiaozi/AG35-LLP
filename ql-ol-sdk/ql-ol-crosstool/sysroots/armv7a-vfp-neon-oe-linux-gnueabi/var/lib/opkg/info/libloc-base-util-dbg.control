@@ -1,0 +1,14 @@
+Package: libloc-base-util-dbg
+Version: git-r1
+Description: loc-base-util version git-r1 - Debugging files
+ LOC base utils  This package contains ELF symbols and related sources for
+ debugging purposes.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Qualcomm-Technologies-Inc.-Proprietary
+Architecture: armv7a-vfp-neon
+OE: loc-base-util
+Recommends: libsqlite3-dbg, libstdc++-dbg, libglib-2.0-dbg, libgcc-s-dbg, libssl-dbg, libcrypto-dbg, libc6-dbg
+Provides: loc-base-util-dbg
+Source: file://gps/framework/utils/native/base_util/

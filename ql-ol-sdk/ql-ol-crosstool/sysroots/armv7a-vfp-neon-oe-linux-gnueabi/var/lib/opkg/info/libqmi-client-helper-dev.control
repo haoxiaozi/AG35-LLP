@@ -1,0 +1,16 @@
+Package: libqmi-client-helper-dev
+Version: git-r0
+Description: qmi-client-helper version git-r0 - Development files
+ QMI Client Helper Module  This package contains symbolic links, header
+ files, and related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Qualcomm-Technologies-Inc.-Proprietary
+Architecture: mdm9607
+OE: qmi-client-helper
+Homepage: http://support.cdmatech.com
+Depends: libqmi-client-helper1 (= git-r0)
+Recommends: libdsutils-dev, libconfigdb-dev, libglib-2.0-dev, libc6-dev, libtime-genoff-dev, diag-dev, qmi-dev, common-dev, libxml-dev, qmi-framework-dev
+Provides: qmi-client-helper-dev
+Source: file://qmi/qmi_client_helper

@@ -6,14 +6,14 @@
 #	make-debug-archive --kernel [--force] [RELEASE]
 #
 # Valid options are those listed under 'Input selection options'
-# by running /home/llp/opt/quectel/AG35/R05A03/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/eu-unstrip --help.
+# by running /home/llp/opt/quectel/AG35/R05A03/ql-ol-sdk-llp/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/eu-unstrip --help.
 #
 # The archive installed by --kernel be used automatically by -K.
 # An offline archive can be used via -e in any tool that accepts those options.
 #
 
-UNSTRIP=${UNSTRIP:-/home/llp/opt/quectel/AG35/R05A03/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/eu-unstrip}
-AR=${AR:-/home/llp/opt/quectel/AG35/R05A03/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/eu-ar}
+UNSTRIP=${UNSTRIP:-/home/llp/opt/quectel/AG35/R05A03/ql-ol-sdk-llp/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/eu-unstrip}
+AR=${AR:-/home/llp/opt/quectel/AG35/R05A03/ql-ol-sdk-llp/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/eu-ar}
 SUDO=${SUDO:-/usr/bin/sudo}
 
 LS=/bin/ls

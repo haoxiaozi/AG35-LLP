@@ -1,0 +1,5 @@
+/usr/lib/libdrplugin_client.so
+/usr/include/drplugin-client/
+/usr/lib/libdrplugin_client.la
+/usr/lib/pkgconfig/drplugin-client.pc
+/usr/include/drplugin-client/loc_drp_client.h

@@ -1,0 +1,13 @@
+Package: start-scripts-find-partitions-dbg
+Version: 1.0-r4
+Description: start-scripts-find-partitions version 1.0-r4 - Debugging files
+ Start up script for detecting partitions  This package contains ELF
+ symbols and related sources for debugging purposes.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: BSD
+Architecture: mdm9607
+OE: start-scripts-find-partitions
+Homepage: http://codeaurora.org
+Source: file://mdm9607/find_partitions.sh file://find_partitions.service

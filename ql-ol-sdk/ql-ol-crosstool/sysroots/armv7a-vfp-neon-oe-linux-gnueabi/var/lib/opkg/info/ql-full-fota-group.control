@@ -1,0 +1,13 @@
+Package: ql-full-fota-group
+Version: 1.0-r0
+Description: ql-full-fota-group version 1.0-r0
+ Full Fota packagegroup for Poky
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Quectel-Wireless-Solutions-Co-Ltd.-Proprietary   & MIT
+Architecture: mdm9607
+OE: ql-full-fota-group
+Homepage: https://www.quectel.com/
+Depends: libfotainfo1, ql-mtdimg, ql-fotainfo
+Source: file://full_update.sh

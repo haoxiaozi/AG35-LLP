@@ -1,0 +1,7 @@
+/usr/lib/liblog.so.0
+/usr/lib/liblog.so.0.0.0
+/usr/lib/pkgconfig/liblog.pc
+/etc/udev/
+/usr/lib/pkgconfig/
+/etc/udev/rules.d/
+/etc/udev/rules.d/50-log.rules

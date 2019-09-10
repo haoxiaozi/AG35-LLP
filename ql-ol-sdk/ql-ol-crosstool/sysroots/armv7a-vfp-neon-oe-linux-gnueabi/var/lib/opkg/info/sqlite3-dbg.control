@@ -1,0 +1,14 @@
+Package: sqlite3-dbg
+Version: 3:3.8.10.2-r0
+Description: Embeddable SQL database engine - Debugging files
+ Embeddable SQL database engine.  This package contains ELF symbols and
+ related sources for debugging purposes.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: PD
+Architecture: armv7a-vfp-neon
+OE: sqlite3
+Homepage: http://www.sqlite.org
+Recommends: libsqlite3-dbg, libc6-dbg, libreadline-dbg
+Source: http://www.sqlite.org/2015/sqlite-autoconf-3081002.tar.gz file://0001-using-the-dynamic-library.patch

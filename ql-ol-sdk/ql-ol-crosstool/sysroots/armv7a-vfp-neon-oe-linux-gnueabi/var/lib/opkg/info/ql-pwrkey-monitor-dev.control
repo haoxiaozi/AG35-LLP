@@ -1,0 +1,16 @@
+Package: ql-pwrkey-monitor-dev
+Version: git-r1
+Description: ql-pwrkey-monitor version git-r1 - Development files
+ Quectel ql_pwrkey_monitor data dispatch  This package contains symbolic
+ links, header files, and related items necessary for software
+ development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Quectel-Wireless-Solutions-Co-Ltd.-Proprietary 
+Architecture: mdm9607
+OE: ql-pwrkey-monitor
+Homepage: https://www.quectel.com/
+Depends: ql-pwrkey-monitor (= git-r1)
+Recommends: libc6-dev, update-rc.d-dev, initscripts-dev
+Source: file://quectel/ql_pwrkey_monitor

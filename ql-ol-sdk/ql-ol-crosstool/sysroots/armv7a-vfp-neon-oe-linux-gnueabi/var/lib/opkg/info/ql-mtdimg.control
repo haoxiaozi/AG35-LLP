@@ -1,0 +1,13 @@
+Package: ql-mtdimg
+Version: git-r1
+Description: ql-mtdimg version git-r1
+ Quectel Function Daemon
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Quectel-Wireless-Solutions-Co-Ltd.-Proprietary 
+Architecture: mdm9607
+OE: ql-mtdimg
+Homepage: https://www.quectel.com/
+Depends: libc6 (>= 2.22)
+Source: file://quectel/fota/mtdimg/

@@ -1,0 +1,12 @@
+Package: alx
+Version: git-r4_perf
+Description: alx version git-r4_perf
+ Qualcomm Atheros Gigabit Ethernet Driver
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: ISC
+Architecture: mdm9607
+OE: alx
+Recommends: update-rc.d
+Source: file://external/compat-wireless/drivers/net/ethernet/atheros/alx/ file://start_alx_le

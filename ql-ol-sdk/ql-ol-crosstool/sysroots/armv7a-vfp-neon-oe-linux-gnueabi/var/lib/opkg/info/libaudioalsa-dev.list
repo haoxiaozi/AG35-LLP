@@ -1,0 +1,5 @@
+/usr/include/audioalsa/control.h
+/usr/lib/libaudioalsa.la
+/usr/lib/pkgconfig/audioalsa.pc
+/usr/include/audioalsa/
+/usr/lib/libaudioalsa.so

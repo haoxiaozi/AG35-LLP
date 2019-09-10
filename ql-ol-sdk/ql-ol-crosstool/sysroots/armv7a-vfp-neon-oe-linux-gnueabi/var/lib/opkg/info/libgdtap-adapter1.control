@@ -1,0 +1,14 @@
+Package: libgdtap-adapter1
+Version: git-r1
+Description: gdtap-adapter version git-r1
+ GPS xtwifi gdtap
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Qualcomm-Technologies-Inc.-Proprietary
+Architecture: mdm9607
+OE: gdtap-adapter
+Homepage: http://support.cdmatech.com
+Depends: libgcc1 (>= 4.9.3), libssl1.0.0 (>= 1.0.2h), libloc-stub1 (>= git), loc-hal (>= git), libconfigdb0 (>= git), liblog0 (>= 1.0), libdsutils1 (>= git), libxml0 (>= git), qmi (>= git), libloc-mq-client1 (>= git), system-core (>= git), libtime-genoff1 (>= git), data-oss (>= git), libqmi-client-helper1 (>= git), diag (>= git), libgps-utils-so1 (>= git), libsqlite3-0 (>= 3.8.10.2), libstdc++6 (>= 4.9.3), libglib-2.0-0 (>= 2.44.1), libloc-net-iface1 (>= git), libcutils0 (>= 1.0), libdataitems1 (>= git), libcrypto1.0.0 (>= 1.0.2h), libc6 (>= 2.22), libloc-base-util1 (>= git), data (>= git), libizat-core1 (>= git), qmi-framework (>= git), libloc-pla1 (>= git)
+Provides: gdtap-adapter
+Source: file://gps-noship/gdtap/

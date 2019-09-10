@@ -1,0 +1,16 @@
+Package: diag-dev
+Version: git-r10
+Description: diag version git-r10 - Development files
+ Library and routing applications for diagnostic traffic  This package
+ contains symbolic links, header files, and related items necessary for
+ software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Qualcomm-Technologies-Inc.-Proprietary
+Architecture: mdm9607
+OE: diag
+Homepage: http://support.cdmatech.com
+Depends: diag (= git-r10)
+Recommends: libc6-dev, libtime-genoff-dev, libglib-2.0-dev, common-dev, system-core-dev
+Source: file://diag/ file://chgrp-diag file://chgrp-diag.service

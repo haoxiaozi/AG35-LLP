@@ -1,0 +1,16 @@
+Package: libdrplugin-dev
+Version: git-r1
+Description: drplugin version git-r1 - Development files
+ Lib DRPlugin  This package contains symbolic links, header files, and
+ related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Qualcomm-Technologies-Inc.-Proprietary
+Architecture: mdm9607
+OE: drplugin
+Homepage: http://support.cdmatech.com
+Depends: libdrplugin1 (= git-r1)
+Recommends: libglib-2.0-dev, libgcc-s-dev, liblog-dev, liblbs-core-dev, libgnsspps-dev, libdataitems-dev, libgps-utils-so-dev, libdsutils-dev, libloc-stub-dev, libloc-base-util-dev, data-dev, qmi-dev, izat-core-dev, libssl-dev, libcrypto-dev, libstdc++-dev, libc6-dev, libtime-genoff-dev, loc-hal-dev, libsqlite3-dev, system-core-dev, libxml-dev, libqmi-client-helper-dev, loc-net-iface-dev, libcutils-dev, libloc-pla-dev, data-oss-dev, libdrplugin-client-dev, diag-dev, libconfigdb-dev, qmi-framework-dev
+Provides: drplugin-dev
+Source: file://gps-noship/dr_amt/drplugin/

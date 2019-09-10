@@ -1,0 +1,14 @@
+Package: audio-ftm-dbg
+Version: git-r5
+Description: audio-ftm version git-r5 - Debugging files
+ Audio FTM  This package contains ELF symbols and related sources for
+ debugging purposes.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Qualcomm-Technologies-Inc.-Proprietary
+Architecture: mdm9607
+OE: audio-ftm
+Homepage: http://support.cdmatech.com
+Recommends: liblog-dbg, libglib-2.0-dbg, alsa-intf-dbg, libc6-dbg
+Source: file://audio/mm-audio/audio_ftm/

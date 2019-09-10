@@ -1,0 +1,15 @@
+Package: libdsutils-dbg
+Version: git-r7
+Description: dsutils version git-r7 - Debugging files
+ Qualcomm Data DSutils Module  This package contains ELF symbols and
+ related sources for debugging purposes.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Qualcomm-Technologies-Inc.-Proprietary
+Architecture: mdm9607
+OE: dsutils
+Homepage: http://support.cdmatech.com
+Recommends: libglib-2.0-dbg, libtime-genoff-dbg, diag-dbg, libc6-dbg
+Provides: dsutils-dbg
+Source: file://data/dsutils
