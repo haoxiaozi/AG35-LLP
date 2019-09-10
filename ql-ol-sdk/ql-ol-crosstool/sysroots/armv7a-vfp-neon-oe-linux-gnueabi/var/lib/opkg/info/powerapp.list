@@ -1,7 +1,0 @@
-/etc/init.d/reset_reboot_cookie
-/sbin/sys_shutdown
-/data/reboot-cookie
-/sbin/reboot-recovery
-/sbin/reboot-bootloader
-/sbin/sys_reboot
-/sbin/powerapp

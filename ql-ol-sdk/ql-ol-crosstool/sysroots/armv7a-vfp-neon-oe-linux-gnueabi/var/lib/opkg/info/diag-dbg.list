@@ -1,9 +1,0 @@
-/usr/bin/.debug/diag_callback_sample
-/usr/bin/.debug/PktRspTest
-/usr/lib/.debug/libdiag.so.1.0.0
-/usr/bin/.debug/diag_mdlog
-/usr/bin/.debug/diag_klog
-/usr/bin/.debug/diag_uart_log
-/usr/bin/.debug/diag_socket_log
-/usr/bin/.debug/diag_dci_sample
-/usr/bin/.debug/test_diag

@@ -1,8 +1,0 @@
-/usr/lib/libql_mam_ipc.so.1
-/etc/init.d/start_ql_manager_server_le
-/etc/init.d/start_emac_le
-/usr/lib/libql_mam_ipc.so.1.0.0
-/usr/bin/ql_manager_cli
-/usr/bin/ql_manager_server
-/usr/lib/libql_mgmt_client.so.1.0.0
-/usr/lib/libql_mgmt_client.so.1

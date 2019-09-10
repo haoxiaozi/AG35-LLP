@@ -1,8 +1,0 @@
-/usr/lib/pkgconfig/ulp2.pc
-/usr/include/ulp2/ulp_data.h
-/usr/include/ulp2/ulp_log.h
-/usr/include/ulp2/
-/usr/include/ulp2/LocUlpProxy.h
-/usr/lib/libulp2.la
-/usr/lib/libulp2.so
-/usr/include/ulp2/ulp_internal.h

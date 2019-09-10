@@ -1,3 +1,0 @@
-/bin/dmesg
-/usr/lib/busybox/bin/dmesg 50
-/bin/dmesg.util-linux 100

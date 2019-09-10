@@ -1,7 +1,0 @@
-/usr/lib/pkgconfig/alsa-intf.pc
-/usr/lib/libalsa_intf.so
-/usr/include/alsa-intf/alsa_ucm.h
-/usr/include/alsa-intf/
-/usr/include/alsa-intf/alsa_audio.h
-/usr/include/alsa-intf/msm8960_use_cases.h
-/usr/lib/libalsa_intf.la

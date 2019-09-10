@@ -1,4 +1,0 @@
-#!/bin/sh
-if [ -z "$D" ]; then
-	/etc/init.d/aaa_quectel_pcm_daemon stop
-fi

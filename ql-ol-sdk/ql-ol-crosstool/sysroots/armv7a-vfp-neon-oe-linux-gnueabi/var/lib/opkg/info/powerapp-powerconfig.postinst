@@ -1,3 +1,0 @@
-[ -n "$D" ] && OPT="-r $D" || OPT="-s"
-        update-rc.d $OPT -f power_config remove
-        update-rc.d $OPT power_config start 99 2 3 4 5 . stop 50 0 1 6 .

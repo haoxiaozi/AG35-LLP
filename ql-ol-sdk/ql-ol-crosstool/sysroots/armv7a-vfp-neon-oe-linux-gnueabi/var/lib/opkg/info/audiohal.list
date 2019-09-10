@@ -1,9 +1,0 @@
-/usr/lib/audio_primary_default.so
-/data/audio/
-/usr/lib/audio.primary.default.so
-/etc/mixer_paths_wcd9330_i2s.xml
-/usr/lib/libqcompostprocbundle.so
-/usr/bin/hal_rec_test
-/etc/audio_platform_info_extcodec.xml
-/usr/lib/libqahw.so
-/usr/bin/hal_play_test

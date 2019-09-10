@@ -1,1 +1,0 @@
-../init.d/find_partitions.sh

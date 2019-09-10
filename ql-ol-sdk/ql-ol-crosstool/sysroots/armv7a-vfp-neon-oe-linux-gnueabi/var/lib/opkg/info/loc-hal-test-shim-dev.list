@@ -1,9 +1,0 @@
-/usr/lib/libloc_hal_test_shim_extended.so
-/usr/include/loc-hal-test-shim/location_test_interface_android_gps.h
-/usr/lib/libloc_hal_test_shim.so
-/usr/lib/pkgconfig/loc-hal-test-shim.pc
-/usr/include/loc-hal-test-shim/
-/usr/include/loc-hal-test-shim/location_test_interface_android_gps_extended.h
-/usr/lib/libloc_hal_test_shim_extended.la
-/usr/include/loc-hal-test-shim/location_callbacks_android_gps.h
-/usr/lib/libloc_hal_test_shim.la
