@@ -114,22 +114,28 @@ $(kernel_module):
 	make ARCH=arm CROSS_COMPILE=arm-oe-linux-gnueabi- INSTALL_MOD_STRIP=1 O=$(KERNEL_DIR)/build INSTALL_MOD_PATH=$(ROOTFS_DIR)/usr  modules_install || exit
 	echo -e "\033[32m###### kernel module compile completely, need make rootfs to generate sysfs.ubi again! ######\033[0m"
 
+ifeq ($(QL_FAKEROOT), 1)
+FAKEROOT=ql_fakeroot
+else
+FAKEROOT=fakeroot
+endif
+
 $(rootfs):
 	cd $(TOPDIR) ; chmod +x ./ql-ol-extsdk/tools/quectel_ubi/* ; \
-	fakeroot ./ql-ol-extsdk/tools/quectel_ubi/mkfs.ubifs -r ql-ol-rootfs -o mdm9607-perf-sysfs.ubifs -m $(pagesize) -e $(leb-size) -c $(max-leb-cnt) -F
+	$(FAKEROOT) ./ql-ol-extsdk/tools/quectel_ubi/mkfs.ubifs -r ql-ol-rootfs -o mdm9607-perf-sysfs.ubifs -m $(pagesize) -e $(leb-size) -c $(max-leb-cnt) -F
 ifeq ($(has_usrfs),true)
-	fakeroot ./ql-ol-extsdk/tools/quectel_ubi/mkfs.ubifs -r ql-ol-usrfs -o mdm9607-usrfs.ubifs -m $(pagesize) -e $(leb-size) -c $(max-leb-cnt) -F
+	$(FAKEROOT) ./ql-ol-extsdk/tools/quectel_ubi/mkfs.ubifs -r ql-ol-usrfs -o mdm9607-usrfs.ubifs -m $(pagesize) -e $(leb-size) -c $(max-leb-cnt) -F
 endif
 	./ql-ol-extsdk/tools/quectel_ubi/ubinize  -o $(sysfs-ubi-fname) -m $(pagesize) -p $(peb-size) -s $(pagesize) ql-ol-extsdk/tools/quectel_ubi/$(ubicfg-fname)
 	mv mdm9607*.ubifs $(sysfs-ubi-fname) target/
 
 $(usrdata):
-	cd $(TOPDIR) ; chmod +x ./ql-ol-extsdk/tools/quectel_ubi/* ; fakeroot ./ql-ol-extsdk/tools/quectel_ubi/mkfs.ubifs -r ql-ol-usrdata -o usrdata.ubifs -m $(pagesize) -e $(leb-size) -c $(max-leb-cnt) -F ;	\
+	cd $(TOPDIR) ; chmod +x ./ql-ol-extsdk/tools/quectel_ubi/* ; $(FAKEROOT) ./ql-ol-extsdk/tools/quectel_ubi/mkfs.ubifs -r ql-ol-usrdata -o usrdata.ubifs -m $(pagesize) -e $(leb-size) -c $(max-leb-cnt) -F ;	\
 	./ql-ol-extsdk/tools/quectel_ubi/ubinize  -o usrdata.ubi -m $(pagesize) -p $(peb-size) -s $(pagesize) ql-ol-extsdk/tools/quectel_ubi/ubinize_usrdata.cfg ; \
 	mv usrdata.ubifs usrdata.ubi target/
 
 $(customapps):
-	cd $(TOPDIR) ; chmod +x ./ql-ol-extsdk/tools/quectel_ubi/* ; fakeroot ./ql-ol-extsdk/tools/quectel_ubi/mkfs.ubifs -r customapps -o customapps.ubifs -m $(pagesize) -e $(leb-size) -c $(max-leb-cnt) -F ;	\
+	cd $(TOPDIR) ; chmod +x ./ql-ol-extsdk/tools/quectel_ubi/* ; $(FAKEROOT) ./ql-ol-extsdk/tools/quectel_ubi/mkfs.ubifs -r customapps -o customapps.ubifs -m $(pagesize) -e $(leb-size) -c $(max-leb-cnt) -F ;	\
 	./ql-ol-extsdk/tools/quectel_ubi/ubinize  -o customapps.ubi -m $(pagesize) -p $(peb-size) -s $(pagesize) ql-ol-extsdk/tools/quectel_ubi/ubinize_customapps.cfg ; \
 	mv customapps.ubifs customapps.ubi target/
 
