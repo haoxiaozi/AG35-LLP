@@ -1,9 +1,0 @@
-#!/bin/sh
-if type update-rc.d >/dev/null 2>/dev/null; then
-	if [ -n "$D" ]; then
-		OPT="-r $D"
-	else
-		OPT="-s"
-	fi
-	update-rc.d $OPT start_alx_le start 91 5 . stop 15 0 1 6 .
-fi

@@ -1,6 +1,0 @@
-/usr/lib/libloc_mcm_type_conv.so
-/usr/lib/pkgconfig/loc-mcm-type-conv.pc
-/usr/include/loc-mcm-type-conv/
-/usr/include/loc-mcm-type-conv/loc_srv_mcm_to_hal_type_conversions.h
-/usr/lib/libloc_mcm_type_conv.la
-/usr/include/loc-mcm-type-conv/loc_srv_hal_to_mcm_type_conversions.h

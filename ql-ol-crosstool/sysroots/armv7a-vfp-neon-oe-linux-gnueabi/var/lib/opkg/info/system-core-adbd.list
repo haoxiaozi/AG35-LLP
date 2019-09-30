@@ -1,5 +1,0 @@
-/sbin/adbd
-/etc/launch_adbd
-/usr/lib/libadbd.so.0
-/etc/init.d/adbd
-/usr/lib/libadbd.so.0.0.0

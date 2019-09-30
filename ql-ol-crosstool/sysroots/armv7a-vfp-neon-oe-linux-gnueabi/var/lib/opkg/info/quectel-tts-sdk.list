@@ -1,8 +1,0 @@
-/usr/share/TTS/
-/usr/share/TTS/Resource_CH.irf
-/usr/share/TTS/tts.prop
-/usr/bin/quectel_tts_demo
-/usr/share/TTS/Resource_ENG.irf
-/usr/bin/quectel_tts_service
-/etc/init.d/start_quectel_tts_service_daemon
-/usr/lib/libql_tts.so.1

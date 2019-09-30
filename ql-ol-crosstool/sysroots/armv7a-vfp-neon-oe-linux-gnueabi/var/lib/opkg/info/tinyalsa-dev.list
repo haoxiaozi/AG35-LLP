@@ -1,8 +1,0 @@
-/usr/include/tinyalsa/version.h
-/usr/lib/libtinyalsa.so
-/usr/include/tinyalsa/
-/usr/lib/pkgconfig/tinyalsa.pc
-/usr/include/tinyalsa/mixer.h
-/usr/lib/libtinyalsa.la
-/usr/include/tinyalsa/pcm.h
-/usr/include/tinyalsa/asoundlib.h

@@ -1,6 +1,0 @@
-/sbin/.debug/rtmon
-/sbin/.debug/tc
-/sbin/.debug/bridge
-/sbin/.debug/ip.iproute2
-/usr/lib/tc/.debug/
-/usr/lib/tc/.debug/m_xt.so

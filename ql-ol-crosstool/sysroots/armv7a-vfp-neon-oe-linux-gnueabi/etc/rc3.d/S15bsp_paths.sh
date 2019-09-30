@@ -1,1 +1,0 @@
-../init.d/bsp_paths.sh

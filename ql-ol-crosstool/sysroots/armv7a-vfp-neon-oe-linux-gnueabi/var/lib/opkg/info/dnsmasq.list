@@ -1,5 +1,0 @@
-/etc/dnsmasq.d/
-/data/dnsmasq.conf
-/usr/bin/dnsmasq
-/etc/init.d/dnsmasq
-/bin/dnsmasq_script.sh

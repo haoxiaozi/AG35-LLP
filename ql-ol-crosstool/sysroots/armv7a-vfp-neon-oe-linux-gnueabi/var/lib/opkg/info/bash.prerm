@@ -1,3 +1,0 @@
-# Remove /bin/bash from shell alternatives
-  update-alternatives --remove sh /bin/bash
-	update-alternatives --remove  sh /bin/bash

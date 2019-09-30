@@ -1,3 +1,0 @@
-[ -n "$D" ] && OPT="-r $D" || OPT="-s"
-        update-rc.d $OPT -f reboot remove
-        update-rc.d $OPT reboot start 99 6 .
