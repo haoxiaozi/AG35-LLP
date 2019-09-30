@@ -1,0 +1,15 @@
+Package: xtwifi-inet-agent-dev
+Version: git-r1
+Description: xtwifi-inet-agent version git-r1 - Development files
+ GPS xtwifi tile  This package contains symbolic links, header files, and
+ related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Qualcomm-Technologies-Inc.-Proprietary
+Architecture: mdm9607
+OE: xtwifi-inet-agent
+Homepage: http://support.cdmatech.com
+Depends: xtwifi-inet-agent (= git-r1)
+Recommends: libloc-pla-dev, libgcc-s-dev, liblog-dev, libcurl-dev, libglib-2.0-dev, curl-dev, libstdc++-dev, libloc-base-util-dev, libc6-dev, libloc-mq-client-dev
+Source: file://gps-noship/xtwifi/inet_agent/src/

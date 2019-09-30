@@ -1,0 +1,14 @@
+Package: ql-syslog-dbg
+Version: git-r1
+Description: ql-syslog version git-r1 - Debugging files
+ Quectel log system  This package contains ELF symbols and related sources
+ for debugging purposes.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Quectel-Wireless-Solutions-Co-Ltd.-Proprietary 
+Architecture: mdm9607
+OE: ql-syslog
+Homepage: https://www.quectel.com/
+Recommends: libc6-dbg, libgcc-s-dbg
+Source: file://quectel/qlsyslog/

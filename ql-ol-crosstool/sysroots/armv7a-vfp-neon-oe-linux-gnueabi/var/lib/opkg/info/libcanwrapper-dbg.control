@@ -1,0 +1,15 @@
+Package: libcanwrapper-dbg
+Version: git-r1
+Description: canwrapper version git-r1 - Debugging files
+ CAN Wrapper   This package contains ELF symbols and related sources for
+ debugging purposes.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Qualcomm-Technologies-Inc.-Proprietary
+Architecture: mdm9607
+OE: canwrapper
+Homepage: http://support.cdmatech.com
+Recommends: libstdc++-dbg, libglib-2.0-dbg, libgcc-s-dbg, liblog-dbg, libc6-dbg, libcutils-dbg
+Provides: canwrapper-dbg
+Source: file://vnw-noship/CanWrapper/

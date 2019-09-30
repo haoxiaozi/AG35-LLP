@@ -1,0 +1,7 @@
+/usr/lib/libbacktrace.a
+/usr/lib/libfs_mgr.a
+/usr/lib/libadbd.a
+/usr/lib/liblogwrap.a
+/usr/lib/libutils.a
+/usr/lib/libbase.a
+/usr/lib/libsync.a

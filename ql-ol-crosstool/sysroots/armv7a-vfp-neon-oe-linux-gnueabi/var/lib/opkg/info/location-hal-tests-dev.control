@@ -1,0 +1,15 @@
+Package: location-hal-tests-dev
+Version: git-r1
+Description: location-hal-tests version git-r1 - Development files
+ Location HAL Tests  This package contains symbolic links, header files,
+ and related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Qualcomm-Technologies-Inc.-Proprietary
+Architecture: mdm9607
+OE: location-hal-tests
+Homepage: http://support.cdmatech.com
+Depends: location-hal-tests (= git-r1)
+Recommends: loc-hal-dev, libgcc-s-dev, libflp-dev, libloc-pla-dev, lbs-core-hdr-dev, libstdc++-dev, libc6-dev, data-dev, libgps-utils-so-dev, libglib-2.0-dev, canwrapper-hdr-dev, liblbs-core-dev, location-geofence-dev
+Source: file://gps/location_hal_test/

@@ -1,0 +1,13 @@
+Package: qcacld-utils-dbg
+Version: git-r1
+Description: qcacld-utils version git-r1 - Debugging files
+ Qualcomm Atheros WLAN CLD utils  This package contains ELF symbols and
+ related sources for debugging purposes.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Qualcomm-Technologies-Inc.-Proprietary
+Architecture: mdm9607
+OE: qcacld-utils
+Recommends: libnl-genl-dbg, libglib-2.0-dbg, diag-dbg, liblog-dbg, libnl-3-dbg, libc6-dbg, libcutils-dbg
+Source: file://wlan-proprietary/qcacld-utils/

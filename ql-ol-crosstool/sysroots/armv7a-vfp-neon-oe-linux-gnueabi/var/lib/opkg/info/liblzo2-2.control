@@ -1,0 +1,14 @@
+Package: liblzo2-2
+Version: 2.09-r0
+Description: Lossless data compression library
+ Lossless data compression library.
+Section: libs
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2only
+Architecture: armv7a-vfp-neon
+OE: lzo
+Homepage: http://www.oberhumer.com/opensource/lzo/
+Depends: libc6 (>= 2.22)
+Provides: lzo
+Source: http://www.oberhumer.com/opensource/lzo/download/lzo-2.09.tar.gz file://0001-Use-memcpy-instead-of-reinventing-it.patch file://acinclude.m4 file://run-ptest

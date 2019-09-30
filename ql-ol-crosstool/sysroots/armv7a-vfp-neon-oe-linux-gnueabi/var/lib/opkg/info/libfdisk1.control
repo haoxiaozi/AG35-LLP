@@ -1,0 +1,13 @@
+Package: libfdisk1
+Version: 2.26.2-r0.3
+Description: util-linux libfdisk
+ util-linux libfdisk
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2only & LGPLv2.1only
+Architecture: armv7a-vfp-neon
+OE: util-linux
+Depends: libblkid1 (>= 2.26.2), libuuid1 (>= 2.26.2), libc6 (>= 2.22)
+Provides: util-linux-libfdisk
+Source: http://kernel.org/pub/linux/utils/util-linux/v2.26/util-linux-2.26.2.tar.xz file://util-linux-ng-replace-siginterrupt.patch file://util-linux-ng-2.16-mount_lock_path.patch file://uclibc-__progname-conflict.patch file://configure-sbindir.patch file://fix-parallel-build.patch file://runuser.pamd file://runuser-l.pamd file://CVE-2016-5011.patch file://CVE-2016-5011_p2.patch

@@ -1,0 +1,12 @@
+Package: packagegroup-core-boot
+Version: 1.0-r17
+Description: Minimal boot requirements
+ The minimal set of packages required to boot the system
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: MIT
+Architecture: mdm9607
+OE: packagegroup-core-boot
+Depends: busybox, modutils-initscripts, busybox-hwclock, sysvinit, keymaps, busybox-mdev, netbase, base-files, init-ifupdown, update-alternatives-opkg, base-passwd, initscripts
+Source: None

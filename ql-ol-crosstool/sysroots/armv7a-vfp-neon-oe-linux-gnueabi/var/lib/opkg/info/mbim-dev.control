@@ -1,0 +1,16 @@
+Package: mbim-dev
+Version: git-r2
+Description: mbim version git-r2 - Development files
+ USB Mobile Broadband Interface Model (MBIM) Command Processor  This
+ package contains symbolic links, header files, and related items
+ necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Qualcomm-Technologies-Inc.-Proprietary
+Architecture: mdm9607
+OE: mbim
+Homepage: http://support.cdmatech.com
+Depends: mbim (= git-r2)
+Recommends: libcutils-dev, liblog-dev, libc6-dev, qmi-dev, qmi-framework-dev, diag-dev
+Source: file://mbim

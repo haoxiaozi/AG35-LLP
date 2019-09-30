@@ -1,0 +1,13 @@
+Package: subsystem-ramdump
+Version: git-r3
+Description: subsystem-ramdump version git-r3
+ subsystem ramdump
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Qualcomm-Technologies-Inc.-Proprietary
+Architecture: armv7a-vfp-neon
+OE: subsystem-ramdump
+Depends: libglib-2.0-0 (>= 2.44.1), libc6 (>= 2.22)
+Recommends: update-rc.d
+Source: file://ss-restart/subsystem_ramdump/

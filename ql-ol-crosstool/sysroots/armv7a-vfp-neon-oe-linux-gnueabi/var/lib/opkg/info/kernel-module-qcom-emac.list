@@ -1,0 +1,4 @@
+/lib/modules/3.18.48/kernel/drivers/net/ethernet/qualcomm/
+/lib/modules/3.18.48/kernel/drivers/net/ethernet/qualcomm/emac/
+/lib/modules/3.18.48/kernel/drivers/net/ethernet/
+/lib/modules/3.18.48/kernel/drivers/net/ethernet/qualcomm/emac/qcom_emac.ko

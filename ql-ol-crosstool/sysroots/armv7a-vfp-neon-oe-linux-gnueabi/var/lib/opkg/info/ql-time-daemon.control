@@ -1,0 +1,13 @@
+Package: ql-time-daemon
+Version: git-r1
+Description: ql-time-daemon version git-r1
+ Quectel time system
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: CLOSED
+Architecture: mdm9607
+OE: ql-time-daemon
+Homepage: https://www.quectel.com/
+Depends: qmi-framework (>= git), ql-syslog (>= git), libc6 (>= 2.22)
+Source: file://quectel/ql-time-daemon/

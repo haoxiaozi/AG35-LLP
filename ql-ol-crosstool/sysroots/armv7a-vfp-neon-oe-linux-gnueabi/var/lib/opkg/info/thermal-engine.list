@@ -1,0 +1,3 @@
+/etc/init.d/thermal-engine
+/usr/bin/thermal-engine
+/etc/thermal-engine.conf

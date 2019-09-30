@@ -1,0 +1,15 @@
+Package: ftm-dev
+Version: git-r1
+Description: ftm version git-r1 - Development files
+ Qualcomm Technologies ftmdaemon  This package contains symbolic links,
+ header files, and related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Qualcomm-Technologies-Inc.-Proprietary
+Architecture: mdm9607
+OE: ftm
+Homepage: http://support.cdmatech.com
+Depends: ftm (= git-r1)
+Recommends: libnl-genl-dev, libgcc-s-dev, liblog-dev, ath6kl-utils-dev, hci-qcomm-init-dev, libglib-2.0-dev, libc6-dev, libbt-vendor-dev, system-core-dev, libnl-3-dev, diag-dev
+Source: file://wlan-proprietary/ftm/

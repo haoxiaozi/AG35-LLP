@@ -1,0 +1,15 @@
+Package: libqmi-client-helper-dbg
+Version: git-r0
+Description: qmi-client-helper version git-r0 - Debugging files
+ QMI Client Helper Module  This package contains ELF symbols and related
+ sources for debugging purposes.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Qualcomm-Technologies-Inc.-Proprietary
+Architecture: mdm9607
+OE: qmi-client-helper
+Homepage: http://support.cdmatech.com
+Recommends: libdsutils-dbg, libglib-2.0-dbg, libtime-genoff-dbg, diag-dbg, libconfigdb-dbg, libxml-dbg, libc6-dbg, qmi-framework-dbg, qmi-dbg
+Provides: qmi-client-helper-dbg
+Source: file://qmi/qmi_client_helper

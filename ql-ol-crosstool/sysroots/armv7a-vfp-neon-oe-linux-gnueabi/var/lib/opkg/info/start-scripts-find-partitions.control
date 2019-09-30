@@ -1,0 +1,13 @@
+Package: start-scripts-find-partitions
+Version: 1.0-r4
+Description: start-scripts-find-partitions version 1.0-r4
+ Start up script for detecting partitions
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: BSD
+Architecture: mdm9607
+OE: start-scripts-find-partitions
+Homepage: http://codeaurora.org
+Recommends: update-rc.d
+Source: file://mdm9607/find_partitions.sh file://find_partitions.service

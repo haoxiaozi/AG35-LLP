@@ -1,0 +1,15 @@
+Package: libloc-xtra-dbg
+Version: git-r3
+Description: loc-xtra version git-r3 - Debugging files
+ GPS Location Xtra library  This package contains ELF symbols and related
+ sources for debugging purposes.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Qualcomm-Technologies-Inc.-Proprietary
+Architecture: mdm9607
+OE: loc-xtra
+Homepage: http://support.cdmatech.com
+Recommends: libdsutils-dbg, libloc-pla-dbg, libconfigdb-dbg, data-dbg, diag-dbg, libstdc++-dbg, libglib-2.0-dbg, loc-hal-dbg, liblog-dbg, libcutils-dbg, data-oss-dbg, libgps-utils-so-dbg, libqmi-client-helper-dbg, libloc-stub-dbg, ql-syslog-dbg, libc6-dbg, qmi-framework-dbg, libxml-dbg, libtime-genoff-dbg, qmi-dbg
+Provides: loc-xtra-dbg
+Source: file://gps/location-xtra/

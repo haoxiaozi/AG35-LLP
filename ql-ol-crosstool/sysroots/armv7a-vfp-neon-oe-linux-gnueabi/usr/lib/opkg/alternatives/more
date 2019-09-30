@@ -1,0 +1,3 @@
+/bin/more
+/usr/lib/busybox/bin/more 50
+/bin/more.util-linux 100

@@ -1,0 +1,14 @@
+Package: libmincrypt-dbg
+Version: git-r0
+Description: libmincrypt version git-r0 - Debugging files
+ Build Android libmincrypt  This package contains ELF symbols and related
+ sources for debugging purposes.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Apache-2.0
+Architecture: armv7a-vfp-neon
+OE: libmincrypt
+Homepage: http://developer.android.com/
+Recommends: libc6-dbg
+Source: file://libmincrypt

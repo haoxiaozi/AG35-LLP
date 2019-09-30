@@ -1,0 +1,14 @@
+/usr/etc/dhcpcd.conf
+/usr/libexec/dhcpcd-hooks/
+/data/db/
+/usr/libexec/dhcpcd-hooks/02-dump
+/usr/libexec/dhcpcd-hooks/30-hostname
+/usr/libexec/dhcpcd-hooks/20-resolv.conf
+/usr/libexec/dhcpcd-hooks/10-mtu
+/usr/libexec/dhcpcd-run-hooks
+/usr/libexec/dhcpcd-hooks/29-lookup-hostname
+/usr/libexec/dhcpcd-hooks/01-test
+/usr/sbin/dhcpcd
+/usr/etc/
+/usr/libexec/dhcpcd-hooks/50-dhcpcd-compat
+/usr/libexec/

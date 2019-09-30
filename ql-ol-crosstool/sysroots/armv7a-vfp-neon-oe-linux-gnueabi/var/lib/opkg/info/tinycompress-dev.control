@@ -1,0 +1,15 @@
+Package: tinycompress-dev
+Version: git-r0
+Description: ALSA sound library for compress format - Development files
+ ALSA sound library for compress format.  This package contains symbolic
+ links, header files, and related items necessary for software
+ development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: BSD & LGPLv2.1
+Architecture: armv7a-vfp-neon
+OE: tinycompress
+Depends: tinycompress (= git-r0)
+Recommends: libc6-dev
+Source: git://codeaurora.org/quic/le/platform/external/tinycompress.git;protocol=git;branch=alsa-project/master file://0001-Tinycompress-Update-tinycompress-with-bug-fixes-enha.patch file://0001-Tinycompress-Add-compress_set_next_track_param-funct.patch file://0001-Tinycompress-Add-get_metadata-and-set_metadata-API-s.patch

@@ -1,0 +1,13 @@
+Package: adns-staticdev
+Version: 1.5.1-r0
+Description: adns version 1.5.1-r0 - Development files (Static Libraries)
+ An advanced alternative, asynchronous resolver.  This package contains
+ static libraries for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPL
+Architecture: armv7a-vfp-neon
+OE: adns
+Depends: adns-dev (= 1.5.1-r0)
+Source: http://www.chiark.greenend.org.uk/~ian/adns/ftp/adns-1.5.1.tar.gz

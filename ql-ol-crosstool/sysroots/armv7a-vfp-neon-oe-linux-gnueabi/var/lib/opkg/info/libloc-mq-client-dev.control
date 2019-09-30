@@ -1,0 +1,15 @@
+Package: libloc-mq-client-dev
+Version: git-r1
+Description: loc-mq-client version git-r1 - Development files
+ LOC MQ Client  This package contains symbolic links, header files, and
+ related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Qualcomm-Technologies-Inc.-Proprietary
+Architecture: armv7a-vfp-neon
+OE: loc-mq-client
+Depends: libloc-mq-client1 (= git-r1)
+Recommends: libglib-2.0-dev, libgcc-s-dev, liblog-dev, libloc-stub-dev, loc-hal-dev, libdsutils-dev, libqmi-client-helper-dev, libloc-base-util-dev, data-dev, qmi-dev, ql-syslog-dev, libssl-dev, libcrypto-dev, libstdc++-dev, libc6-dev, libtime-genoff-dev, libgps-utils-so-dev, libsqlite3-dev, libxml-dev, libcutils-dev, libloc-pla-dev, data-oss-dev, qmi-framework-dev, libconfigdb-dev, diag-dev
+Provides: loc-mq-client-dev
+Source: file://gps/framework/utils/native/mq_client/

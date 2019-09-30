@@ -1,0 +1,14 @@
+Package: quectel-daemon
+Version: git-r1
+Description: quectel-daemon version git-r1
+ Quectel Function Daemon
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Quectel-Wireless-Solutions-Co-Ltd.-Proprietary 
+Architecture: mdm9607
+OE: quectel-daemon
+Homepage: https://www.quectel.com/
+Depends: qmi (>= git), qmi-framework (>= git), ql-common-tools (>= git), libql-lib-audio1 (>= git), libc6 (>= 2.22)
+Recommends: update-rc.d
+Source: file://quectel/daemon

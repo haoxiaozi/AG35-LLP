@@ -1,0 +1,14 @@
+Package: nmea-test-app-dbg
+Version: git-r1
+Description: nmea-test-app version git-r1 - Debugging files
+ NMEA test application   This package contains ELF symbols and related
+ sources for debugging purposes.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Qualcomm-Technologies-Inc.-Proprietary
+Architecture: mdm9607
+OE: nmea-test-app
+Homepage: http://support.cdmatech.com
+Recommends: liblog-dbg, loc-hal-dbg, libc6-dbg
+Source: file://gps/test/nmea_test_app/

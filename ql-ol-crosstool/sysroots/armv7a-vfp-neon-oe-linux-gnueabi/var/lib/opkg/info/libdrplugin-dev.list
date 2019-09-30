@@ -1,0 +1,5 @@
+/usr/lib/libDRPlugin.so
+/usr/include/drplugin/DRPlugin.h
+/usr/include/drplugin/
+/usr/lib/pkgconfig/drplugin.pc
+/usr/lib/libDRPlugin.la

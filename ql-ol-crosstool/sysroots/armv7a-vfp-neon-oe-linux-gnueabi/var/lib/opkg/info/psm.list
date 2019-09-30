@@ -1,0 +1,7 @@
+/usr/bin/psm_test
+/usr/lib/libpsm_client.so.0.0.0
+/usr/bin/psmd
+/etc/init.d/psmd
+/usr/lib/libpsm_client.so.0
+/usr/lib/libpsmutils.so.0
+/usr/lib/libpsmutils.so.0.0.0

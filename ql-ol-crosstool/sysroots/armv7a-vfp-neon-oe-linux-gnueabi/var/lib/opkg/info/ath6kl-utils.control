@@ -1,0 +1,13 @@
+Package: ath6kl-utils
+Version: git-r2
+Description: ath6kl-utils version git-r2
+ Qualcomm Atheros ath6kl utils.
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Qualcomm-Technologies-Inc.-Proprietary
+Architecture: mdm9607
+OE: ath6kl-utils
+Homepage: http://support.cdmatech.com
+Depends: libglib-2.0-0 (>= 2.44.1), libnl-3-200 (>= 3.2.25), libnl-3-genl (>= 3.2.25), libc6 (>= 2.22)
+Source: file://wlan-proprietary/ath6kl-utils

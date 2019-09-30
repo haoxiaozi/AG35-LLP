@@ -1,0 +1,14 @@
+Package: dr-ap-service-dbg
+Version: git-r1
+Description: dr-ap-service version git-r1 - Debugging files
+ DR AP service  This package contains ELF symbols and related sources for
+ debugging purposes.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Qualcomm-Technologies-Inc.-Proprietary
+Architecture: mdm9607
+OE: dr-ap-service
+Homepage: http://support.cdmatech.com
+Recommends: libgps-utils-so-dbg, data-dbg, libgcc-s-dbg, lib-drplugin-server-dbg, libc6-dbg, qmi-framework-dbg
+Source: file://gps-noship/dr_amt/DR_AP_service/

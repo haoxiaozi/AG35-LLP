@@ -1,0 +1,16 @@
+Package: libacdbmapper-dev
+Version: git-r2
+Description: acdbmapper version git-r2 - Development files
+ acdb mapper Library  This package contains symbolic links, header files,
+ and related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Qualcomm-Technologies-Inc.-Proprietary
+Architecture: mdm9607
+OE: acdbmapper
+Homepage: http://support.cdmatech.com
+Depends: libacdbmapper1 (= git-r2)
+Recommends: libc6-dev, libglib-2.0-dev, libaudioalsa-dev
+Provides: acdbmapper-dev
+Source: file://audio/mm-audio/audio-acdb-util/acdb-mapper/

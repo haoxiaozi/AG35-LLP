@@ -1,0 +1,13 @@
+Package: sigma-dut
+Version: git-r0
+Description: sigma-dut version git-r0
+ WFA certification testing tool for QCA devices
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: BSD-3-Clause
+Architecture: mdm9607
+OE: sigma-dut
+Homepage: https://github.com/qca/sigma-dut
+Depends: libc6 (>= 2.22)
+Source: file://wlan/utils/sigma-dut/

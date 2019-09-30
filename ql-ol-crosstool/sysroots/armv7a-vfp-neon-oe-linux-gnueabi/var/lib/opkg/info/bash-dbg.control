@@ -1,0 +1,14 @@
+Package: bash-dbg
+Version: 4.3.30-r0
+Description: An sh-compatible command language interpreter - Debugging files
+ An sh-compatible command language interpreter.  This package contains ELF
+ symbols and related sources for debugging purposes.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv3+
+Architecture: armv7a-vfp-neon
+OE: bash
+Homepage: http://tiswww.case.edu/php/chet/bash/bashtop.html
+Recommends: libc6-dbg, ncurses-libtinfo-dbg
+Source: http://ftp.gnu.org/gnu/bash/bash-4.3.30.tar.gz;name=tarball http://ftp.gnu.org/gnu/bash/bash-4.3-patches/bash43-031;apply=yes;striplevel=0;name=patch031 http://ftp.gnu.org/gnu/bash/bash-4.3-patches/bash43-032;apply=yes;striplevel=0;name=patch032 http://ftp.gnu.org/gnu/bash/bash-4.3-patches/bash43-033;apply=yes;striplevel=0;name=patch033 http://ftp.gnu.org/gnu/bash/bash-4.3-patches/bash43-034;apply=yes;striplevel=0;name=patch034 http://ftp.gnu.org/gnu/bash/bash-4.3-patches/bash43-035;apply=yes;striplevel=0;name=patch035 http://ftp.gnu.org/gnu/bash/bash-4.3-patches/bash43-036;apply=yes;striplevel=0;name=patch036 http://ftp.gnu.org/gnu/bash/bash-4.3-patches/bash43-037;apply=yes;striplevel=0;name=patch037 http://ftp.gnu.org/gnu/bash/bash-4.3-patches/bash43-038;apply=yes;striplevel=0;name=patch038 http://ftp.gnu.org/gnu/bash/bash-4.3-patches/bash43-039;apply=yes;striplevel=0;name=patch039 file://execute_cmd.patch;striplevel=0 file://mkbuiltins_have_stringize.patch file://build-tests.patch file://test-output.patch file://run-ptest

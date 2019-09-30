@@ -1,0 +1,15 @@
+Package: libsepol-staticdev
+Version: git-r1
+Description: ql-libsepol version git-r1 - Development files (Static Libraries)
+ QUECTEL libsepol  This package contains static libraries for software
+ development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Quectel-Wireless-Solutions-Co-Ltd.-Proprietary   & GPLv2+
+Architecture: mdm9607
+OE: ql-libsepol
+Homepage: https://www.quectel.com/
+Depends: libsepol-dev (= git-r1)
+Provides: ql-libsepol-staticdev
+Source: file://quectel/selinux/libsepol/

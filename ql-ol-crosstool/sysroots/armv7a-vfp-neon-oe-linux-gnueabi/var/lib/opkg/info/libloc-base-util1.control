@@ -1,0 +1,13 @@
+Package: libloc-base-util1
+Version: git-r1
+Description: loc-base-util version git-r1
+ LOC base utils
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Qualcomm-Technologies-Inc.-Proprietary
+Architecture: armv7a-vfp-neon
+OE: loc-base-util
+Depends: libgcc1 (>= 4.9.3), libssl1.0.0 (>= 1.0.2h), libc6 (>= 2.22), libcrypto1.0.0 (>= 1.0.2h), libsqlite3-0 (>= 3.8.10.2), libstdc++6 (>= 4.9.3), libglib-2.0-0 (>= 2.44.1)
+Provides: loc-base-util
+Source: file://gps/framework/utils/native/base_util/

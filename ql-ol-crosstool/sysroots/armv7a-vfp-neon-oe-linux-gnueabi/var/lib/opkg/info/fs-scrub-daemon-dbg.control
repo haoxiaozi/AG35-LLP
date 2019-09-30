@@ -1,0 +1,14 @@
+Package: fs-scrub-daemon-dbg
+Version: 1.0-r1
+Description: fs-scrub-daemon version 1.0-r1 - Debugging files
+ Daemon to perform scrubbing  This package contains ELF symbols and
+ related sources for debugging purposes.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Qualcomm-Technologies-Inc.-Proprietary
+Architecture: mdm9607
+OE: fs-scrub-daemon
+Homepage: http://support.cdmatech.com
+Recommends: libc6-dbg, libglib-2.0-dbg, qmi-framework-dbg
+Source: file://fs-scrub-daemon/

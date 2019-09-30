@@ -1,0 +1,14 @@
+Package: audiohal-dev
+Version: 1.0-r0
+Description: audiohal version 1.0-r0 - Development files
+ audiohal  This package contains symbolic links, header files, and related
+ items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: BSD
+Architecture: mdm9607
+OE: audiohal
+Depends: audiohal (= 1.0-r0)
+Recommends: libhardware-dev, acdbloader-dev, system-core-dev, liblog-dev, tinycompress-dev, system-media-dev, libglib-2.0-dev, libstdc++-dev, libc6-dev, surround-sound-3mic-dev, tinyalsa-dev, libcutils-dev, libexpat-dev
+Source: file://hardware/qcom/audio/ file://mdm9607/

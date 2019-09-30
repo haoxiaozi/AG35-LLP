@@ -1,0 +1,15 @@
+Package: keymaps-dev
+Version: 1.0-r31
+Description: Keyboard maps - Development files
+ Keymaps and initscript to set the keymap on bootup.  This package
+ contains symbolic links, header files, and related items necessary for
+ software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2
+Architecture: mdm9607
+OE: keymaps
+Depends: keymaps (= 1.0-r31)
+Recommends: kbd-dev, update-rc.d-dev, initscripts-dev
+Source: file://keymap.sh file://GPLv2.patch

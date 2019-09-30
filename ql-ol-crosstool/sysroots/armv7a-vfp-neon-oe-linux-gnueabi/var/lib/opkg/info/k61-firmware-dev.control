@@ -1,0 +1,14 @@
+Package: k61-firmware-dev
+Version: git-r1
+Description: k61-firmware version git-r1 - Development files
+ K61 firmware  This package contains symbolic links, header files, and
+ related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Qualcomm-Technologies-Inc.-Proprietary
+Architecture: mdm9607
+OE: k61-firmware
+Homepage: http://support.cdmatech.com
+Depends: k61-firmware (= git-r1)
+Source: file://vnw/

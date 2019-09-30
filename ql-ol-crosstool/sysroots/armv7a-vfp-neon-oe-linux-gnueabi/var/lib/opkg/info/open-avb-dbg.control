@@ -1,0 +1,14 @@
+Package: open-avb-dbg
+Version: 1.0-r1
+Description: open-avb version 1.0-r1 - Debugging files
+ open-avb tools  This package contains ELF symbols and related sources for
+ debugging purposes.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: BSD
+Architecture: armv7a-vfp-neon
+OE: open-avb
+Homepage: https://github.com/AVnu/Open-AVB
+Recommends: libgcc-s-dbg, libstdc++-dbg, libglib-2.0-dbg, libasound-dbg, libpcap-dbg, libc6-dbg, alsa-intf-dbg
+Source: file://external/open-avb/

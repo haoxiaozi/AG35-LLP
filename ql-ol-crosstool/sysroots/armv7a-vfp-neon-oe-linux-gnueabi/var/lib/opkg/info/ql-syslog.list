@@ -1,0 +1,5 @@
+/usr/bin/qllog
+/etc/init.d/start_qllog
+/usr/lib/libql_sys_log.so.1.0.0
+/etc/qllog.json.sample
+/usr/lib/libql_sys_log.so.1

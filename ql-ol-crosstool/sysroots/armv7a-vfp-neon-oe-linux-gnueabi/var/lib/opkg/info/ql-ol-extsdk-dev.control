@@ -1,0 +1,15 @@
+Package: ql-ol-extsdk-dev
+Version: git-r01
+Description: ql-ol-extsdk version git-r01 - Development files
+ Quectel High Data Open API  This package contains symbolic links, header
+ files, and related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Quectel-Wireless-Solutions-Co-Ltd.-Proprietary 
+Architecture: mdm9607
+OE: ql-ol-extsdk
+Homepage: https://www.quectel.com/
+Depends: ql-ol-extsdk (= git-r01)
+Recommends: alsa-intf-dev, libaudioalsa-dev, ql-common-tools-dev, adns-dev, mcm-core-dev, libdsutils-dev, libacdbrtac-dev, libqmi-client-helper-dev, ql-manager-dev, data-dev, qmi-dev, ql-syslog-dev, acdbloader-dev, libacdbmapper-dev, libadiertac-dev, libc6-dev, libtime-genoff-dev, libxml-dev, libglib-2.0-dev, data-oss-dev, libql-lib-audio-dev, libaudcal-dev, diag-dev, libconfigdb-dev, qmi-framework-dev
+Source: file://quectel-openlinux-extsdk/

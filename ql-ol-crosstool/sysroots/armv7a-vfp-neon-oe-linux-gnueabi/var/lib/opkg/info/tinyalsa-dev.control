@@ -1,0 +1,14 @@
+Package: tinyalsa-dev
+Version: git-r1
+Description: tinyalsa version git-r1 - Development files
+ Tinyalsa Library  This package contains symbolic links, header files, and
+ related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: BSD
+Architecture: armv7a-vfp-neon
+OE: tinyalsa
+Depends: tinyalsa (= git-r1)
+Recommends: libc6-dev, libcutils-dev, liblog-dev, libstdc++-dev
+Source: git://codeaurora.org/quic/le/platform/external/tinyalsa.git;protocol=git;branch=github/master file://Makefile.am file://configure.ac file://tinyalsa.pc.in file://0001-tinyalsa-Added-avail_min-member.patch file://0001-Add-PCM_FORMAT_INVALID-constant.patch file://0001-pcm-add-support-to-set-silence_size.patch file://0001-tinyalsa-Enable-compilation-with-latest-TinyALSA.patch file://0001-tinyalsa-add-mixer_read-api-to-read-event-informatio.patch

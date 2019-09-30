@@ -1,0 +1,13 @@
+Package: fluoride
+Version: git-r0
+Description: fluoride version git-r0
+ Bluetooth Fluoride Stack
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Apache-2.0
+Architecture: armv7a-vfp-neon
+OE: fluoride
+Homepage: http://codeaurora.org/
+Depends: libhardware0 (>= git), libstdc++6 (>= 4.9.3), liblog0 (>= 1.0), libz1 (>= 1.2.8), libcutils0 (>= 1.0), system-media (>= git), libc6 (>= 2.22)
+Source: file://system/bt/

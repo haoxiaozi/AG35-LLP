@@ -1,0 +1,14 @@
+Package: data-dbg
+Version: git-r25
+Description: data version git-r25 - Debugging files
+ Qualcomm Technologies Data Modules (Excluding ConfigDB and DSUtils)  This
+ package contains ELF symbols and related sources for debugging purposes.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Qualcomm-Technologies-Inc.-Proprietary
+Architecture: mdm9607
+OE: data
+Homepage: http://support.cdmatech.com
+Recommends: libdsutils-dbg, libglib-2.0-dbg, libconfigdb-dbg, libstdc++-dbg, diag-dbg, libgcc-s-dbg, ql-syslog-dbg, libpugixml-dbg, data-oss-dbg, libxml-dbg, libc6-dbg, libqmi-client-helper-dbg, qmi-framework-dbg, libtime-genoff-dbg, qmi-dbg
+Source: file://data/ file://data-init file://QCMAP_ConnectionManagerd.service file://qtid.service

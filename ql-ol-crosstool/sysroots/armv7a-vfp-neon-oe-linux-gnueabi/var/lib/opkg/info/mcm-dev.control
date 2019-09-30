@@ -1,0 +1,14 @@
+Package: mcm-dev
+Version: git-r3
+Description: mcm version git-r3 - Development files
+ mcm headers  This package contains symbolic links, header files, and
+ related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Qualcomm-Technologies-Inc.-Proprietary
+Architecture: mdm9607
+OE: mcm
+Homepage: http://support.cdmatech.com
+Depends: mcm (= git-r3)
+Source: file://mcm-api/

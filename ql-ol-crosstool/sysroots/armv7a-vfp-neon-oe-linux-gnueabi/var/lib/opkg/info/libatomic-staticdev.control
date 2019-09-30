@@ -1,0 +1,12 @@
+Package: libatomic-staticdev
+Version: 4.9.3-r0
+Description: GNU cc and gcc C compilers
+ GNU cc and gcc C compilers.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPL-3.0-with-GCC-exception
+Architecture: armv7a-vfp-neon
+OE: gcc-runtime
+Homepage: http://www.gnu.org/software/gcc/
+Source: None

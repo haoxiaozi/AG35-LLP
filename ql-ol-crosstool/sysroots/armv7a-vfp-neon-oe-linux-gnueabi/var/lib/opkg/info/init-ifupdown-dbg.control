@@ -1,0 +1,14 @@
+Package: init-ifupdown-dbg
+Version: 1.0-r7
+Description: Basic TCP/IP networking init scripts and configuration files - Debugging files
+ This package provides high level tools to configure network interfaces
+ This package contains ELF symbols and related sources for debugging
+ purposes.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2
+Architecture: armv7a-vfp-neon
+OE: init-ifupdown
+Homepage: http://packages.debian.org/ifupdown
+Source: file://copyright file://init file://interfaces file://nfsroot file://interfaces

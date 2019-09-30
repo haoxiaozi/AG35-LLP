@@ -1,0 +1,15 @@
+Package: quectel-thermal-dev
+Version: git-r1
+Description: quectel-thermal version git-r1 - Development files
+ Quectel thermal  This package contains symbolic links, header files, and
+ related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Quectel-Wireless-Solutions-Co-Ltd.-Proprietary 
+Architecture: mdm9607
+OE: quectel-thermal
+Homepage: https://www.quectel.com/
+Depends: qmi-framework
+Recommends: libc6-dev, initscripts-dev, update-rc.d-dev, qmi-dev, qmi-framework-dev
+Source: file://quectel/thermal

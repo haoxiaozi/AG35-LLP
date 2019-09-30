@@ -1,0 +1,13 @@
+Package: alsa-intf-dbg
+Version: git-r4
+Description: alsa-intf version git-r4 - Debugging files
+ ALSA Framework Library  This package contains ELF symbols and related
+ sources for debugging purposes.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Apache-2.0
+Architecture: mdm9607
+OE: alsa-intf
+Recommends: libglib-2.0-dbg, acdbloader-dbg, libtime-genoff-dbg, diag-dbg, libaudioalsa-dbg, libadiertac-dbg, libaudcal-dbg, libc6-dbg, libacdbrtac-dbg, libacdbmapper-dbg
+Source: file://qcom-opensource/mm-audio

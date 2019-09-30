@@ -1,0 +1,16 @@
+Package: libz-staticdev
+Version: 1.2.8-r0
+Description: Zlib Compression Library - Development files (Static Libraries)
+ Zlib is a general-purpose, patent-free, lossless data compression library
+ which is used by many different programs.  This package contains static
+ libraries for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Zlib
+Architecture: armv7a-vfp-neon
+OE: zlib
+Homepage: http://zlib.net/
+Depends: libz-dev (= 1.2.8-r0)
+Provides: zlib-staticdev
+Source: http://www.zlib.net/zlib-1.2.8.tar.xz file://remove.ldconfig.call.patch file://Makefile-runtests.patch file://ldflags-tests.patch file://run-ptest

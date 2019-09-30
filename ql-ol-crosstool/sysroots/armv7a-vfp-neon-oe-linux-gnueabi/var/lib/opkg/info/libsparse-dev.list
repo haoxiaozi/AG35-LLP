@@ -1,0 +1,5 @@
+/usr/lib/libsparse.so
+/usr/lib/pkgconfig/libsparse.pc
+/usr/include/sparse/
+/usr/include/sparse/sparse.h
+/usr/lib/libsparse.la

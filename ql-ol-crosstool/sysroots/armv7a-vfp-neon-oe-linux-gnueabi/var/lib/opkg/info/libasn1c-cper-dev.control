@@ -1,0 +1,16 @@
+Package: libasn1c-cper-dev
+Version: git-r1
+Description: asn1c-cper version git-r1 - Development files
+ GPS asn1c cper  This package contains symbolic links, header files, and
+ related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Qualcomm-Technologies-Inc.-Proprietary
+Architecture: mdm9607
+OE: asn1c-cper
+Homepage: http://support.cdmatech.com
+Depends: libasn1c-cper1 (= git-r1)
+Recommends: libgcc-s-dev, libglib-2.0-dev, libstdc++-dev, libc6-dev, libasn1c-crt-dev, libasn1c-rtx-dev
+Provides: asn1c-cper-dev
+Source: file://gps-noship-external/osys/asn1c/rtpersrc/

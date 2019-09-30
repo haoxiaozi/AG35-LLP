@@ -1,0 +1,15 @@
+Package: libaudcal-dbg
+Version: git-r11
+Description: audcal version git-r11 - Debugging files
+ Audio Calibration Library  This package contains ELF symbols and related
+ sources for debugging purposes.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Qualcomm-Technologies-Inc.-Proprietary
+Architecture: mdm9607
+OE: audcal
+Homepage: http://support.cdmatech.com
+Recommends: libglib-2.0-dbg, libtime-genoff-dbg, diag-dbg, libaudioalsa-dbg, libc6-dbg, libacdbmapper-dbg
+Provides: audcal-dbg
+Source: file://audio/mm-audio/audcal/

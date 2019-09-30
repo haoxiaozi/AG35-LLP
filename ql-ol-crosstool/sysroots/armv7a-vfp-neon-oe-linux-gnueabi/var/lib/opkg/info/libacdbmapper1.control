@@ -1,0 +1,14 @@
+Package: libacdbmapper1
+Version: git-r2
+Description: acdbmapper version git-r2
+ acdb mapper Library
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Qualcomm-Technologies-Inc.-Proprietary
+Architecture: mdm9607
+OE: acdbmapper
+Homepage: http://support.cdmatech.com
+Depends: libglib-2.0-0 (>= 2.44.1), libc6 (>= 2.22)
+Provides: acdbmapper
+Source: file://audio/mm-audio/audio-acdb-util/acdb-mapper/

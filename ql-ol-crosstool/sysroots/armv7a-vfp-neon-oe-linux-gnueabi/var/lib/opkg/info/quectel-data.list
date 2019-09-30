@@ -1,0 +1,7 @@
+/etc/init.d/start_quec_wifi_bridge
+/usr/bin/quec_wifi_bridge
+/usr/bin/Quec_WIFI_CLI
+/usr/lib/libql_qcmap_client.so.1.0.0
+/etc/init.d/emac
+/usr/bin/Quectel_QCMAP_CLI
+/usr/lib/libql_qcmap_client.so.1

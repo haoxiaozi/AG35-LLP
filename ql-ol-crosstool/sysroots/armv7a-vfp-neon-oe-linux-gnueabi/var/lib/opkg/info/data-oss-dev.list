@@ -1,0 +1,5 @@
+/usr/lib/pkgconfig/data-oss.pc
+/usr/include/data-oss/
+/usr/lib/librmnetctl.la
+/usr/include/data-oss/librmnetctl.h
+/usr/lib/librmnetctl.so

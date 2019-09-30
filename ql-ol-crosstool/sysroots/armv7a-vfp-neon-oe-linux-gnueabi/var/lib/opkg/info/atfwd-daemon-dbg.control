@@ -1,0 +1,14 @@
+Package: atfwd-daemon-dbg
+Version: git-r3
+Description: atfwd-daemon version git-r3 - Debugging files
+ Daemon to handle AT commands  This package contains ELF symbols and
+ related sources for debugging purposes.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Qualcomm-Technologies-Inc.-Proprietary
+Architecture: mdm9607
+OE: atfwd-daemon
+Homepage: http://support.cdmatech.com
+Recommends: libql-lib-audio-dbg, libdsutils-dbg, ql-common-tools-dbg, libgcc-s-dbg, libssl-dbg, libz-dbg, libcrypto-dbg, libc6-dbg, qmi-framework-dbg, alsa-intf-dbg, qmi-dbg
+Source: file://mdm-ss-mgr/atfwd-daemon/

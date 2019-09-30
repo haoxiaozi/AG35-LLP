@@ -1,0 +1,13 @@
+Package: native-frameworks
+Version: git-r1
+Description: native-frameworks version git-r1
+ Android IPC utilities
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Apache-2.0
+Architecture: armv7a-vfp-neon
+OE: native-frameworks
+Homepage: http://developer.android.com/
+Depends: libgcc1 (>= 4.9.3), libhardware0 (>= git), libstdc++6 (>= 4.9.3), liblog0 (>= 1.0), libselinux1 (>= git), libcutils0 (>= 1.0), libc6 (>= 2.22), system-core (>= git)
+Source: file://frameworks/native file://servicemanager.service

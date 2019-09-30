@@ -1,0 +1,13 @@
+Package: start-scripts-mssboot
+Version: 1.0-r2
+Description: start-scripts-mssboot version 1.0-r2
+ Start up script for mssboot
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Qualcomm-Technologies-Inc.-Proprietary
+Architecture: mdm9607
+OE: start-scripts-mssboot
+Homepage: http://support.cdmatech.com
+Recommends: update-rc.d
+Source: file://start_mssboot

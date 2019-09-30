@@ -1,0 +1,16 @@
+Package: libloc-xtra-dev
+Version: git-r3
+Description: loc-xtra version git-r3 - Development files
+ GPS Location Xtra library  This package contains symbolic links, header
+ files, and related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Qualcomm-Technologies-Inc.-Proprietary
+Architecture: mdm9607
+OE: loc-xtra
+Homepage: http://support.cdmatech.com
+Depends: libloc-xtra1 (= git-r3)
+Recommends: loc-hal-dev, libcutils-dev, libdsutils-dev, libconfigdb-dev, libloc-pla-dev, data-oss-dev, data-dev, libstdc++-dev, libqmi-client-helper-dev, libc6-dev, libtime-genoff-dev, libgps-utils-so-dev, qmi-dev, ql-syslog-dev, qmi-framework-dev, libloc-stub-dev, libxml-dev, diag-dev, liblog-dev, libglib-2.0-dev
+Provides: loc-xtra-dev
+Source: file://gps/location-xtra/

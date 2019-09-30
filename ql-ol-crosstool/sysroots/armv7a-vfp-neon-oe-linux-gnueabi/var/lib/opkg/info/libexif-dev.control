@@ -1,0 +1,16 @@
+Package: libexif-dev
+Version: 0.6.21-r0
+Description: Library to read the extended image information (EXIF) from JPEG pictures - Development files
+ Library to read the extended image information (EXIF) from JPEG pictures.
+ This package contains symbolic links, header files, and related items
+ necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: LGPLv2.1
+Architecture: armv7a-vfp-neon
+OE: libexif
+Homepage: http://sourceforge.net/projects/libexif
+Depends: libexif12 (= 0.6.21-r0)
+Recommends: libc6-dev
+Source: http://downloads.sourceforge.net/project/libexif/libexif/0.6.21/libexif-0.6.21.tar.gz

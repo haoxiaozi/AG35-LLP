@@ -1,0 +1,14 @@
+Package: alsa-intf-dev
+Version: git-r4
+Description: alsa-intf version git-r4 - Development files
+ ALSA Framework Library  This package contains symbolic links, header
+ files, and related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Apache-2.0
+Architecture: mdm9607
+OE: alsa-intf
+Depends: alsa-intf (= git-r4)
+Recommends: libacdbmapper-dev, libacdbrtac-dev, acdbloader-dev, libadiertac-dev, libc6-dev, libtime-genoff-dev, libaudioalsa-dev, libglib-2.0-dev, libaudcal-dev, diag-dev
+Source: file://qcom-opensource/mm-audio

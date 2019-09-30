@@ -1,0 +1,7 @@
+/usr/lib/libloc_ext.la
+/usr/lib/libloc_ext.so
+/usr/include/loc-vzw/vzwGpsLocationProvider/
+/usr/include/loc-vzw/vzwGpsLocationProvider/loc_ext/loc_vzw.h
+/usr/include/loc-vzw/
+/usr/include/loc-vzw/vzwGpsLocationProvider/loc_ext/
+/usr/lib/pkgconfig/loc-vzw.pc

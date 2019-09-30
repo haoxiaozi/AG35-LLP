@@ -1,0 +1,14 @@
+Package: libid3tag0
+Version: 0.15.1b-r7
+Description: Library for interacting with ID3 tags in MP3 files
+ Library for interacting with ID3 tags in MP3 files.
+Section: libs
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2+
+Architecture: armv7a-vfp-neon
+OE: libid3tag
+Homepage: http://sourceforge.net/projects/mad/
+Depends: libz1 (>= 1.2.8), libc6 (>= 2.22)
+Provides: libid3tag
+Source: ftp://ftp.mars.org/pub/mpeg/libid3tag-0.15.1b.tar.gz file://addpkgconfig.patch file://obsolete_automake_macros.patch

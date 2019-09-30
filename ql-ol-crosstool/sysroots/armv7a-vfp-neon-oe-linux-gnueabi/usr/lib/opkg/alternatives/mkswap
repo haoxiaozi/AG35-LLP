@@ -1,0 +1,3 @@
+/sbin/mkswap
+/usr/lib/busybox/sbin/mkswap 50
+/sbin/mkswap.util-linux 100

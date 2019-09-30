@@ -1,0 +1,13 @@
+/usr/include/mcm_sim_v01.h
+/usr/include/mcm_sms_v01.h
+/usr/include/mcm_data_v01.h
+/usr/include/mcm_qmi_adapt.h
+/usr/include/mcm_mobileap_v01.h
+/usr/include/mcm_client_v01.h
+/usr/include/mcm_dm_v01.h
+/usr/include/mcm_loc_v01.h
+/usr/include/mcm_voice_v01.h
+/usr/include/mcm_nw_v01.h
+/usr/include/mcm_atcop_v01.h
+/usr/include/mcm_common_v01.h
+/usr/include/mcm_client.h

@@ -1,0 +1,15 @@
+Package: liblog-dev
+Version: 1.0-r1
+Description: liblog version 1.0-r1 - Development files
+ Build Android liblog  This package contains symbolic links, header files,
+ and related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Apache-2.0
+Architecture: armv7a-vfp-neon
+OE: liblog
+Homepage: http://developer.android.com/
+Depends: liblog0 (= 1.0-r1)
+Recommends: libc6-dev, libgcc-s-dev, libstdc++-dev
+Source: file://liblog file://50-log.rules

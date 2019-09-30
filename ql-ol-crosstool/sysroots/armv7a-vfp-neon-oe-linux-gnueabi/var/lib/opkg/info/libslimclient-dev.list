@@ -1,0 +1,5 @@
+/usr/lib/pkgconfig/slim-client.pc
+/usr/include/slim-client/SlimClientBase.h
+/usr/include/slim-client/
+/usr/lib/libslimclient.la
+/usr/lib/libslimclient.so

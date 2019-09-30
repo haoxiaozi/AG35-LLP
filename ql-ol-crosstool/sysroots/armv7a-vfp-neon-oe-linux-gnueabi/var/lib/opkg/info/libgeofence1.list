@@ -1,0 +1,10 @@
+/usr/include/location-geofence/
+/usr/lib/libgeofence.la
+/usr/include/location-geofence/GeofenceAdapter.h
+/usr/lib/libgeofence.so.1
+/usr/lib/pkgconfig/location-geofence.pc
+/usr/include/location-geofence/GeofenceCallbacks.h
+/usr/lib/libgeofence.so
+/usr/include/location-geofence/GeoFencer.h
+/usr/include/location-geofence/GpsGeofenceCb.h
+/usr/lib/libgeofence.so.1.0.0

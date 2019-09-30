@@ -1,0 +1,14 @@
+Package: libasn1c-cper1
+Version: git-r1
+Description: asn1c-cper version git-r1
+ GPS asn1c cper
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Qualcomm-Technologies-Inc.-Proprietary
+Architecture: mdm9607
+OE: asn1c-cper
+Homepage: http://support.cdmatech.com
+Depends: libgcc1 (>= 4.9.3), libglib-2.0-0 (>= 2.44.1), libstdc++6 (>= 4.9.3), libc6 (>= 2.22)
+Provides: asn1c-cper
+Source: file://gps-noship-external/osys/asn1c/rtpersrc/

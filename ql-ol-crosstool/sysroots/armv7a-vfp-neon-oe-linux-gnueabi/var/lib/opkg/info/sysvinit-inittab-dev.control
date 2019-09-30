@@ -1,0 +1,14 @@
+Package: sysvinit-inittab-dev
+Version: 2.88dsf-r10
+Description: Inittab configuration for SysVinit - Development files
+ Inittab configuration for SysVinit.  This package contains symbolic
+ links, header files, and related items necessary for software
+ development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2
+Architecture: mdm9607
+OE: sysvinit-inittab
+Depends: sysvinit-inittab (= 2.88dsf-r10)
+Source: file://inittab file://mdm9607/inittab

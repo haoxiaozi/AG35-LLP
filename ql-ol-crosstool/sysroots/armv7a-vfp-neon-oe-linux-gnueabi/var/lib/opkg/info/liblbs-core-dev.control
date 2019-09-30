@@ -1,0 +1,16 @@
+Package: liblbs-core-dev
+Version: git-r1
+Description: lbs-core version git-r1 - Development files
+ GPS LBS Core  This package contains symbolic links, header files, and
+ related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Qualcomm-Technologies-Inc.-Proprietary
+Architecture: mdm9607
+OE: lbs-core
+Homepage: http://support.cdmatech.com
+Depends: liblbs-core1 (= git-r1)
+Recommends: libglib-2.0-dev, libgcc-s-dev, liblog-dev, loc-flp-hdr-dev, libloc-stub-dev, libdataitems-dev, libgps-utils-so-dev, libdsutils-dev, libqmi-client-helper-dev, libloc-base-util-dev, data-dev, qmi-dev, ql-syslog-dev, izat-core-dev, libssl-dev, libcrypto-dev, libstdc++-dev, libc6-dev, libtime-genoff-dev, loc-hal-dev, libsqlite3-dev, system-core-dev, libxml-dev, loc-net-iface-dev, libcutils-dev, libloc-pla-dev, data-oss-dev, diag-dev, libconfigdb-dev, qmi-framework-dev
+Provides: lbs-core-dev
+Source: file://gps/framework/native/core/

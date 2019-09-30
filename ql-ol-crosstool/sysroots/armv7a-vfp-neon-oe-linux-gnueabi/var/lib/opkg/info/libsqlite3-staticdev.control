@@ -1,0 +1,12 @@
+Package: libsqlite3-staticdev
+Version: 3:3.8.10.2-r0
+Description: Embeddable SQL database engine
+ Embeddable SQL database engine.
+Section: libs
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: PD
+Architecture: armv7a-vfp-neon
+OE: sqlite3
+Homepage: http://www.sqlite.org
+Source: http://www.sqlite.org/2015/sqlite-autoconf-3081002.tar.gz file://0001-using-the-dynamic-library.patch

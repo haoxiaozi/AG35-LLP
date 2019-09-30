@@ -1,0 +1,14 @@
+Package: qmuxd-dbg
+Version: git-r0
+Description: qmuxd version git-r0 - Debugging files
+ QMUXD Module  This package contains ELF symbols and related sources for
+ debugging purposes.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Qualcomm-Technologies-Inc.-Proprietary
+Architecture: mdm9607
+OE: qmuxd
+Homepage: http://support.cdmatech.com
+Recommends: libdsutils-dbg, libglib-2.0-dbg, diag-dbg, libconfigdb-dbg, libc6-dbg, qmi-framework-dbg, qmi-dbg
+Source: file://qmi/qmuxd

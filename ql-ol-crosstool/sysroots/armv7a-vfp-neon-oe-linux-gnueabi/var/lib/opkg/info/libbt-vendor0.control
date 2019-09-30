@@ -1,0 +1,14 @@
+Package: libbt-vendor0
+Version: git-r0
+Description: libbt-vendor version git-r0
+ Bluetooth Vendor Library
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Apache-2.0
+Architecture: armv7a-vfp-neon
+OE: libbt-vendor
+Homepage: http://codeaurora.org/
+Depends: libgcc1 (>= 4.9.3), libc6 (>= 2.22), liblog0 (>= 1.0), libcutils0, hci-qcomm-init (>= git), libstdc++6 (>= 4.9.3), libglib-2.0-0 (>= 2.44.1)
+Provides: libbt-vendor
+Source: file://hardware/qcom/bt/libbt-vendor/

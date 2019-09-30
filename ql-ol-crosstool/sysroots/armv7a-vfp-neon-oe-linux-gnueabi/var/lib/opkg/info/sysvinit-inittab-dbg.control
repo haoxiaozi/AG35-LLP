@@ -1,0 +1,12 @@
+Package: sysvinit-inittab-dbg
+Version: 2.88dsf-r10
+Description: Inittab configuration for SysVinit - Debugging files
+ Inittab configuration for SysVinit.  This package contains ELF symbols
+ and related sources for debugging purposes.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2
+Architecture: mdm9607
+OE: sysvinit-inittab
+Source: file://inittab file://mdm9607/inittab

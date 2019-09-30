@@ -1,0 +1,14 @@
+Package: quectel-data-dbg
+Version: git-r1
+Description: quectel-data version git-r1 - Debugging files
+ Quectel RemoteFs Service  This package contains ELF symbols and related
+ sources for debugging purposes.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Quectel-Wireless-Solutions-Co-Ltd.-Proprietary 
+Architecture: mdm9607
+OE: quectel-data
+Homepage: https://www.quectel.com/
+Recommends: libdsutils-dbg, libglib-2.0-dbg, data-dbg, libstdc++-dbg, diag-dbg, libgcc-s-dbg, libconfigdb-dbg, libxml-dbg, libc6-dbg, qmi-framework-dbg, libtime-genoff-dbg, qmi-dbg
+Source: file://quectel/data
