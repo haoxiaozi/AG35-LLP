@@ -1,0 +1,15 @@
+Package: bt-property-dev
+Version: git-r0
+Description: bt-property version git-r0 - Development files
+ Bluetooth Property Daemon  This package contains symbolic links, header
+ files, and related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Apache-2.0
+Architecture: armv7a-vfp-neon
+OE: bt-property
+Homepage: http://codeaurora.org/
+Depends: bt-property (= git-r0)
+Recommends: libc6-dev, libglib-2.0-dev, common-dev, liblog-dev
+Source: file://qcom-opensource/bt/property-ops/

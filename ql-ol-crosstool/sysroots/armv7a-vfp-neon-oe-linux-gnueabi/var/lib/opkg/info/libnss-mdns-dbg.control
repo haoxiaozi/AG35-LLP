@@ -1,0 +1,15 @@
+Package: libnss-mdns-dbg
+Version: 0.10-r7
+Description: Name Service Switch module for Multicast DNS (zeroconf) name resolution - Debugging files
+ Name Service Switch module for Multicast DNS (zeroconf) name resolution.
+ This package contains ELF symbols and related sources for debugging
+ purposes.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: LGPLv2.1+
+Architecture: armv7a-vfp-neon
+OE: libnss-mdns
+Homepage: http://0pointer.de/lennart/projects/nss-mdns/
+Recommends: libc6-dbg
+Source: http://0pointer.de/lennart/projects/nss-mdns/nss-mdns-0.10.tar.gz

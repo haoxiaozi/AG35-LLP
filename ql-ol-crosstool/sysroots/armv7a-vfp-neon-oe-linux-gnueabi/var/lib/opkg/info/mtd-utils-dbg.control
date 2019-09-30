@@ -1,0 +1,13 @@
+Package: mtd-utils-dbg
+Version: 2.0.1-r3
+Description: mtd-utils version 2.0.1-r3 - Debugging files
+ mtd-utils include mkfs.ubifs,ubiattach,ubinfo tools  This package
+ contains ELF symbols and related sources for debugging purposes.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2
+Architecture: armv7a-vfp-neon
+OE: mtd-utils
+Recommends: libselinux-dbg, libz-dbg, liblzo2-dbg, util-linux-libuuid-dbg, libc6-dbg
+Source: git://git.infradead.org/mtd-utils.git file://mkfs.ubifs-add-selinux.patch

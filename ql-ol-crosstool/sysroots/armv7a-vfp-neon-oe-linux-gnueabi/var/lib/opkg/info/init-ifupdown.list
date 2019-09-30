@@ -1,0 +1,8 @@
+/etc/network/if-post-down.d/
+/etc/network/if-down.d/
+/etc/network/if-pre-up.d/nfsroot
+/etc/init.d/networking
+/etc/network/if-pre-up.d/
+/etc/network/interfaces
+/etc/network/if-up.d/
+/etc/network/

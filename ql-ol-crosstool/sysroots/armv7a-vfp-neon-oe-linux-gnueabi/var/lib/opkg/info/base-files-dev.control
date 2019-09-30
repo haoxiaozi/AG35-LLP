@@ -1,0 +1,16 @@
+Package: base-files-dev
+Version: 3.0.14-r89
+Description: Miscellaneous files for the base system - Development files
+ The base-files package creates the basic system directory structure and
+ provides a small set of key configuration files for the system.  This
+ package contains symbolic links, header files, and related items
+ necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2
+Architecture: mdm9607
+OE: base-files
+Depends: base-files (= 3.0.14-r89)
+Recommends: base-passwd-dev
+Source: file://rotation file://nsswitch.conf file://motd file://inputrc file://host.conf file://profile file://shells file://fstab file://filesystems file://issue.net file://issue file://usbd file://share/dot.bashrc file://share/dot.profile file://licenses/GPL-2 file://fstab file://ro-fstab file://mdm9607/ro-fstab

@@ -1,0 +1,13 @@
+Package: start-scripts-misc-daemon
+Version: 1.0-r2
+Description: start-scripts-misc-daemon version 1.0-r2
+ Start up script for misc daemons
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Qualcomm-Technologies-Inc.-Proprietary
+Architecture: mdm9607
+OE: start-scripts-misc-daemon
+Homepage: http://support.cdmatech.com
+Recommends: update-rc.d
+Source: file://start_misc-daemon file://misc_daemon.service

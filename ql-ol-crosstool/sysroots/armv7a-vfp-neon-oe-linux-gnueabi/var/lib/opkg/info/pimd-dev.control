@@ -1,0 +1,14 @@
+Package: pimd-dev
+Version: git-r5
+Description: pimd version git-r5 - Development files
+ PIMD - Multicast Routing Daemon  This package contains symbolic links,
+ header files, and related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: BSD
+Architecture: armv7a-vfp-neon
+OE: pimd
+Depends: pimd (= git-r5)
+Recommends: libc6-dev
+Source: git://codeaurora.org/quic/le/pimd.git;protocol=git;branch=github/master file://0001-pimb-multicast-support-on-network.patch file://no-deprecated-declarations.patch

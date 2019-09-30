@@ -1,0 +1,14 @@
+Package: native-frameworks-staticdev
+Version: git-r1
+Description: native-frameworks version git-r1 - Development files (Static Libraries)
+ Android IPC utilities  This package contains static libraries for
+ software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Apache-2.0
+Architecture: armv7a-vfp-neon
+OE: native-frameworks
+Homepage: http://developer.android.com/
+Depends: native-frameworks-dev (= git-r1)
+Source: file://frameworks/native file://servicemanager.service

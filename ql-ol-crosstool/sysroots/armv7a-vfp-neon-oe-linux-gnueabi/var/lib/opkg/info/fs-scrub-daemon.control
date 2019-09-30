@@ -1,0 +1,14 @@
+Package: fs-scrub-daemon
+Version: 1.0-r1
+Description: fs-scrub-daemon version 1.0-r1
+ Daemon to perform scrubbing
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Qualcomm-Technologies-Inc.-Proprietary
+Architecture: mdm9607
+OE: fs-scrub-daemon
+Homepage: http://support.cdmatech.com
+Depends: libglib-2.0-0 (>= 2.44.1), qmi-framework (>= git), libc6 (>= 2.22)
+Recommends: update-rc.d
+Source: file://fs-scrub-daemon/

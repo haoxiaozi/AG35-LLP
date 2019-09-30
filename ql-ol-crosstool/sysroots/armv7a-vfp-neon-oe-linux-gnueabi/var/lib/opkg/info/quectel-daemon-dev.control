@@ -1,0 +1,15 @@
+Package: quectel-daemon-dev
+Version: git-r1
+Description: quectel-daemon version git-r1 - Development files
+ Quectel Function Daemon  This package contains symbolic links, header
+ files, and related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Quectel-Wireless-Solutions-Co-Ltd.-Proprietary 
+Architecture: mdm9607
+OE: quectel-daemon
+Homepage: https://www.quectel.com/
+Depends: qmi-framework
+Recommends: update-rc.d-dev, libc6-dev, libql-lib-audio-dev, qmi-dev, qmi-framework-dev, ql-common-tools-dev, initscripts-dev
+Source: file://quectel/daemon

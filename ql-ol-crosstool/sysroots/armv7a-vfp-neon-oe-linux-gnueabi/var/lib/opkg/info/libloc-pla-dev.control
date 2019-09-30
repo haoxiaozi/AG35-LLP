@@ -1,0 +1,16 @@
+Package: libloc-pla-dev
+Version: git-r1
+Description: loc-pla version git-r1 - Development files
+ GPS Loc Platform Library Abstraction  This package contains symbolic
+ links, header files, and related items necessary for software
+ development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: BSD
+Architecture: armv7a-vfp-neon
+OE: loc-pla
+Depends: libloc-pla1 (= git-r1)
+Recommends: libgcc-s-dev, liblog-dev, libglib-2.0-dev, libstdc++-dev, libloc-stub-dev, libc6-dev
+Provides: loc-pla-dev
+Source: file://hardware/qcom/gps/utils/platform_lib_abstractions/loc_pla/

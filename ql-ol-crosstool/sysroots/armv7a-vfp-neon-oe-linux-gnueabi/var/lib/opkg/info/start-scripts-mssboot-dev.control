@@ -1,0 +1,15 @@
+Package: start-scripts-mssboot-dev
+Version: 1.0-r2
+Description: start-scripts-mssboot version 1.0-r2 - Development files
+ Start up script for mssboot  This package contains symbolic links, header
+ files, and related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Qualcomm-Technologies-Inc.-Proprietary
+Architecture: mdm9607
+OE: start-scripts-mssboot
+Homepage: http://support.cdmatech.com
+Depends: start-scripts-mssboot (= 1.0-r2)
+Recommends: update-rc.d-dev, initscripts-dev
+Source: file://start_mssboot

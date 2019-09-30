@@ -1,0 +1,14 @@
+Package: libunwind-dev
+Version: 1.0-r0
+Description: libunwind version 1.0-r0 - Development files
+ Libunwind  This package contains symbolic links, header files, and
+ related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: MIT
+Architecture: armv7a-vfp-neon
+OE: libunwind
+Depends: libunwind0 (= 1.0-r0)
+Recommends: libc6-dev, libatomic-ops-dev, libgcc-s-dev
+Source: file://external/libunwind/

@@ -1,0 +1,13 @@
+/usr/include/dsutils/ds_string.h
+/usr/include/dsutils/
+/usr/include/dsutils/queue.h
+/usr/include/dsutils/stm2.h
+/usr/include/dsutils/stm2_os.h
+/usr/include/dsutils/ds_list.h
+/usr/lib/libdsutils.la
+/usr/include/dsutils/ds_sl_list.h
+/usr/include/dsutils/ds_trace.h
+/usr/include/dsutils/ds_util.h
+/usr/lib/pkgconfig/dsutils.pc
+/usr/lib/libdsutils.so
+/usr/include/dsutils/ds_cmdq.h

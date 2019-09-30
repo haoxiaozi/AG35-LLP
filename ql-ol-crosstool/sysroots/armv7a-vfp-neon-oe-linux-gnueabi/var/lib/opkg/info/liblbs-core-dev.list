@@ -1,0 +1,13 @@
+/usr/include/lbs-core/LBSAdapterBase.h
+/usr/lib/liblbs_core.la
+/usr/include/lbs-core/LBSProxy.h
+/usr/include/lbs-core/LBSApiBase.h
+/usr/include/lbs-core/LBSApiV02.h
+/usr/include/lbs-core/WiperData.h
+/usr/lib/liblbs_core.so
+/usr/include/lbs-core/LocApiProxy.h
+/usr/include/lbs-core/
+/usr/include/lbs-core/geofence.h
+/usr/include/lbs-core/SlimSensor.h
+/usr/lib/pkgconfig/lbs-core.pc
+/usr/include/lbs-core/LBSApiRpc.h

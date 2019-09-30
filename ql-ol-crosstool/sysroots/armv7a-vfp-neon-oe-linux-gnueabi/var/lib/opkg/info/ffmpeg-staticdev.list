@@ -1,0 +1,3 @@
+/lib/libavutil.a
+/lib/libavcodec.a
+/lib/libavformat.a

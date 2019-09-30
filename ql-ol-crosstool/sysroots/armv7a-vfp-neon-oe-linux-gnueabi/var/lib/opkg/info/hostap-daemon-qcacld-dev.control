@@ -1,0 +1,14 @@
+Package: hostap-daemon-qcacld-dev
+Version: git-r4.2
+Description: hostap-daemon-qcacld version git-r4.2 - Development files
+ Hostap Daemon  This package contains symbolic links, header files, and
+ related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: BSD
+Architecture: armv7a-vfp-neon
+OE: hostap-daemon-qcacld
+Depends: hostap-daemon-qcacld (= git-r4.2)
+Recommends: libc6-dev, libnl-3-dev, openssl-dev, libnl-genl-dev, libcrypto-dev
+Source: file://external/wpa_supplicant_8/ file://defconfig-qcacld

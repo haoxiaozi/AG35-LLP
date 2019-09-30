@@ -1,0 +1,12 @@
+Package: kernel-module-quectel-phy
+Version: git-r5_perf
+Description: quectel-phy kernel module
+ quectel-phy kernel module
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2
+Architecture: mdm9607
+OE: linux-quic
+Depends: kernel-3.18.48
+Source: file://kernel file://qti.key

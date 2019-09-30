@@ -1,0 +1,15 @@
+Package: lib-drplugin-server-dbg
+Version: git-r1
+Description: drplugin-server version git-r1 - Debugging files
+ DR Plugin server  This package contains ELF symbols and related sources
+ for debugging purposes.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Qualcomm-Technologies-Inc.-Proprietary
+Architecture: mdm9607
+OE: drplugin-server
+Homepage: http://support.cdmatech.com
+Recommends: libsqlite3-dbg, libslimutils-dbg, libdataitems-dbg, libstdc++-dbg, libloc-pla-dbg, libssl-dbg, libtime-genoff-dbg, libcrypto-dbg, libc6-dbg, libxml-dbg, izat-core-dbg, qmi-framework-dbg, qmi-dbg, system-core-dbg, diag-dbg, libglib-2.0-dbg, libgcc-s-dbg, data-oss-dbg, libslimcommon-dbg, libloc-externaldrcore-dbg, libcutils-dbg, loc-net-iface-dbg, libloc-externaldr-dbg, libslimclient-dbg, loc-hal-dbg, liblog-dbg, libconfigdb-dbg, libdsutils-dbg, libqmi-client-helper-dbg, data-dbg, libgps-utils-so-dbg, libloc-base-util-dbg, libloc-stub-dbg, liblbs-core-dbg
+Provides: drplugin-server-dbg
+Source: file://gps-noship/dr_amt/drplugin_server/

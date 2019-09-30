@@ -1,0 +1,12 @@
+/usr/include/izat-core/
+/usr/include/izat-core/IzatApiBase.h
+/usr/include/izat-core/IzatPcid.h
+/usr/lib/libizat_core.la
+/usr/include/izat-core/IzatApiRpc.h
+/usr/include/izat-core/XtraApis.h
+/usr/lib/pkgconfig/izat-core.pc
+/usr/lib/libizat_core.so
+/usr/include/izat-core/IzatAdapterBase.h
+/usr/include/izat-core/IzatApiV02.h
+/usr/lib/libizat_core.so.1
+/usr/lib/libizat_core.so.1.0.0

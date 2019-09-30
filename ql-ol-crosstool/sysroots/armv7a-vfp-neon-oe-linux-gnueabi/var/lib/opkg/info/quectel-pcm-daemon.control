@@ -1,0 +1,14 @@
+Package: quectel-pcm-daemon
+Version: git-r1
+Description: quectel-pcm-daemon version git-r1
+ Quectel Function Daemon
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Quectel-Wireless-Solutions-Co-Ltd.-Proprietary 
+Architecture: mdm9607
+OE: quectel-pcm-daemon
+Homepage: https://www.quectel.com/
+Depends: libc6 (>= 2.22)
+Recommends: update-rc.d
+Source: file://quectel/pcm-daemon

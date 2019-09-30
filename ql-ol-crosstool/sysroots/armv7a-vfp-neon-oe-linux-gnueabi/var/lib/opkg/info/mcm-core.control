@@ -1,0 +1,14 @@
+Package: mcm-core
+Version: git-r5
+Description: mcm-core version git-r5
+ QTI Mobile Connection Manager Core libraries and Service
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Qualcomm-Technologies-Inc.-Proprietary
+Architecture: mdm9607
+OE: mcm-core
+Homepage: http://support.cdmatech.com
+Depends: libgcc1 (>= 4.9.3), libtime-genoff1 (>= git), libadiertac1 (>= 1.0), libstdc++6 (>= 4.9.3), libaudioalsa1 (>= git), libconfigdb0 (>= git), libdsutils1 (>= git), libacdbrtac1 (>= 1.0), libc6 (>= 2.22), ql-syslog (>= git), data (>= git), qmi (>= git), qmi-framework (>= git), alsa-intf (>= git), libqmi-client-helper1 (>= git), libaudcal1 (>= git), diag (>= git), libglib-2.0-0 (>= 2.44.1), libxml0 (>= git), acdbloader (>= git), libacdbmapper1 (>= git)
+Recommends: update-rc.d
+Source: file://mcm-core/

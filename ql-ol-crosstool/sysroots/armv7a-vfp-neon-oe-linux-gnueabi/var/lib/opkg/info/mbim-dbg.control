@@ -1,0 +1,14 @@
+Package: mbim-dbg
+Version: git-r2
+Description: mbim version git-r2 - Debugging files
+ USB Mobile Broadband Interface Model (MBIM) Command Processor  This
+ package contains ELF symbols and related sources for debugging purposes.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Qualcomm-Technologies-Inc.-Proprietary
+Architecture: mdm9607
+OE: mbim
+Homepage: http://support.cdmatech.com
+Recommends: liblog-dbg, diag-dbg, qmi-framework-dbg, libcutils-dbg, libc6-dbg
+Source: file://mbim

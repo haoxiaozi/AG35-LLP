@@ -1,0 +1,14 @@
+Package: libslimutils1
+Version: git-r1
+Description: slim-utils version git-r1
+ SLIM Utils
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Qualcomm-Technologies-Inc.-Proprietary
+Architecture: mdm9607
+OE: slim-utils
+Homepage: http://support.cdmatech.com
+Depends: libtime-genoff1 (>= git), libgcc1 (>= 4.9.3), diag (>= git), libstdc++6 (>= 4.9.3), libc6 (>= 2.22), libglib-2.0-0 (>= 2.44.1)
+Provides: slim-utils
+Source: file://gps/slim/utils/

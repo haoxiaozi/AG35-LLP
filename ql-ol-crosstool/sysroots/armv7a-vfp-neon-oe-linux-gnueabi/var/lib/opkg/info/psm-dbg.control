@@ -1,0 +1,14 @@
+Package: psm-dbg
+Version: git-invalidgit-r0
+Description: psm version git-invalidgit-r0 - Debugging files
+ QTI Power Saving Mode Framework  This package contains ELF symbols and
+ related sources for debugging purposes.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Qualcomm-Technologies-Inc.-Proprietary
+Architecture: mdm9607
+OE: psm
+Homepage: http://support.cdmatech.com
+Recommends: libdsutils-dbg, libglib-2.0-dbg, data-dbg, libtime-genoff-dbg, diag-dbg, libconfigdb-dbg, libxml-dbg, libc6-dbg, qmi-framework-dbg, qmi-dbg
+Source: file://mdm-ss-mgr/psm/

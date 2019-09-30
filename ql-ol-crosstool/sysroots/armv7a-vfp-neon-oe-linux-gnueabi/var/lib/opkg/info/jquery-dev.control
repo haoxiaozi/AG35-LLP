@@ -1,0 +1,13 @@
+Package: jquery-dev
+Version: 1.9.1-r0
+Description: jquery version 1.9.1-r0 - Development files
+ JQUERY  This package contains symbolic links, header files, and related
+ items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: MIT
+Architecture: armv7a-vfp-neon
+OE: jquery
+Depends: jquery (= 1.9.1-r0)
+Source: http://code.jquery.com/jquery-1.9.1.min.js

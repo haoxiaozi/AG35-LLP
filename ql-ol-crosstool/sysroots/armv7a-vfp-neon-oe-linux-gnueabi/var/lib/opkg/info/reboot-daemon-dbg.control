@@ -1,0 +1,13 @@
+Package: reboot-daemon-dbg
+Version: 1.0-r4
+Description: reboot-daemon version 1.0-r4 - Debugging files
+ Rebooter daemon  This package contains ELF symbols and related sources
+ for debugging purposes.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: BSD
+Architecture: armv7a-vfp-neon
+OE: reboot-daemon
+Recommends: ql-syslog-dbg, libc6-dbg
+Source: file://mdm-ss-mgr/reboot-daemon file://reboot-daemon.service

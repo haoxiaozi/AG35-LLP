@@ -1,0 +1,13 @@
+Package: lowi-server
+Version: git-r1
+Description: lowi-server version git-r1
+ GPS lowi server
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Qualcomm-Technologies-Inc.-Proprietary
+Architecture: mdm9607
+OE: lowi-server
+Homepage: http://support.cdmatech.com
+Depends: libgcc1 (>= 4.9.3), liblog0 (>= 1.0), libstdc++6 (>= 4.9.3), liblowi-client1 (>= git), libloc-mq-client1 (>= git), libnl-3-200 (>= 3.2.25), libnl-3-genl (>= 3.2.25), libc6 (>= 2.22), libglib-2.0-0 (>= 2.44.1), libloc-base-util1 (>= git)
+Source: file://gps-noship/internal/lowi/lowi_server/

@@ -1,0 +1,12 @@
+Package: kernel-module-nf-conntrack-rtsp
+Version: 3.7-r6_perf
+Description: nf-conntrack-rtsp kernel module
+ nf-conntrack-rtsp kernel module; RTSP connection tracking module
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2
+Architecture: mdm9607
+OE: rtsp-alg
+Depends: kernel-3.18.48
+Source: http://github.com/maru-sama/rtsp-linux/archive/3.7.tar.gz file://Makefile.patch

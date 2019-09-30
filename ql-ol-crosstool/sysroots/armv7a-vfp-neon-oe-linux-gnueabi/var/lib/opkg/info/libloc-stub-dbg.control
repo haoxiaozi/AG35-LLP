@@ -1,0 +1,14 @@
+Package: libloc-stub-dbg
+Version: git-r1
+Description: loc-stub version git-r1 - Debugging files
+ GPS Loc Stub  This package contains ELF symbols and related sources for
+ debugging purposes.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: BSD
+Architecture: armv7a-vfp-neon
+OE: loc-stub
+Recommends: liblog-dbg, libstdc++-dbg, libglib-2.0-dbg, libgcc-s-dbg, libc6-dbg
+Provides: loc-stub-dbg
+Source: file://hardware/qcom/gps/utils/platform_lib_abstractions/loc_stub/

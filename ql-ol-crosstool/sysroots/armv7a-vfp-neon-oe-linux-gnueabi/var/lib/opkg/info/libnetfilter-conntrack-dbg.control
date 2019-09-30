@@ -1,0 +1,14 @@
+Package: libnetfilter-conntrack-dbg
+Version: 0.9.1-r0
+Description: libnetfilter-conntrack version 0.9.1-r0 - Debugging files
+ Userspace library providing a programming interface (API) to the in-
+ kernel connection tracking state table  This package contains ELF symbols
+ and related sources for debugging purposes.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2+
+Architecture: armv7a-vfp-neon
+OE: libnetfilter-conntrack
+Recommends: libc6-dbg, libnfnetlink-dbg
+Source: http://www.netfilter.org/projects/libnetfilter_conntrack/files/libnetfilter_conntrack-0.9.1.tar.bz2

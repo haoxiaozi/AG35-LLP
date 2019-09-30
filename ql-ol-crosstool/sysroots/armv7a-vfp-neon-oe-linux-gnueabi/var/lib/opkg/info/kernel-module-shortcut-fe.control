@@ -1,0 +1,12 @@
+Package: kernel-module-shortcut-fe
+Version: git-r0_perf
+Description: shortcut-fe kernel module
+ shortcut-fe kernel module; Shortcut Forwarding Engine - IPv4 edition
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: ISC
+Architecture: mdm9607
+OE: sfe
+Depends: kernel-3.18.48
+Source: file://shortcut-fe/shortcut-fe/

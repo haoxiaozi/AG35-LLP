@@ -1,0 +1,2 @@
+/etc/init.d/aaa_quectel_pcm_daemon
+/usr/bin/quectel_pcm_daemon

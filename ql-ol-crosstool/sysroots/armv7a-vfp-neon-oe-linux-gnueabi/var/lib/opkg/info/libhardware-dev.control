@@ -1,0 +1,15 @@
+Package: libhardware-dev
+Version: git-r6
+Description: libhardware version git-r6 - Development files
+ hardware libhardware headers  This package contains symbolic links,
+ header files, and related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Apache-2.0
+Architecture: armv7a-vfp-neon
+OE: libhardware
+Homepage: http://codeaurora.org/
+Depends: libhardware0 (= git-r6)
+Recommends: libc6-dev, libcutils-dev, system-core-dev, libstdc++-dev, liblog-dev
+Source: file://hardware/libhardware/

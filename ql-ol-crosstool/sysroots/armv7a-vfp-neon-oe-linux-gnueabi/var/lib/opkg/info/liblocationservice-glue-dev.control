@@ -1,0 +1,16 @@
+Package: liblocationservice-glue-dev
+Version: git-r1
+Description: loc-glue version git-r1 - Development files
+ GPS Location Service library  This package contains symbolic links,
+ header files, and related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Qualcomm-Technologies-Inc.-Proprietary
+Architecture: mdm9607
+OE: loc-glue
+Homepage: http://support.cdmatech.com
+Depends: liblocationservice-glue1 (= git-r1)
+Recommends: libglib-2.0-dev, libgcc-s-dev, libflp-dev, liblbs-core-dev, liblocationservice-dev, libdataitems-dev, libgps-utils-so-dev, libdsutils-dev, libulp2-dev, libloc-stub-dev, libloc-base-util-dev, libevent-observer-dev, data-dev, system-core-dev, qmi-dev, ql-syslog-dev, izat-core-dev, libssl-dev, diag-dev, libcrypto-dev, libstdc++-dev, libc6-dev, libtime-genoff-dev, loc-hal-dev, libsqlite3-dev, libcutils-dev, libloc-mq-client-dev, libxml-dev, libqmi-client-helper-dev, loc-net-iface-dev, liblog-dev, liblowi-client-dev, libloc-pla-dev, data-oss-dev, libdrplugin-dev, libgnsspps-dev, libdrplugin-client-dev, qmi-framework-dev, libconfigdb-dev, location-geofence-dev
+Provides: loc-glue-dev
+Source: file://gps/framework/native/framework-glue

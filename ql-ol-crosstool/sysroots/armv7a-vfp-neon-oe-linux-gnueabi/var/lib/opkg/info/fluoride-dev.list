@@ -1,0 +1,11 @@
+/usr/lib/libbtbta.la
+/usr/lib/libbtif.la
+/usr/lib/libbt_qcom_sbc_decoder.la
+/usr/lib/libbtprofile.la
+/usr/lib/libbtcore.la
+/usr/lib/libbtdevice.la
+/usr/lib/libbtutils.la
+/usr/lib/libbt-hci.la
+/usr/lib/libbtosi.la
+/usr/lib/libbluetoothdefault.la
+/usr/lib/libbtstack.la

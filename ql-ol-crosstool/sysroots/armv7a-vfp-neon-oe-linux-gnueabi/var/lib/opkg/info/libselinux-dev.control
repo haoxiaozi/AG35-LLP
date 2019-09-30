@@ -1,0 +1,15 @@
+Package: libselinux-dev
+Version: git-r1
+Description: libselinux version git-r1 - Development files
+ QUECTEL libselinux  This package contains symbolic links, header files,
+ and related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Quectel-Wireless-Solutions-Co-Ltd.-Proprietary   & GPLv2+
+Architecture: mdm9607
+OE: libselinux
+Homepage: https://www.quectel.com/
+Depends: libselinux1 (= git-r1)
+Recommends: libsepol-dev, libc6-dev, libpcre-dev
+Source: file://quectel/selinux/libselinux/

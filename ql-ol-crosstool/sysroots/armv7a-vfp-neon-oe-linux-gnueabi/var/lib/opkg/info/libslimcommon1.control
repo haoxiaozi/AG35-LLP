@@ -1,0 +1,14 @@
+Package: libslimcommon1
+Version: git-r1
+Description: slim-common version git-r1
+ SLIM Common library
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Qualcomm-Technologies-Inc.-Proprietary
+Architecture: mdm9607
+OE: slim-common
+Homepage: http://support.cdmatech.com
+Depends: libtime-genoff1 (>= git), libslimutils1 (>= git), libstdc++6 (>= 4.9.3), libc6 (>= 2.22), libconfigdb0 (>= git), libdsutils1 (>= git), libxml0 (>= git), qmi (>= git), qmi-framework (>= git), diag (>= git), libglib-2.0-0 (>= 2.44.1)
+Provides: slim-common
+Source: file://gps-noship/slim/

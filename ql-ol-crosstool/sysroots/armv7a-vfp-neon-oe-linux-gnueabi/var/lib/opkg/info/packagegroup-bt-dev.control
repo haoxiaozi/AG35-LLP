@@ -1,0 +1,14 @@
+Package: packagegroup-bt-dev
+Version: 1.0-r1
+Description: BT Deamons - Development files
+ BT Deamons.  This package contains symbolic links, header files, and
+ related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: BSD
+Architecture: all
+OE: packagegroup-bt
+Depends: packagegroup-bt (= 1.0-r1)
+Recommends: bt-app-dev, bt-property-dev, fluoride-dev, libbt-vendor-dev
+Source: None

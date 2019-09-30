@@ -1,0 +1,15 @@
+Package: modutils-initscripts-dev
+Version: 1.0-r7
+Description: Initscript for auto-loading kernel modules on boot - Development files
+ Initscript for auto-loading kernel modules on boot.  This package
+ contains symbolic links, header files, and related items necessary for
+ software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: PD
+Architecture: armv7a-vfp-neon
+OE: modutils-initscripts
+Depends: modutils-initscripts (= 1.0-r7)
+Recommends: update-rc.d-dev, initscripts-dev
+Source: file://modutils.sh file://PD.patch

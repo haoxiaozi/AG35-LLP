@@ -1,0 +1,15 @@
+Package: native-frameworks-dev
+Version: git-r1
+Description: native-frameworks version git-r1 - Development files
+ Android IPC utilities  This package contains symbolic links, header
+ files, and related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Apache-2.0
+Architecture: armv7a-vfp-neon
+OE: native-frameworks
+Homepage: http://developer.android.com/
+Depends: native-frameworks (= git-r1)
+Recommends: libhardware-dev, libgcc-s-dev, liblog-dev, libglib-2.0-dev, libstdc++-dev, libc6-dev, system-core-dev, libcutils-dev, libselinux-dev
+Source: file://frameworks/native file://servicemanager.service

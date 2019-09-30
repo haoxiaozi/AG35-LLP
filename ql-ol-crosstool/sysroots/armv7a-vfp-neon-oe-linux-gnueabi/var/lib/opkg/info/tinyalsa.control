@@ -1,0 +1,12 @@
+Package: tinyalsa
+Version: git-r1
+Description: tinyalsa version git-r1
+ Tinyalsa Library
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: BSD
+Architecture: armv7a-vfp-neon
+OE: tinyalsa
+Depends: liblog0 (>= 1.0), libcutils0 (>= 1.0), libstdc++6 (>= 4.9.3), libc6 (>= 2.22)
+Source: git://codeaurora.org/quic/le/platform/external/tinyalsa.git;protocol=git;branch=github/master file://Makefile.am file://configure.ac file://tinyalsa.pc.in file://0001-tinyalsa-Added-avail_min-member.patch file://0001-Add-PCM_FORMAT_INVALID-constant.patch file://0001-pcm-add-support-to-set-silence_size.patch file://0001-tinyalsa-Enable-compilation-with-latest-TinyALSA.patch file://0001-tinyalsa-add-mixer_read-api-to-read-event-informatio.patch

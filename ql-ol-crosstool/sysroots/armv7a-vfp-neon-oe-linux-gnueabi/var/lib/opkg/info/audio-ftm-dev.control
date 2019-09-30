@@ -1,0 +1,15 @@
+Package: audio-ftm-dev
+Version: git-r5
+Description: audio-ftm version git-r5 - Development files
+ Audio FTM  This package contains symbolic links, header files, and
+ related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Qualcomm-Technologies-Inc.-Proprietary
+Architecture: mdm9607
+OE: audio-ftm
+Homepage: http://support.cdmatech.com
+Depends: audio-ftm (= git-r5)
+Recommends: alsa-intf-dev, libglib-2.0-dev, libc6-dev, tinyalsa-dev, common-dev, diag-dev
+Source: file://audio/mm-audio/audio_ftm/

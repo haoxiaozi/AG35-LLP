@@ -1,0 +1,12 @@
+Package: keymaps-dbg
+Version: 1.0-r31
+Description: Keyboard maps - Debugging files
+ Keymaps and initscript to set the keymap on bootup.  This package
+ contains ELF symbols and related sources for debugging purposes.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2
+Architecture: mdm9607
+OE: keymaps
+Source: file://keymap.sh file://GPLv2.patch

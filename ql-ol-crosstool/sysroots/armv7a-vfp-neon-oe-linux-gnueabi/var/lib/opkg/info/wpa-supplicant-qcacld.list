@@ -1,0 +1,4 @@
+/usr/sbin/wpa_passphrase
+/usr/lib/libwpa_client.so
+/usr/sbin/wpa_supplicant
+/usr/sbin/wpa_cli

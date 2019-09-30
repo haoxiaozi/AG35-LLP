@@ -1,0 +1,3 @@
+/sbin/rmmod
+/usr/lib/busybox/sbin/rmmod 50
+/sbin/rmmod.kmod 60

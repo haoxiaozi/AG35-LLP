@@ -1,0 +1,12 @@
+Package: mtd-utils-ubifs
+Version: 2.0.1-r3
+Description: mtd-utils version 2.0.1-r3
+ mtd-utils include mkfs.ubifs,ubiattach,ubinfo tools
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2
+Architecture: armv7a-vfp-neon
+OE: mtd-utils
+Depends: libselinux1 (>= git), libz1 (>= 1.2.8), liblzo2-2 (>= 2.09), libuuid1 (>= 2.26.2), libc6 (>= 2.22)
+Source: git://git.infradead.org/mtd-utils.git file://mkfs.ubifs-add-selinux.patch

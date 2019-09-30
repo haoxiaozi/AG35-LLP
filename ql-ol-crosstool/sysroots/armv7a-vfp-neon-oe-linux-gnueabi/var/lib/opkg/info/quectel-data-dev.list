@@ -1,0 +1,5 @@
+/usr/lib/pkgconfig/ql-data.pc
+/usr/lib/libql_qcmap_client.la
+/usr/include/ql_qcmap_client_api.h
+/usr/include/ql_qcmap_client.h
+/usr/lib/libql_qcmap_client.so

@@ -1,0 +1,14 @@
+Package: garden-app-dbg
+Version: git-r5
+Description: garden-app version git-r5 - Debugging files
+ GPS Garden test shippable app for LOC API HAL  This package contains ELF
+ symbols and related sources for debugging purposes.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Qualcomm-Technologies-Inc.-Proprietary
+Architecture: mdm9607
+OE: garden-app
+Homepage: http://support.cdmatech.com
+Recommends: liblocationservice-dbg, libloc-pla-dbg, data-dbg, libglib-2.0-dbg, libgcc-s-dbg, loc-hal-dbg, libflp-dbg, liblocationservice-glue-dbg, libc6-dbg, libgps-utils-so-dbg, libulp2-dbg, libloc-ext-dbg
+Source: file://gps/garden-app/

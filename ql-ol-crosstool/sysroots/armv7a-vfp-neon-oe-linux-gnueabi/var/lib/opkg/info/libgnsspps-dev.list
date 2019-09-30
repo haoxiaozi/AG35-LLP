@@ -1,0 +1,5 @@
+/usr/lib/libgnsspps.la
+/usr/include/gnsspps/
+/usr/include/gnsspps/gnsspps.h
+/usr/lib/pkgconfig/gnsspps.pc
+/usr/lib/libgnsspps.so

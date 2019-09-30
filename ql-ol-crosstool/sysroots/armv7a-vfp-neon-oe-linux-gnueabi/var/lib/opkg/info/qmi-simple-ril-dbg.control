@@ -1,0 +1,14 @@
+Package: qmi-simple-ril-dbg
+Version: 1.0-r1
+Description: qmi-simple-ril version 1.0-r1 - Debugging files
+ QMI Test application  This package contains ELF symbols and related
+ sources for debugging purposes.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Qualcomm-Technologies-Inc.-Proprietary
+Architecture: mdm9607
+OE: qmi-simple-ril
+Homepage: http://support.cdmatech.com
+Recommends: libc6-dbg, libglib-2.0-dbg, qmi-framework-dbg, qmi-dbg
+Source: file://qmi/tests

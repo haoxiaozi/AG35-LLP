@@ -1,0 +1,13 @@
+Package: embms-kernel
+Version: git-r0_perf
+Description: embms-kernel version git-r0_perf
+ Embms Kernel Module
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: ISC
+Architecture: mdm9607
+OE: embms-kernel
+Depends: kernel-module-embms-kernel
+Recommends: update-rc.d
+Source: file://kernel/msm-3.18/net/embms_kernel/ file://start_embms_le

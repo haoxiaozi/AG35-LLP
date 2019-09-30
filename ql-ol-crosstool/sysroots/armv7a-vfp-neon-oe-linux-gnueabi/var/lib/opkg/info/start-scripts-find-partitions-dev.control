@@ -1,0 +1,16 @@
+Package: start-scripts-find-partitions-dev
+Version: 1.0-r4
+Description: start-scripts-find-partitions version 1.0-r4 - Development files
+ Start up script for detecting partitions  This package contains symbolic
+ links, header files, and related items necessary for software
+ development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: BSD
+Architecture: mdm9607
+OE: start-scripts-find-partitions
+Homepage: http://codeaurora.org
+Depends: start-scripts-find-partitions (= 1.0-r4)
+Recommends: update-rc.d-dev, initscripts-dev
+Source: file://mdm9607/find_partitions.sh file://find_partitions.service

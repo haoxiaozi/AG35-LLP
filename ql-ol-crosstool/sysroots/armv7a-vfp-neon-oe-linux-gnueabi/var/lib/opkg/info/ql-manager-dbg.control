@@ -1,0 +1,14 @@
+Package: ql-manager-dbg
+Version: git-r21
+Description: ql-manager version git-r21 - Debugging files
+ ql-manager version git-r21.  This package contains ELF symbols and
+ related sources for debugging purposes.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Quectel-Wireless-Solutions-Co-Ltd.-Proprietary 
+Architecture: mdm9607
+OE: ql-manager
+Homepage: https://www.quectel.com/
+Recommends: libdsutils-dbg, libnl-genl-dbg, diag-dbg, libconfigdb-dbg, data-dbg, adns-dbg, libtime-genoff-dbg, libglib-2.0-dbg, ql-common-tools-dbg, libnl-3-dbg, libxml-dbg, libc6-dbg, qmi-framework-dbg, qmi-dbg
+Source: file://quectel/manager/

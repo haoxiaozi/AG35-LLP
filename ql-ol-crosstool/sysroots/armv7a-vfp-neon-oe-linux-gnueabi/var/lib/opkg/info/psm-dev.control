@@ -1,0 +1,15 @@
+Package: psm-dev
+Version: git-invalidgit-r0
+Description: psm version git-invalidgit-r0 - Development files
+ QTI Power Saving Mode Framework  This package contains symbolic links,
+ header files, and related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Qualcomm-Technologies-Inc.-Proprietary
+Architecture: mdm9607
+OE: psm
+Homepage: http://support.cdmatech.com
+Depends: psm (= git-invalidgit-r0)
+Recommends: common-dev, libdsutils-dev, libconfigdb-dev, libglib-2.0-dev, data-dev, update-rc.d-dev, time-services-dev, libc6-dev, libtime-genoff-dev, qmi-dev, initscripts-dev, qmi-framework-dev, libxml-dev, diag-dev
+Source: file://mdm-ss-mgr/psm/

@@ -1,0 +1,3 @@
+/sbin/modinfo
+/usr/lib/busybox/sbin/modinfo 50
+/sbin/modinfo.kmod 60

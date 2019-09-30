@@ -1,0 +1,15 @@
+Package: libext4-utils-staticdev
+Version: git-r1
+Description: ext4-utils version git-r1 - Development files (Static Libraries)
+ EXT4 UTILS  This package contains static libraries for software
+ development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Apache-2.0
+Architecture: armv7a-vfp-neon
+OE: ext4-utils
+Homepage: http://developer.android.com/
+Depends: libext4-utils-dev (= git-r1)
+Provides: ext4-utils-staticdev
+Source: file://ext4_utils

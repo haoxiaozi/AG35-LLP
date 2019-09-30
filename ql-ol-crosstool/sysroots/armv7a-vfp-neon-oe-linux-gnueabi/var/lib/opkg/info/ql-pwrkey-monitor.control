@@ -1,0 +1,14 @@
+Package: ql-pwrkey-monitor
+Version: git-r1
+Description: ql-pwrkey-monitor version git-r1
+ Quectel ql_pwrkey_monitor data dispatch
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Quectel-Wireless-Solutions-Co-Ltd.-Proprietary 
+Architecture: mdm9607
+OE: ql-pwrkey-monitor
+Homepage: https://www.quectel.com/
+Depends: libc6 (>= 2.22)
+Recommends: update-rc.d
+Source: file://quectel/ql_pwrkey_monitor

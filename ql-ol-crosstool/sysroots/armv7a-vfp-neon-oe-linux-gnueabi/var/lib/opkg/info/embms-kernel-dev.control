@@ -1,0 +1,14 @@
+Package: embms-kernel-dev
+Version: git-r0_perf
+Description: embms-kernel version git-r0_perf - Development files
+ Embms Kernel Module  This package contains symbolic links, header files,
+ and related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: ISC
+Architecture: mdm9607
+OE: embms-kernel
+Depends: embms-kernel (= git-r0_perf)
+Recommends: kernel-module-embms-kernel-dev, update-rc.d-dev, kernel-3.18.48-dev, initscripts-dev
+Source: file://kernel/msm-3.18/net/embms_kernel/ file://start_embms_le

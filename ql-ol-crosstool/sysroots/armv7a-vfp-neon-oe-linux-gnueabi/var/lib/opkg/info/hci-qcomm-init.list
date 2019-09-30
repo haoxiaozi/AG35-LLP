@@ -1,0 +1,5 @@
+/usr/bin/hci_qcomm_init
+/usr/lib/libbtnv.so.0
+/usr/lib/libbtnv.so.0.0.0
+/usr/bin/btnvtool
+/usr/bin/wcnssfilter

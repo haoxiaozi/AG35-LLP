@@ -1,0 +1,5 @@
+/usr/sbin/.debug/capsh
+/lib/.debug/libcap.so.2.24
+/usr/sbin/.debug/getpcaps
+/usr/sbin/.debug/setcap
+/usr/sbin/.debug/getcap

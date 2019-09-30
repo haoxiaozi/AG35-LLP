@@ -1,0 +1,14 @@
+Package: audcaltests-dbg
+Version: git-r7
+Description: audcaltests version git-r7 - Debugging files
+ Audio Calibration Library  This package contains ELF symbols and related
+ sources for debugging purposes.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Qualcomm-Technologies-Inc.-Proprietary
+Architecture: mdm9607
+OE: audcaltests
+Homepage: http://support.cdmatech.com
+Recommends: libc6-dbg, acdbloader-dbg
+Source: file://audio/mm-audio/audcal/family-b/test/

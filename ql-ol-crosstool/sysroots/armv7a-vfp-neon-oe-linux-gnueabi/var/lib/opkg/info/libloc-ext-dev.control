@@ -1,0 +1,16 @@
+Package: libloc-ext-dev
+Version: git-r1
+Description: loc-vzw version git-r1 - Development files
+ GPS Location vzw  This package contains symbolic links, header files, and
+ related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Qualcomm-Technologies-Inc.-Proprietary
+Architecture: mdm9607
+OE: loc-vzw
+Homepage: http://support.cdmatech.com
+Depends: libloc-ext1 (= git-r1)
+Recommends: libglib-2.0-dev, libgcc-s-dev, liblog-dev, loc-flp-hdr-dev, libloc-stub-dev, loc-hal-dev, libdsutils-dev, libqmi-client-helper-dev, data-dev, qmi-dev, ql-syslog-dev, libstdc++-dev, libc6-dev, libtime-genoff-dev, libgps-utils-so-dev, libxml-dev, libcutils-dev, libloc-pla-dev, data-oss-dev, diag-dev, libconfigdb-dev, qmi-framework-dev
+Provides: loc-vzw-dev
+Source: file://gps/vzwGpsLocationProvider/loc_ext/

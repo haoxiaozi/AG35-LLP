@@ -1,0 +1,13 @@
+Package: libsensors-dbg
+Version: git-r1
+Description: libsensors version git-r1 - Debugging files
+ Sensor library  This package contains ELF symbols and related sources for
+ debugging purposes.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: BSD-3-Clause
+Architecture: armv7a-vfp-neon
+OE: libsensors
+Recommends: libc6-dbg, libstdc++-dbg, libglib-2.0-dbg, libgcc-s-dbg
+Source: file://hardware/qcom/sensors/

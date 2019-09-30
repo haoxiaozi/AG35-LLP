@@ -1,0 +1,14 @@
+Package: libacdbrtac1
+Version: 1.0-r3
+Description: acdbrtac version 1.0-r3
+ acdb rtac Library
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Qualcomm-Technologies-Inc.-Proprietary
+Architecture: mdm9607
+OE: acdbrtac
+Homepage: http://support.cdmatech.com
+Depends: libtime-genoff1 (>= git), libaudioalsa1 (>= git), diag (>= git), libc6 (>= 2.22), libaudcal1 (>= git), libacdbmapper1 (>= git), libglib-2.0-0 (>= 2.44.1)
+Provides: acdbrtac
+Source: file://audio/mm-audio/audio-acdb-util/acdb-rtac/

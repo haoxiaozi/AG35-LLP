@@ -1,0 +1,14 @@
+Package: libloc-mq-client-dbg
+Version: git-r1
+Description: loc-mq-client version git-r1 - Debugging files
+ LOC MQ Client  This package contains ELF symbols and related sources for
+ debugging purposes.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Qualcomm-Technologies-Inc.-Proprietary
+Architecture: armv7a-vfp-neon
+OE: loc-mq-client
+Recommends: libsqlite3-dbg, libglib-2.0-dbg, libstdc++-dbg, libloc-pla-dbg, libssl-dbg, libcrypto-dbg, libxml-dbg, libc6-dbg, qmi-framework-dbg, qmi-dbg, diag-dbg, libgcc-s-dbg, data-oss-dbg, libcutils-dbg, libtime-genoff-dbg, loc-hal-dbg, liblog-dbg, libconfigdb-dbg, libdsutils-dbg, libqmi-client-helper-dbg, data-dbg, libloc-base-util-dbg, libloc-stub-dbg, ql-syslog-dbg, libgps-utils-so-dbg
+Provides: loc-mq-client-dbg
+Source: file://gps/framework/utils/native/mq_client/

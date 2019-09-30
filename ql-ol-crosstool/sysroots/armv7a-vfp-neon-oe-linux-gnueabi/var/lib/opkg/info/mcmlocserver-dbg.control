@@ -1,0 +1,14 @@
+Package: mcmlocserver-dbg
+Version: git-r5
+Description: mcmlocserver version git-r5 - Debugging files
+ MCM Location Server  This package contains ELF symbols and related
+ sources for debugging purposes.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Qualcomm-Technologies-Inc.-Proprietary
+Architecture: armv7a-vfp-neon
+OE: mcmlocserver
+Homepage: http://support.cdmatech.com
+Recommends: mcm-core-dbg, loc-hal-dbg, data-dbg, liblocationservice-dbg, libloc-xtra-dbg, libglib-2.0-dbg, libgcc-s-dbg, libc6-dbg, ql-syslog-dbg, libloc-mcm-type-conv-dbg, libgps-utils-so-dbg, qmi-framework-dbg
+Source: file://mcm-gps/mcmlocserver/

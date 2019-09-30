@@ -1,0 +1,6 @@
+/usr/include/qlsyslog/ql_sys_events.h
+/usr/include/qlsyslog/ql_sys_log.h
+/usr/lib/pkgconfig/qlsyslog.pc
+/usr/include/qlsyslog/
+/usr/lib/libql_sys_log.la
+/usr/lib/libql_sys_log.so

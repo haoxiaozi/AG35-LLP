@@ -1,0 +1,15 @@
+Package: qc-bt-daemon-dev
+Version: git-r0
+Description: qc-bt-daemon version git-r0 - Development files
+ Bluetooth QC Daemon  This package contains symbolic links, header files,
+ and related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Qualcomm-Technologies-Inc.-Proprietary
+Architecture: mdm9607
+OE: qc-bt-daemon
+Homepage: http://support.cdmatech.com
+Depends: qc-bt-daemon (= git-r0)
+Recommends: libgcc-s-dev, liblog-dev, libglib-2.0-dev, libstdc++-dev, libc6-dev, data-dev, qmi-framework-dev
+Source: file://bt-proprietary/qc-bt-daemon

@@ -1,0 +1,15 @@
+Package: diag-reboot-app-dev
+Version: git-r5
+Description: diag-reboot-app version git-r5 - Development files
+ Reboot Diag  This package contains symbolic links, header files, and
+ related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Qualcomm-Technologies-Inc.-Proprietary
+Architecture: mdm9607
+OE: diag-reboot-app
+Homepage: http://support.cdmatech.com
+Depends: diag-reboot-app (= git-r5)
+Recommends: ql-syslog-dev, libc6-dev, libglib-2.0-dev, qmi-dev, diag-dev
+Source: file://mdm-ss-mgr/diag-reboot-app/ file://diag-reboot-app.service

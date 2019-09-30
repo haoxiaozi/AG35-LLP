@@ -1,0 +1,15 @@
+Package: miniupnpd-dbg
+Version: 1.9.20150307-r7
+Description: Lightweight implementation of a UPnP IGD daemon. - Debugging files
+ MiniUPnPd is a low memory daemon which acts as aUPnP device, enabling
+ seamless detection of other UPnP devices/control points.  This package
+ contains ELF symbols and related sources for debugging purposes.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: BSD
+Architecture: armv7a-vfp-neon
+OE: miniupnpd
+Homepage: http://miniupnp.free.fr/
+Recommends: libnfnetlink-dbg, data-dbg, libstdc++-dbg, libgcc-s-dbg, libssl-dbg, libcrypto-dbg, libc6-dbg
+Source: https://www.codeaurora.org/mirrored_source/quic/le/miniupnpd-1.9.20150307.tar.gz file://0001-certification-fixes.patch file://0001-presentation-page.patch file://0001-port-desc.patch file://0001-security-fix.patch file://0002-qcmap-enabled.patch

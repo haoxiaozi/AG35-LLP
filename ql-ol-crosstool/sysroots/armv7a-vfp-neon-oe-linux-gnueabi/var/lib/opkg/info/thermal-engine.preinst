@@ -1,0 +1,12 @@
+#!/bin/sh
+if [ -z "$D" -a -f "/etc/init.d/thermal-engine" ]; then
+	/etc/init.d/thermal-engine stop
+fi
+if type update-rc.d >/dev/null 2>/dev/null; then
+	if [ -n "$D" ]; then
+		OPT="-f -r $D"
+	else
+		OPT="-f"
+	fi
+	update-rc.d $OPT thermal-engine remove
+fi

@@ -1,0 +1,16 @@
+/usr/include/ql-manager/ql_manager_access_msgr_v01.h
+/usr/include/ql-manager/ql_mgmt_data_call.h
+/usr/lib/libql_mam_ipc.so
+/usr/lib/pkgconfig/ql-manager.pc
+/usr/include/ql-manager/ql_mgmt_wifi.h
+/usr/include/ql-manager/ql_mgmt_common.h
+/usr/include/ql-manager/
+/usr/include/ql-manager/ql_mgmt_client.h
+/usr/include/ql-manager/ql_manager_access_msgr_data_call_v01.h
+/usr/include/ql-manager/ql_manager_access_msgr_wifi_v01.h
+/usr/lib/libql_mgmt_client.la
+/usr/include/ql-manager/ql_manager_access_msgr_common_v01.h
+/usr/include/ql-manager/ql_mgmt_network.h
+/usr/lib/libql_mgmt_client.so
+/usr/lib/libql_mam_ipc.la
+/usr/include/ql-manager/ql_manager_access_msgr_network_v01.h

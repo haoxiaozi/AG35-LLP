@@ -1,0 +1,10 @@
+/usr/lib/libacdbloader.la
+/usr/include/acdbloader/
+/usr/include/acdbloader/anc_map_api.h
+/usr/include/acdbloader/acdb-anc-general.h
+/usr/include/acdbloader/vbat_map_api.h
+/usr/include/acdbloader/wcd9335_anc_registers.h
+/usr/include/acdbloader/acdb-anc-taiko.h
+/usr/include/acdbloader/anc_bitmasks.h
+/usr/include/acdbloader/acdb-anc-tabla.h
+/usr/include/acdbloader/acdb-loader.h

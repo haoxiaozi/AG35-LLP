@@ -1,0 +1,6 @@
+/usr/lib/libflp.la
+/usr/include/location-flp/
+/usr/lib/libflp.so
+/usr/include/location-flp/fused_location_extended.h
+/usr/lib/pkgconfig/location-flp.pc
+/usr/include/location-flp/FlpLocationClient.h

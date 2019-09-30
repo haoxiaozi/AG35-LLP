@@ -1,0 +1,13 @@
+Package: gtp-ap-le-os-agent
+Version: git-r1
+Description: gtp-ap-le-os-agent version git-r1
+ GPS xtwifi LE os agent
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Qualcomm-Technologies-Inc.-Proprietary
+Architecture: mdm9607
+OE: gtp-ap-le-os-agent
+Homepage: http://support.cdmatech.com
+Depends: liblog0 (>= 1.0), libgcc1 (>= 4.9.3), libloc-base-util1 (>= git), libloc-mq-client1 (>= git), libc6 (>= 2.22)
+Source: file://gps-noship/xtwifi/gtp-ap-le-os-agent/

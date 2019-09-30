@@ -1,0 +1,15 @@
+Package: tftp-server-dev
+Version: git-r1
+Description: tftp-server version git-r1 - Development files
+ tftp_server server module  This package contains symbolic links, header
+ files, and related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Qualcomm-Technologies-Inc.-Proprietary
+Architecture: mdm9607
+OE: tftp-server
+Homepage: http://support.cdmatech.com
+Depends: tftp-server (= git-r1)
+Recommends: libc6-dev, libglib-2.0-dev, common-dev, update-rc.d-dev, initscripts-dev
+Source: file://tftp/

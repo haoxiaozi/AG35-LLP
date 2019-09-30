@@ -1,0 +1,16 @@
+Package: libacdbrtac-dev
+Version: 1.0-r3
+Description: acdbrtac version 1.0-r3 - Development files
+ acdb rtac Library  This package contains symbolic links, header files,
+ and related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Qualcomm-Technologies-Inc.-Proprietary
+Architecture: mdm9607
+OE: acdbrtac
+Homepage: http://support.cdmatech.com
+Depends: libacdbrtac1 (= 1.0-r3)
+Recommends: libacdbmapper-dev, libglib-2.0-dev, libc6-dev, libtime-genoff-dev, libaudioalsa-dev, libaudcal-dev, diag-dev
+Provides: acdbrtac-dev
+Source: file://audio/mm-audio/audio-acdb-util/acdb-rtac/

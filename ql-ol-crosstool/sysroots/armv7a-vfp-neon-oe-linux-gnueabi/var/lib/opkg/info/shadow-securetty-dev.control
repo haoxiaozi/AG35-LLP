@@ -1,0 +1,14 @@
+Package: shadow-securetty-dev
+Version: 4.2.1-r3
+Description: Provider of the machine specific securetty file - Development files
+ Provider of the machine specific securetty file.  This package contains
+ symbolic links, header files, and related items necessary for software
+ development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: MIT
+Architecture: mdm9607
+OE: shadow-securetty
+Depends: shadow-securetty (= 4.2.1-r3)
+Source: file://securetty

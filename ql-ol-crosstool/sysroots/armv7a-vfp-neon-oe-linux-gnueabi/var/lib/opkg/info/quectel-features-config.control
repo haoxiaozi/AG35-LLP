@@ -1,0 +1,12 @@
+Package: quectel-features-config
+Version: git-r1
+Description: quectel-features-config version git-r1
+ Quectel Features Config
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Quectel-Wireless-Solutions-Co-Ltd.-Proprietary 
+Architecture: mdm9607
+OE: quectel-features-config
+Homepage: https://www.quectel.com/
+Source: None

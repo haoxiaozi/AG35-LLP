@@ -1,0 +1,16 @@
+Package: modem-shutdown-dev
+Version: 1.0-r2
+Description: modem-shutdown version 1.0-r2 - Development files
+ Automatically shuts the modem down on halt and reboot  This package
+ contains symbolic links, header files, and related items necessary for
+ software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Qualcomm-Technologies-Inc.-Proprietary
+Architecture: mdm9607
+OE: modem-shutdown
+Homepage: http://support.cdmatech.com
+Depends: modem-shutdown (= 1.0-r2)
+Recommends: update-rc.d-dev, initscripts-dev
+Source: file://modem-shutdown.sh file://modem_shutdown.service

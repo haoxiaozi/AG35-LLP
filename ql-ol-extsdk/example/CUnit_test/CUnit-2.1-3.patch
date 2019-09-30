@@ -1,0 +1,238 @@
+diff -Naur CUnit-2.1-3/bootstrap CUnit-2.1-3_new/bootstrap
+--- CUnit-2.1-3/bootstrap	2014-04-24 08:54:45.000000000 +0800
++++ CUnit-2.1-3_new/bootstrap	2018-09-30 10:09:46.656864163 +0800
+@@ -20,7 +20,7 @@
+ 
+ mkdir -p $INSTALL_HOME
+ if [ $# -gt 0 ]; then
+-	./configure --srcdir=`pwd` --prefix=$INSTALL_HOME --enable-debug --enable-automated --enable-basic --enable-console --enable-examples --enable-test
++	./configure --srcdir=`pwd` --prefix=$INSTALL_HOME --enable-debug --enable-automated --enable-basic --enable-console --enable-examples --enable-test --host=arm-oe-linux-gnueabi
+ else
+-	./configure --srcdir=`pwd` --prefix=$INSTALL_HOME --enable-debug --enable-memtrace --enable-automated --enable-basic --enable-console --enable-examples --enable-test
++	./configure --srcdir=`pwd` --prefix=$INSTALL_HOME --enable-debug --enable-memtrace --enable-automated --enable-basic --enable-console --enable-examples --enable-test --host=arm-oe-linux-gnueabi
+ fi
+diff -Naur CUnit-2.1-3/CUnit/Sources/Basic/Basic.c CUnit-2.1-3_new/CUnit/Sources/Basic/Basic.c
+--- CUnit-2.1-3/CUnit/Sources/Basic/Basic.c	2014-04-24 08:54:45.000000000 +0800
++++ CUnit-2.1-3_new/CUnit/Sources/Basic/Basic.c	2019-06-18 09:44:08.437930000 +0800
+@@ -41,7 +41,7 @@
+ #include <ctype.h>
+ #include <assert.h>
+ #include <string.h>
+-
++#include "time.h"
+ #include "CUnit.h"
+ #include "TestDB.h"
+ #include "Util.h"
+@@ -55,8 +55,9 @@
+ /** Pointer to the currently running suite. */
+ static CU_pSuite f_pRunningSuite = NULL;
+ /** Current run mode. */
+-static CU_BasicRunMode f_run_mode = CU_BRM_NORMAL;
+-
++static CU_BasicRunMode f_run_mode = CU_BRM_VERBOSE;
++/** Pointer to the last running suite. */
++static CU_pSuite f_pLastSuite = NULL;
+ /*=================================================================
+  *  Forward declaration of module functions *
+  *=================================================================*/
+@@ -72,6 +73,24 @@
+ static void basic_suite_cleanup_failure_message_handler(const CU_pSuite pSuite);
+ 
+ /*=================================================================
++ *  Defined macros for write log to file *
++ *=================================================================*/
++/** Result log file path*/
++#define BASIC_RESULT_FILE "/tmp/ql_auto_test_result.txt"
++#define BASIC_RUN_LOG_FILE "/tmp/ql_auto_test_log.txt"
++/** Add timestamp to log*/
++#define WRITE_TIMESTAMP(fp) do{\
++        char s[21];\
++        time_t t;\
++        struct tm* ltime;\
++        time(&t);\
++        ltime = localtime(&t);\
++        strftime(s, 21, "%Y-%m-%d %H:%M:%S,", ltime); \
++        fprintf(fp, "%s", s);           \
++        }while(0)
++
++
++/*=================================================================
+  *  Public Interface functions
+  *=================================================================*/
+ CU_ErrorCode CU_basic_run_tests(void)
+@@ -80,7 +99,10 @@
+ 
+   if (NULL == CU_get_registry()) {
+     if (CU_BRM_SILENT != f_run_mode)
+-      fprintf(stderr, "\n\n%s\n", _("FATAL ERROR - Test registry is not initialized."));
++    {
++        WRITE_TIMESTAMP(stdout);
++        fprintf(stdout, "%s\n", _("FATAL ERROR - Test registry is not initialized."));
++    }
+     error = CUE_NOREGISTRY;
+   }
+   else if (CUE_SUCCESS == (error = basic_initialize()))
+@@ -120,7 +142,7 @@
+ /*------------------------------------------------------------------------*/
+ void CU_basic_set_mode(CU_BasicRunMode mode)
+ {
+-  f_run_mode = mode;
++  f_run_mode = CU_BRM_VERBOSE;
+ }
+ 
+ /*------------------------------------------------------------------------*/
+@@ -136,9 +158,9 @@
+ 
+   for (i = 1 ; (NULL != pFailure) ; pFailure = pFailure->pNext, i++) {
+     fprintf(stdout, "\n  %d. %s:%u  - %s", i,
+-        (NULL != pFailure->strFileName) ? pFailure->strFileName : "",
+-        pFailure->uiLineNumber,
+-        (NULL != pFailure->strCondition) ? pFailure->strCondition : "");
++    (NULL != pFailure->strFileName) ? pFailure->strFileName : "",
++    pFailure->uiLineNumber,
++    (NULL != pFailure->strCondition) ? pFailure->strCondition : "");
+   }
+ }
+ 
+@@ -155,14 +177,18 @@
+   /* Unbuffered output so everything reaches the screen */
+   setvbuf(stdout, NULL, _IONBF, 0);
+   setvbuf(stderr, NULL, _IONBF, 0);
+-
++  /* Rdirect output to log file*/
++  freopen(BASIC_RUN_LOG_FILE, "a", stdout);
++  freopen(BASIC_RESULT_FILE, "a", stderr);
+   CU_set_error(CUE_SUCCESS);
+ 
+-  if (CU_BRM_SILENT != f_run_mode)
+-    fprintf(stdout, "\n\n     %s" CU_VERSION
+-                      "\n     %s\n\n",
+-                    _("CUnit - A unit testing framework for C - Version "),
+-                    _("http://cunit.sourceforge.net/"));
++  //if (CU_BRM_SILENT != f_run_mode)
++  //  fprintf(stderr, "\n%s\n%s"
++  //                     CU_VERSION
++  //                    "\n%s\n\n",
++  //                  _("CUnit - A unit testing framework for C - Version "),
++  //                  _("http://cunit.sourceforge.net/"),
++  //                  "================================================================");
+ 
+   CU_set_test_start_handler(basic_test_start_message_handler);
+   CU_set_test_complete_handler(basic_test_complete_message_handler);
+@@ -233,18 +259,22 @@
+ {
+   assert(NULL != pSuite);
+   assert(NULL != pTest);
+-
+   if (CU_BRM_VERBOSE == f_run_mode) {
+-    assert(NULL != pTest->pName);
+-    if ((NULL == f_pRunningSuite) || (f_pRunningSuite != pSuite)) {
+-      assert(NULL != pSuite->pName);
+-      fprintf(stdout, "\n%s: %s", _("Suite"), pSuite->pName);
+-      fprintf(stdout, "\n  %s: %s ...", _("Test"), pTest->pName);
+-      f_pRunningSuite = pSuite;
++    assert(NULL != pTest->pName);    
++    assert(NULL != pSuite->pName);
++    if((pSuite != f_pLastSuite) && (NULL != f_pLastSuite)){
++        WRITE_TIMESTAMP(stdout);
++        fprintf(stdout, " [%s %s]\n\n", f_pLastSuite->pName,_("Suite Test End!"));
+     }
+-    else {
+-      fprintf(stdout, "\n  %s: %s ...", _("Test"), pTest->pName);
++    if ((NULL == f_pRunningSuite) || (f_pRunningSuite != pSuite)) {
++        WRITE_TIMESTAMP(stdout);
++        fprintf(stdout, " [%s %s]\n", pSuite->pName,_("Suite Test Star!"));
++        f_pRunningSuite = pSuite;
+     }
++      f_pLastSuite = pSuite;
++      WRITE_TIMESTAMP(stderr);
++      fprintf(stderr, "%s:[%s],", _(" Suite"), pSuite->pName);
++      fprintf(stderr, "%s:[%s],", _(" Test"), pTest->pName);
+   }
+ }
+ 
+@@ -266,31 +296,34 @@
+ 
+   if (NULL == pFailure) {
+     if (CU_BRM_VERBOSE == f_run_mode) {
+-      fprintf(stdout, _("passed"));
++      fprintf(stderr, _(" Result:[pass]\n"));
+     }
+   }
+   else {
++  	if (CU_BRM_SILENT != f_run_mode) {
++        for (i = 1 ; (NULL != pFailure) ; pFailure = pFailure->pNext, i++) {
++            WRITE_TIMESTAMP(stdout);
++            fprintf(stdout, " [%s][%s] failure detail %s:%u  - %s\n", pSuite->pName, pTest->pName,
++            (NULL != pFailure->strFileName) ? pFailure->strFileName : "",
++            pFailure->uiLineNumber,
++            (NULL != pFailure->strCondition) ? pFailure->strCondition : "");
++      }
++    }
+     switch (f_run_mode) {
+       case CU_BRM_VERBOSE:
+-        fprintf(stdout, _("FAILED"));
++        fprintf(stderr, _(" Result:[fail]\n"));
+         break;
+       case CU_BRM_NORMAL:
+         assert(NULL != pSuite->pName);
+         assert(NULL != pTest->pName);
+-        fprintf(stdout, _("\nSuite %s, Test %s had failures:"), pSuite->pName, pTest->pName);
++        WRITE_TIMESTAMP(stdout);
++        fprintf(stdout, _("Suite:[%s], Test:[%s] had failures:\n"), pSuite->pName, pTest->pName);
+         break;
+       default:  /* gcc wants all enums covered.  ok. */
+         break;
+     }
+-    if (CU_BRM_SILENT != f_run_mode) {
+-      for (i = 1 ; (NULL != pFailure) ; pFailure = pFailure->pNext, i++) {
+-        fprintf(stdout, "\n    %d. %s:%u  - %s", i,
+-            (NULL != pFailure->strFileName) ? pFailure->strFileName : "",
+-            pFailure->uiLineNumber,
+-            (NULL != pFailure->strCondition) ? pFailure->strCondition : "");
+-      }
+-    }
+   }
++  
+ }
+ 
+ /*------------------------------------------------------------------------*/
+@@ -299,9 +332,11 @@
+  */
+ static void basic_all_tests_complete_message_handler(const CU_pFailureRecord pFailure)
+ {
+-  CU_UNREFERENCED_PARAMETER(pFailure); /* not used in basic interface */
+-  printf("\n\n");
+-  CU_print_run_results(stdout);
++  CU_UNREFERENCED_PARAMETER(pFailure); /* not used in basic interface */ 
++  WRITE_TIMESTAMP(stdout);
++  fprintf(stdout, " %s %s\n", f_pLastSuite->pName,_("Suite Test End!"));
++  fprintf(stderr,"%s" ,"\n===================================================================\n");
++  CU_print_run_results(stderr);
+   printf("\n");
+ }
+ 
+@@ -315,7 +350,10 @@
+   assert(NULL != pSuite->pName);
+ 
+   if (CU_BRM_SILENT != f_run_mode)
+-    fprintf(stdout, _("\nWARNING - Suite initialization failed for '%s'."), pSuite->pName);
++  {
++      WRITE_TIMESTAMP(stdout);
++      fprintf(stdout, _(" WARNING - Suite initialization failed for '%s'.\n"), pSuite->pName);
++  }
+ }
+ 
+ /*------------------------------------------------------------------------*/
+@@ -328,7 +366,10 @@
+   assert(NULL != pSuite->pName);
+ 
+   if (CU_BRM_SILENT != f_run_mode)
+-    fprintf(stdout, _("\nWARNING - Suite cleanup failed for '%s'."), pSuite->pName);
++  {
++      WRITE_TIMESTAMP(stdout);
++      fprintf(stdout, _(" WARNING - Suite cleanup failed for '%s'.\n"), pSuite->pName);
++  }
+ }
+ 
+ /** @} */

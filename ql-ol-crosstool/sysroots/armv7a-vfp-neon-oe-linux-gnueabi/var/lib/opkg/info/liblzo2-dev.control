@@ -1,0 +1,16 @@
+Package: liblzo2-dev
+Version: 2.09-r0
+Description: Lossless data compression library - Development files
+ Lossless data compression library.  This package contains symbolic links,
+ header files, and related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2+
+Architecture: armv7a-vfp-neon
+OE: lzo
+Homepage: http://www.oberhumer.com/opensource/lzo/
+Depends: liblzo2-2 (= 2.09-r0)
+Recommends: libc6-dev
+Provides: lzo-dev
+Source: http://www.oberhumer.com/opensource/lzo/download/lzo-2.09.tar.gz file://0001-Use-memcpy-instead-of-reinventing-it.patch file://acinclude.m4 file://run-ptest

@@ -1,0 +1,19 @@
+Package: busybox-hwclock
+Version: 1.23.2-r0.1
+Description: Tiny versions of many common UNIX utilities in a single small executable
+ BusyBox combines tiny versions of many common UNIX utilities into a
+ single small executable. It provides minimalist replacements for most of
+ the utilities you usually find in GNU fileutils, shellutils, etc. The
+ utilities in BusyBox generally have fewer options than their full-
+ featured GNU cousins; however, the options that are included provide the
+ expected functionality and behave very much like their GNU counterparts.
+ BusyBox provides a fairly complete POSIX environment for any small or
+ embedded system.
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2 & bzip2
+Architecture: armv7a-vfp-neon
+OE: busybox
+Homepage: http://www.busybox.net
+Source: http://www.busybox.net/downloads/busybox-1.23.2.tar.bz2;name=tarball file://get_header_tar.patch file://busybox-appletlib-dependency.patch file://busybox-udhcpc-no_deconfig.patch file://find-touchscreen.sh file://busybox-cron file://busybox-httpd file://busybox-udhcpd file://default.script file://simple.script file://hwclock.sh file://mount.busybox file://syslog file://syslog-startup.conf file://syslog.conf file://busybox-syslog.default file://mdev file://mdev.conf file://mdev-mount.sh file://umount.busybox file://defconfig file://busybox-syslog.service.in file://busybox-klogd.service.in file://fail_on_no_media.patch file://run-ptest file://inetd.conf file://inetd file://login-utilities.cfg file://recognize_connmand.patch file://busybox-cross-menuconfig.patch file://0001-Switch-to-POSIX-utmpx-API.patch file://0001-ifconfig-fix-double-free-fatal-error-in-INET_sprint.patch file://0001-chown-fix-help-text.patch file://0001-Use-CC-when-linking-instead-of-LD-and-use-CFLAGS-and.patch file://0002-Passthrough-r-to-linker.patch file://0001-randconfig-fix.patch file://0001-zcip-fix-wrong-comparison-of-source-IP-with-our-IP.patch file://mount-via-label.cfg file://sha1sum.cfg file://sha256sum.cfg file://getopts.cfg file://CVE-2016-2148.patch file://CVE-2016-2147.patch file://CVE-2016-2147_2.patch file://find-touchscreen.sh file://automountsdcard.sh file://usb.sh file://mdev.conf file://profile file://fstab file://inittab file://rcS file://no-console.cfg file://login.cfg file://mdev.cfg file://base.cfg file://syslog-startup.conf file://busybox-syslog.service file://busybox_klogd.patch;patchdir=.. file://iio.sh file://0001-Support-MTP-function.patch file://0001-Fix-file-synchronization-in-mdev.patch file://fix-mdev-crash.patch

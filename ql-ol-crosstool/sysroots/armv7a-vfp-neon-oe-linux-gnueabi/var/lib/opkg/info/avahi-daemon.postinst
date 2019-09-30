@@ -1,0 +1,17 @@
+	if [ "x$D" != "x" ]; then
+		exit 0
+	fi
+
+	DBUSPID=`pidof dbus-daemon`
+
+	if [ "x$DBUSPID" != "x" ]; then
+		/etc/init.d/dbus-1 force-reload
+	fi
+if type update-rc.d >/dev/null 2>/dev/null; then
+	if [ -n "$D" ]; then
+		OPT="-r $D"
+	else
+		OPT="-s"
+	fi
+	update-rc.d $OPT avahi-daemon defaults 99 01
+fi

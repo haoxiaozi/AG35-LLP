@@ -1,0 +1,16 @@
+Package: libvorbis-dev
+Version: 1.3.3-r1
+Description: General purpose compressed audio format for mid to high quality at fixed variable bitrates. - Development files
+ General purpose compressed audio format for mid to high quality at fixed
+ variable bitrates..  This package contains symbolic links, header files,
+ and related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: BSD
+Architecture: armv7a-vfp-neon
+OE: libvorbis
+Homepage: http://xiph.org/vorbis/
+Depends: libvorbis (= 1.3.3-r1)
+Recommends: libc6-dev, libogg-dev
+Source: http://downloads.xiph.org/releases/vorbis/libvorbis-1.3.3.tar.gz

@@ -1,0 +1,16 @@
+Package: libtime-genoff-dev
+Version: git-r0
+Description: time-genoff version git-r0 - Development files
+ Time Genoff Library  This package contains symbolic links, header files,
+ and related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Qualcomm-Technologies-Inc.-Proprietary
+Architecture: mdm9607
+OE: time-genoff
+Homepage: http://support.cdmatech.com
+Depends: libtime-genoff1 (= git-r0)
+Recommends: libc6-dev
+Provides: time-genoff-dev
+Source: file://time-services/time-genoff

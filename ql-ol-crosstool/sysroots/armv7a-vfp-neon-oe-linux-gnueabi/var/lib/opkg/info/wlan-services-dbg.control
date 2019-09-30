@@ -1,0 +1,14 @@
+Package: wlan-services-dbg
+Version: git-r2
+Description: wlan-services version git-r2 - Debugging files
+ WLAN Services required for QCACLD  This package contains ELF symbols and
+ related sources for debugging purposes.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Qualcomm-Technologies-Inc.-Proprietary
+Architecture: mdm9607
+OE: wlan-services
+Homepage: http://support.cdmatech.com
+Recommends: libc6-dbg, libstdc++-dbg, libgcc-s-dbg, data-dbg
+Source: file://wlan-proprietary/wlan-services/ file://start_wlan_services.service

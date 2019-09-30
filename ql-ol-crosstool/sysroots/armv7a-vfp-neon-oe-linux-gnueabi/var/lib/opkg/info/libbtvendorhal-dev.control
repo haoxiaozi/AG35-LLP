@@ -1,0 +1,16 @@
+Package: libbtvendorhal-dev
+Version: git-r1
+Description: btvendorhal version git-r1 - Development files
+ hardware btvendorhal headers  This package contains symbolic links,
+ header files, and related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Apache-2.0
+Architecture: armv7a-vfp-neon
+OE: btvendorhal
+Homepage: http://codeaurora.org/
+Depends: libbtvendorhal0 (= git-r1)
+Recommends: libc6-dev, libcutils-dev, system-core-dev, libstdc++-dev, liblog-dev
+Provides: btvendorhal-dev
+Source: file://vendor/qcom/opensource/bluetooth/

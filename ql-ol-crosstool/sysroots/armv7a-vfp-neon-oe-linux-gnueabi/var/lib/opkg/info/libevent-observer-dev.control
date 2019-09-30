@@ -1,0 +1,16 @@
+Package: libevent-observer-dev
+Version: git-r1
+Description: event-observer version git-r1 - Development files
+ Event Observer  This package contains symbolic links, header files, and
+ related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Qualcomm-Technologies-Inc.-Proprietary
+Architecture: mdm9607
+OE: event-observer
+Homepage: http://support.cdmatech.com
+Depends: libevent-observer1 (= git-r1)
+Recommends: libgps-utils-so-dev, libgcc-s-dev, liblog-dev, libloc-pla-dev, libstdc++-dev, libloc-stub-dev, libc6-dev, libcutils-dev, libglib-2.0-dev
+Provides: event-observer-dev
+Source: file://gps/utils/eventObserver/

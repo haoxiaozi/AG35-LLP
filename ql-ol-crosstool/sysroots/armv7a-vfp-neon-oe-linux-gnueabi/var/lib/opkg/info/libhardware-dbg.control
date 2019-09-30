@@ -1,0 +1,14 @@
+Package: libhardware-dbg
+Version: git-r6
+Description: libhardware version git-r6 - Debugging files
+ hardware libhardware headers  This package contains ELF symbols and
+ related sources for debugging purposes.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Apache-2.0
+Architecture: armv7a-vfp-neon
+OE: libhardware
+Homepage: http://codeaurora.org/
+Recommends: liblog-dbg, libstdc++-dbg, libcutils-dbg, libc6-dbg
+Source: file://hardware/libhardware/
