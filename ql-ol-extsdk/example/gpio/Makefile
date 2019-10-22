@@ -3,7 +3,8 @@
 #--------------------------------------------------------------
 QL_SDK_PATH   ?= $(shell pwd)/../..
 
-QL_EXP_TARGETS = example_gpio
+QL_EXP_TARGETS = example_gpio example_gpio_test
+#QL_EXP_TARGETS =  example_gpio_test
 QL_EXP_LDLIBS  = -lpthread
 
 #--------------------------------------------------------
@@ -29,12 +30,16 @@ USR_LIB=$(QL_SDK_PATH)/lib/libql_peripheral.a
 #---------------------
 # Source code files
 #---------------------
-LOCAL_SRC_FILES = $(QL_EXP_TARGETS).c
+#LOCAL_SRC_FILES = $(QL_EXP_TARGETS).c
 
-$(QL_EXP_TARGETS): 
-	$(COMPILE.c) $(CPPFLAGS) $(LDFLAGS) $(LOCAL_SRC_FILES)
-	$(LINK.o) *.o $(LDFLAGS) $(USR_LIB) $(STD_LIB) -o $@
-
+#$(QL_EXP_TARGETS): 
+	#$(COMPILE.c) $(CPPFLAGS) $(LDFLAGS) $(LOCAL_SRC_FILES)
+	#$(LINK.o) *.o $(LDFLAGS) $(USR_LIB) $(STD_LIB) -o $@
+$(QL_EXP_TARGETS):
+	$(COMPILE.c) $(CPPFLAGS) $(LDFLAGS) example_gpio.c
+	$(LINK.o) example_gpio.o $(LDFLAGS) $(USR_LIB) $(STD_LIB) -o example_gpio
+	$(COMPILE.c) $(CPPFLAGS) $(LDFLAGS) example_gpio_test.c
+	$(LINK.o) example_gpio_test.o $(LDFLAGS) $(USR_LIB) $(STD_LIB) -o example_gpio_test
 
 all: $(QL_EXP_TARGETS)
 .PHPNY: all
